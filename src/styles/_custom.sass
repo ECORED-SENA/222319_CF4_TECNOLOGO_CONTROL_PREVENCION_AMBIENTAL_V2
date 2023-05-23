@@ -1,19 +1,72 @@
-.banner-principal-decorativo
-  &-1
-    animation: float1 3.5s ease-in-out infinite alternate
-    position: absolute
-    top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
+.banner-principal__img
+  padding-bottom: 0px !important
+  width: 500px
 
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/img1.svg") !important
 
-@keyframes float1
-  0%
-    transform: translateY(20px)
+.tarjeta.color-primario
+  background-color: #DEE9F0
+  h4,p
+    color: $color-sistema-texto !important
 
-  100%
-    transform: translateY(0px)
+.tabla-b table, .tabla-c table
+  min-width: 600px
+
+.tarjeta.tarjeta--azul
+  background-image: url("../assets/curso/tema1/img17.svg")
+  background-color: transparent
+  background-repeat: no-repeat
+  background-size: cover
+
+.tarjeta.tarjeta--verde
+  background-color: #F6F6F6
+
+.tarjeta.tarjeta--verde.acordion__activo
+  background-color: #E2EACB
+
+.acordion__accion__btn--a i, .acordion__accion__btn--b i
+  color: #FEB12E
+
+.slyder-a__tipo-b .slyder-a__btn--sigt, .slyder-a__tipo-b .slyder-a__btn--atrs
+  background-color: #FEB12E
+
+.slyder-a__bullets__item
+  background-color: #CFEABA
+.slyder-a__bullets__item--active
+  background-color: #BADC61
+
+.bg
+  &-c1
+    background-color: #D9E2F4
+  &-c2
+    background-color: #BADC61
+  &-c3
+    background-color: #FDF8E4
+  &-c4
+    background-image: url("../assets/curso/tema1/img5.svg")
+    background-repeat: no-repeat
+    background-size: cover
+  &-c5
+    background-color: #BADC61
+    border-radius: 15px
+  &-c6
+    background-color: #EAF8F2
+    border-radius: 15px
+  &-c7
+    background-image: url("../assets/curso/tema1/img14.svg")
+    background-repeat: no-repeat
+    background-size: cover
+  &-c8
+    background-color: #FDF8E4
+    margin-inline: -3.2rem !important
+  &-c9
+    background-color: #F3F9FF
+    border-radius: 15px
+
+.txt
+  &-c1
+    background-color: #0E494D
+    border-radius: 45px
+  &-c2
+    color: $color-sistema-texto !important
