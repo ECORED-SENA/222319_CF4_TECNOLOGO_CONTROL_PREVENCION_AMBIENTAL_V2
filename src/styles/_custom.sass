@@ -10,6 +10,17 @@
   h4,p
     color: $color-sistema-texto !important
 
+.tarjeta.color-secundario
+  background-color: #0E494D
+
+.tarjeta.color-acento-contenido
+  background-color: #E2EACB
+  p,b
+    color: $color-sistema-texto !important
+
+.tarjeta.color-acento-contenido1
+  background-color: #F8FAF2
+
 .tabla-b table, .tabla-c table
   min-width: 600px
 
@@ -36,9 +47,13 @@
 .slyder-a__bullets__item--active
   background-color: #BADC61
 
+.banner-interno__titulo__icono i
+  color: $color-sistema-texto !important
+
 .bg
   &-c1
     background-color: #D9E2F4
+    border-radius: 10px
   &-c2
     background-color: #BADC61
   &-c3
@@ -63,6 +78,21 @@
   &-c9
     background-color: #F3F9FF
     border-radius: 15px
+  &-c10
+    background-color: #DEE9F0
+    border-bottom: 4px solid #BADC61
+  &-c11
+    background-image: url("../assets/curso/tema1/img23.svg")
+    margin-inline: -3.2rem !important
+    background-size: contain
+    background-repeat: no-repeat
+  &-c12
+    background-image: url("../assets/curso/tema2/img9.svg")
+    background-size: contain
+    background-repeat: no-repeat
+    background-position: bottom
+    @media screen and ( max-width: $bp-max-lg )
+      background-image: none
 
 .txt
   &-c1

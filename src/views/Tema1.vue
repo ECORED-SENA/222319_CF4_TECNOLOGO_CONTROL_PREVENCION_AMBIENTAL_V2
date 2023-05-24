@@ -602,7 +602,7 @@
     p.mb-5 A continuación, profundice en las generalidades y particularidades de los tipos de muestras:
     .row.mb-5
       .col-12.bg-c9.p-4.p-lg-5
-        p.mb-4 #[b Plan de muestreo, tipos de muestras.]
+        p.mb-4 #[b Plan de muestreo, tipos de muestras]
         LineaTiempoE.color-acento-contenido
           .row(titulo="Muestras simples" subtitulo="")
             .col-12
@@ -647,6 +647,511 @@
       .row(titulo="Muestreo tomado al azar")
         .col-12
           p.mb-0 Se basa en una muestra que se toma totalmente al azar, por medio de un recipiente abierto, el cual se coloca en un solo punto en la superficie (arroyo, embalse, rio, etc.); estas muestras por lo general se toman antes de hacer otro trabajo en el lugar para no afectar la corriente y la posterior recolección; para este ejercicio se utilizan muestreadores colectores que suelen pararse corriente abajo de la botella durante la operación de llenado.
+    .row.mb-4
+      .col-auto.txt-c1.px-4.py-3
+        h4.text-white.mb-0 Procedimiento para el muestreo de agua
+    .row.align-items-center.mb-5
+      .col-lg-7.mb-4.mb-lg-0
+        p El procedimiento para el muestreo de agua integra varios elementos y pasos, entre los que se destacan la identificación del sito de la toma de muestra y la información requerida. La identificación del sitio debe hacerse de manera unívoca. Si se dispone de GPS posicionar satelitalmente la ubicación, de lo contrario especificar el lugar de la manera más concreta posible.
+        p.mb-0 En cuanto a la información requerida, en el momento del muestreo es necesario recabar, como mínimo:
+      .col-lg-5
+        figure
+          img(src='@/assets/curso/tema1/img17.png', style="width: 470px").m-auto
+    .row.mb-5
+      .col-12.bg-c7.p-4
+        ul.lista-ul--color.lista-ul.mb-0
+          li 
+            i.fas.fa-check
+            | #[b Identificación unívoca de la muestra]
+          li
+            i.fas.fa-check
+            | #[b Identificación del sitio de muestreo (georreferenciación)]
+          li
+            i.fas.fa-check
+            | #[b Tipo de fuente y características de la misma (cercanía a pozos negros o industrias, profundidad del nivel estático y total, si fuera pozo o perforación, existencia de pozos abandonados, etc.)]
+          li
+            i.fas.fa-check
+            | #[b Destino (consumo humano, animal, riego, etc.)]
+          li
+            i.fas.fa-check
+            | #[b Información acerca del Establecimiento donde se ha muestreado (ubicación, propietario, vías de contacto, etc.)]
+          li
+            i.fas.fa-check
+            | #[b Condiciones de muestreo (fecha y hora, nombre de quien realizó el muestreo)]
+          li
+            i.fas.fa-check
+            | #[b Tipo de análisis a efectuar]
+          li
+            i.fas.fa-check
+            | #[b Reactivo empleado para su preservación, en caso de ser utilizado]
+          li.mb-0
+            i.fas.fa-check
+            | #[b Cualquier otra observación que se considere de importancia]
+    .row.mb-4
+      .col-auto.txt-c1.px-4.py-3
+        h4.text-white.mb-0 Precauciones para la toma de la muestra en función de su origen
+    p Las muestras de agua pueden provenir de fuentes superficiales (ríos, arroyos, canales, represas, lagos) o subterráneas (pozos) y este aspecto definirá las condiciones de muestreo. 
+    p.mb-5 En función de la fuente que se vaya a muestrear, y para asegurar que la muestra sea lo más representativa posible del total, se tendrán en cuenta las siguientes consideraciones:
+    .tarjeta.tarjeta--azul.p-4.mb-5
+      SlyderA(tipo="b")
+        .row.m-1
+          .col-lg-6.mb-4.mb-lg-0
+            h4 Agua de red
+            p Se abrirá el grifo o canilla y se dejará que el agua corra por lo menos durante 5 minutos de manera de tener purgada toda la cañería que llega desde el tanque. El ramal donde se encuentre el grifo debe ser el principal, proveniente de la red, y no debe estar conectado en el trayecto con otras cañerías, filtros, ablandadores u otros artefactos que puedan alterar la calidad del agua del ramal principal. También se debe tomar la precaución de retirar del grifo o boca de salida las mangueras u otros accesorios, y de limpiarlo tratando de eliminar sustancias acumuladas en el orificio interno de salida del agua y en el reborde externo, dejando correr agua libremente por espacio de 1 o 2 minutos, para arrastrar cualquier residuo.
+          .col-lg-6
+            figure.mb-0
+              img(src='@/assets/curso/tema1/img18.png', style="width: 500px").m-auto
+        .row.m-1
+          .col-lg-6.mb-4.mb-lg-0
+            h4 Agua de perforaciones
+            p La muestra se debe tomar de la cañería inmediata al pozo y es conveniente que, antes de proceder a la toma de la muestra, la impulsión se mantenga en marcha durante unos 10-15 minutos, hasta que el agua emerja clara (sin sedimentos ni restos vegetales) y que sea del acuífero. Se debe prestar especial atención a esto si el pozo estuviera en desuso. Si el pozo fuera nuevo se debe bombear el tiempo suficiente hasta que salga limpia, de manera de muestrear el agua del acuífero y en lo posible bombear con caudal de diseño.
+          .col-lg-6
+            figure.mb-0
+              img(src='@/assets/curso/tema1/img19.png', style="width: 500px").m-auto
+        .row.m-1
+          .col-lg-6.mb-4.mb-lg-0
+            h4 Agua superficial proveniente de un curso de agua (en movimiento)
+            p Debe ponerse especial atención en buscar puntos estratégicos de muestreo (puentes, alcantarillas, botes, muelles), ya que se debe muestrear de sitios donde el agua se encuentre en circulación. Nunca muestrear desde donde se encuentra estancada. Si se tratara de muestreos periódicos o de control debe tratar de extraerse la muestra siempre en el mismo lugar Cuando no es posible tomar la muestra directamente con la mano, debe atarse al frasco un sobre peso usando el extremo de un cordel limpio o en su caso equipo muestreador comercial.
+          .col-lg-6
+            figure.mb-0
+              img(src='@/assets/curso/tema1/img20.png', style="width: 500px").m-auto
+        .row.m-1
+          .col-lg-6.mb-4.mb-lg-0
+            h4 Agua superficial proveniente de un espejo de agua, represa o tanque de almacenamiento
+            p Debe ponerse especial atención en buscar puntos estratégicos de muestreo (puentes, alcantarillas, botes, muelles), ya que se debe muestrear de sitios donde el agua se encuentre en circulación. Nunca muestrear desde donde se encuentra estancada. Si se tratara de muestreos periódicos o de control debe tratar de extraerse la muestra siempre en el mismo lugar Cuando no es posible tomar la muestra directamente con la mano, debe atarse al frasco un sobre peso usando el extremo de un cordel limpio o en su caso equipo muestreador comercial.
+          .col-lg-6
+            figure.mb-0
+              img(src='@/assets/curso/tema1/img21.png', style="width: 500px").m-auto
+        .row.m-1
+          .col-lg-6.mb-4.mb-lg-0
+            h4 Pozo somero o fuente similar (cisterna, aljibe, etc.)
+            p Tomar la muestra bajando el frasco dentro del pozo hasta una profundidad de 15 a 30 cm. desde la superficie libre del líquido, evitando en todo momento tocar las paredes del pozo. Cuando no es posible tomar la muestra directamente con la mano, debe atarse al frasco un sobre peso usando el extremo de un cordel limpio o en su caso equipo muestreador comercial.
+          .col-lg-6
+            figure.mb-0
+              img(src='@/assets/curso/tema1/img22.png', style="width: 500px").m-auto
+    .row.mb-4
+      .col-auto.txt-c1.px-4.py-3
+        h4.text-white.mb-0 Acondicionado y preservación de las muestras en el almacenamiento temporal
+    .row.align-items-center.mb-5
+      .col-lg-7.mb-4.mb-lg-0
+        p El acondicionamiento de las muestras dependerá del objetivo del muestreo. En general, para análisis físico-químico puede ser necesario acondicionarlas con conservadores de frío, ya que algunas especies químicas (nitratos, sulfatos) pueden sufrir transformaciones por acción microbiana. También deben mantenerse al resguardo de la luz, procurando enviarlas lo más rápido posible al laboratorio.
+        .cajon.color-acento-contenido.p-4
+          p.mb-0 En el caso de análisis microbiológico es indispensable que la muestra se mantenga refrigerada hasta su arribo al laboratorio, ya que tanto las temperaturas mayores a 6ºC como la luz provocan la multiplicación de los microorganismos e invalidan la muestra dado que los resultados no reflejarán la realidad.
+      .col-lg-5
+        figure
+          img(src='@/assets/curso/tema1/img23.png', style="width: 470px").m-auto
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .row.bg-c1
+          .col-12.px-4.px-lg-2.pt-4.pt-lg-2.pb-4.pb-lg-0
+            .row.align-items-center
+              .col-12.col-lg-auto.mb-4.mb-lg-0
+                figure
+                  img(src='@/assets/curso/tema1/img1.svg', style="width: 80px").m-auto
+              .col
+                p.mb-0 Siempre es conveniente tomar la muestra y transportarla los primeros días de la semana, previendo feriados o días no laborables, ya que, si se requiriera análisis microbiológico, una vez en el Laboratorio son necesarias por lo menos 48 horas, para realizar los cultivos.
+    .row.justify-content-center
+      .col-lg-10
+        .row.bg-c1
+          .col-12.px-4.px-lg-2.pt-4.pt-lg-2.pb-4.pb-lg-0
+            .row.align-items-center
+              .col-12.col-lg-auto.mb-4.mb-lg-0
+                figure
+                  img(src='@/assets/curso/tema1/img1.svg', style="width: 80px").m-auto
+              .col
+                p.mb-0 En cualquier caso, debe evitarse el congelamiento de la muestra (el lugar correcto para conservar las muestras que no se hayan podido entregar al laboratorio es en la parte inferior de una heladera común).
+    Separador
+    #t_1_5
+    .titulo-segundo.color-secundario
+      h2 1.5 Métodos de aforo para determinación de caudales
+    p El aforo de caudal es la cantidad de un fluido que atraviesa una sección en un determinado tiempo. Es conocido como la tasa de flujo. En particular, flujo volumétrico (Q) es el volumen de un fluido que circula en una sección por unidad de tiempo, y sus unidades son el m3/s. 
+    p Para la medición del caudal es posible aplicar diferentes métodos que pueden ser seleccionados en función de las características del flujo, tecnología disponible, y exactitud de los datos requerida.
+    .row.mb-5
+      .col-lg-5.mb-4.mb-lg-0
+        p Para la medición del caudal en una corriente se han desarrollado diversos métodos de aforo que se aplican según el tamaño del cauce, la magnitud del caudal, las características hidráulicas del flujo, la necesidad de contar con datos inmediatos o a corto plazo y, en general, las dificultades para realizar el aforo, entre otros. Entre los métodos más usados se encuentran:
+      .col-lg-7
+        .row
+          .col-12.bg-c7.p-4
+            ul.lista-ul--color.lista-ul.mb-0
+              li 
+                i.fas.fa-check
+                | #[b Método Área-Velocidad]
+              li 
+                i.fas.fa-check
+                | #[b Método Volumétrico]
+              li 
+                i.fas.fa-check
+                | #[b Método con Trazadores (dilución)]
+              li 
+                i.fas.fa-check
+                | #[b Estructuras Aforadas]
+    .row.mb-4
+      .col-auto.txt-c1.px-4.py-3
+        h4.text-white.mb-0 Métodos área velocidad
+    .row.align-items-center.mb-4
+      .col-lg-7.mb-4.mb-lg-0
+        p Dado que el caudal es función del área de la sección ocupada por el agua y la velocidad media del flujo, este procedimiento se basa en la determinación de estas variables. Este sistema de aforo es el de mayor uso y requiere que el flujo tenga un comportamiento laminar y que las líneas de flujo sean normales a la sección transversal de aforo.
+        p.mb-4 El caudal en una corriente de agua es función del área de la sección de aforos y de la velocidad media del flujo y se obtiene mediante el producto de estas dos variables:
+        figure.mb-4
+          img(src='@/assets/curso/tema1/img20.svg', style="width: 240px").m-auto
+        p Si la geometría del perfil de la sección de aforos no se modifica, la velocidad mantiene su comportamiento horizontal y en profundidad, por el contrario, si la geometría cambia se altera la relación nivel - área, en consecuencia, la velocidad cambia su comportamiento.
+        p El método de área-velocidad se realiza con diferentes métodos de aforo, así:
+        .row
+          .col-12.bg-c7.p-4
+            ul.lista-ul--color.lista-ul.mb-0
+              li 
+                i.fas.fa-check
+                | #[b Molinete Hidrométrico (vadeo, suspensión, angular, bote cautivo, lancha en movimiento)]
+              li 
+                i.fas.fa-check
+                | #[b Aforo con Flotadores]
+              li 
+                i.fas.fa-check
+                | #[b Aforo ADCP (Acoustic Doppler Current Profiler)]
+      .col-lg-5
+        figure
+          img(src='@/assets/curso/tema1/img24.png', style="width: 470px").m-auto
+    p.mb-5 En relación con Métodos, Área y Velocidad, tenga en cuenta los siguientes aspectos:
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--verde")
+      .row(titulo="Medición de caudales")
+        .col-12
+          p.mb-0 La medición de caudales a través del método área-velocidad, se determina a través de la selección de número de vértices, determinación del ancho, determinación de la profundidad, cálculo del área, medición de la velocidad, cálculo del área y caudal.
+      .row(titulo="Profundidad del flujo")
+        .col-12
+          p.mb-0 
+      .row(titulo="Molinete hidrométrico")
+        .col-12
+          p.mb-0
+      .row(titulo="Aforo por vadeo")
+        .col-12
+          p.mb-0
+      .row(titulo="Aforo por suspensión")
+        .col-12
+          p.mb-0
+      .row(titulo="Aforo en bote cautivo")
+        .col-12
+          p.mb-0
+      .row(titulo="Aforo con flotadores")
+        .col-12
+          p.mb-0
+      .row(titulo="Aforo ADCP (Acoustic Doppler Current Profiler)")
+        .col-12
+          p.mb-0
+    .row.mb-4
+      .col-auto.txt-c1.px-4.py-3
+        h4.text-white.mb-0 Método Volumétrico
+    .row.align-items-center.mb-5
+      .col-lg-7.mb-4.mb-lg-0
+        p Cuando se trate de medir caudales pequeños en condiciones que no permitan el uso del molinete, o no se cuente con este equipo, se utiliza el aforo volumétrico, que consiste sencillamente en recolectar en un recipiente previamente calibrado, un volumen de agua conocido y tomar con precisión el tiempo de recolección, preferiblemente con cronómetro.
+        p Se recomienda utilizarlo en corrientes pequeñas, en las cuales se pueda colectar en un recipiente calibrado el 100% del flujo a medir. La calibración del recipiente y el tiempo de recolección deben ser muy precisos. Se puede recurrir a recipientes de uso común como un balde o caneca que tenga registros de volumen; en otros casos el aforo se realiza en tanques de mayor tamaño que tengan dimensiones precisas, de tal manera que mediante la medición de un diferencial de nivel se determina un incremento de volumen y tomando el tiempo de incremento de volumen se puede calcular directamente el caudal que lleva la corriente o el canal.
+      .col-lg-5
+        figure
+          img(src='@/assets/curso/tema1/img25.png', style="width: 470px").m-auto
+    .row.mb-4
+      .col-auto.txt-c1.px-4.py-3
+        h4.text-white.mb-0 Método con Trazadores (dilución)
+    .row.align-items-center.mb-5
+      .col-lg-7.mb-4.mb-lg-0
+        p La medición del caudal mediante este método está basada en la determinación del grado de dilución en el agua de la corriente de una solución del trazador vertida en ella.
+        p Este método se recomienda utilizar para secciones de aforo donde se encuentren:
+        .row
+          .col-12.bg-c7.p-4
+            ul.lista-ul--color.lista-ul.mb-0
+              li 
+                i.fas.fa-check
+                | #[b Grandes turbulencias y remolinos]
+              li 
+                i.fas.fa-check
+                | #[b Régimen torrencial]
+              li 
+                i.fas.fa-check
+                | #[b Altas pendientes]
+              li 
+                i.fas.fa-check
+                | #[b Poca profundidad]
+              li 
+                i.fas.fa-check
+                | #[b Lechos inestables]
+              li.mb-0
+                i.fas.fa-check
+                | #[b Líneas de flujo desordenadas]
+      .col-lg-5
+        figure
+          img(src='@/assets/curso/tema1/img26.png', style="width: 470px").m-auto
+    p.mb-5 Sobre los aforos con trazadores, también llamados aforos químicos, tenga presente:
+    .row.justify-content-center.mb-5
+      .col-11.col-md-5.col-lg.bg-c10.p-4.m-2
+        p.text-center.mb-4 #[b Variación de concentración]
+        p.text-center.mb-0 Los aforos con trazadores también llamados aforos químicos, permiten conocer el caudal a partir de la variación de concentración de una sustancia inyectada en el cauce que permite estudiar su comportamiento y evolución.
+      .col-11.col-md-5.col-lg.bg-c10.p-4.m-2
+        p.text-center.mb-4 #[b Conductividad eléctrica]
+        p.text-center.mb-0 El procedimiento consiste en inyectar un trazador en una sección de la corriente y realizar aguas abajo, a una distancia lo suficientemente lejos para que haya dilución total, mediciones de conductividad eléctrica para detectar el paso de la nube y así calcular el caudal.
+      .col-11.col-md-5.col-lg.bg-c10.p-4.m-2
+        p.text-center.mb-4 #[b Características necesarias de los trazadores]
+        p.text-center.mb-0 Los trazadores deben cumplir con una serie de características como lo son la solubilidad, posibilidad de medición in situ, costo reducido, no contaminante, entre otros.
+      .col-11.col-md-5.col-lg.bg-c10.p-4.m-2
+        p.text-center.mb-4 #[b Condiciones de uso de los trazadores]
+        p.text-center.mb-0 El trazador empleado para la aplicación del método no debe estar presente en el cuerpo de agua en cantidades apreciables. Algunos de los más empleados en la práctica son el cloruro de sodio y el dicromato de sodio.
+    .row.mb-4
+      .col-auto.txt-c1.px-4.py-3
+        h4.text-white.mb-0 Estructuras Aforadas
+    p Son estructuras que han sido estudiadas y calibradas en diferentes condiciones experimentales. Para cada una de ellas es posible obtener una ecuación de descarga (relación Nivel-Caudal) que permite determinar el caudal instantáneo en función de la altura de la lámina de agua con respecto a un punto de la estructura, que se mide con ayuda de una mira o un instrumento registrador. 
+    p.mb-5 A continuación, se presentan las estructuras más utilizadas:
+    .row.justify-content-center
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido
+          p.mb-0 #[b Tabla 5.] Estructuras aforadas de mayor uso
+        .tabla-b.color-acento-contenido
+          table
+            tr.bg-c2
+              th.text-center Vertederos
+              th.text-center Canaletas
+            tr
+              td(style="vertical-align: initial !important")
+                figure.mb-4
+                  img(src='@/assets/curso/tema1/img27.png', style="width: 420px").m-auto
+                p.mb-0 Son dispositivos hidráulicos fijos o removibles que consisten en una escotadura a través de la cual se hace circular el flujo que se quiere medir en el canal o corriente natural. La precisión del aforo depende de la velocidad de llegada a la estructura, por lo tanto, es importante remansar el agua ampliando la sección del canal arriba del sitio para obtener velocidades mínimas (< 0,15 m/s).
+              td
+                figure.mb-4
+                  img(src='@/assets/curso/tema1/img28.png', style="width: 420px").m-auto
+                p.mb-0 Son estructuras de gran aplicación en terrenos planos ya que funcionan a flujo libre con pérdidas de carga pequeñas. Las canaletas más utilizadas son: tipo Balloffet (tiene paredes paralelas y fondo plano), medidor sin cuello o cutthroat (consiste en una sección de entra, una de salida, una garganta y un fondo aforador y, finalmente, canaleta Parshall (conformada por una sección convergente de contracción que se localiza en su extremo aguas arriba, una garganta y una sección divergente aguas abajo).
+    Separador
+    #t_1_6
+    .titulo-segundo.color-secundario
+      h2 1.6 Toma de muestras de suelo
+    .row.align-items-center.mb-4
+      .col-lg-9.mb-4.mb-lg-0
+        p El plan de muestreo para toma de muestras de suelo implica contar, entre otros requisitos, con localización y nombre del sitio de muestreo con coordenadas, detalles del punto de muestreo, incluyendo coordenadas y plano, fecha de recolección, tipo y método de muestreo, tiempo de recolección, nombre de la persona que recolectó las muestras, condiciones climáticas, tipo de contaminación del suelo y origen de la contaminación, uso del suelo y características del suelo y topografía.
+        .row
+          .col-12.bg-c7.p-4
+            ul.lista-ul--color.lista-ul.mb-0
+              li 
+                i.fas.fa-check
+                | #[b El límite superior e inferior del horizonte del cual se tomó la muestra en m o mm]
+              li 
+                i.fas.fa-check
+                | #[b El límite superior e inferior de la profundidad del muestreo dentro de un horizonte]
+              li 
+                i.fas.fa-check
+                | #[b Si es por muestra sencilla o muestra compuesta]
+              li 
+                i.fas.fa-check
+                | #[b Si la muestra se obtuvo en dirección horizontal o vertical en relación con la posición del horizonte]
+              li 
+                i.fas.fa-check
+                | #[b Las herramientas usadas]
+              li.mb-0
+                i.fas.fa-check
+                | #[b Número de muestras]
+      .col-lg-3
+        figure
+          img(src='@/assets/curso/tema1/img21.svg', style="width: 280px").m-auto
+    p.mb-5 Y los tipos de muestras de suelo son:
+    .row.justify-content-center.mb-5
+      .col-10.col-md-8.col-lg-4.m-2
+        .row.h-100
+          .col-12.px-0.mx-0
+            figure
+              img(src='@/assets/curso/tema1/img29.png', style="width: auto").m-auto
+          .col-12.bg-c10.p-4
+            p.text-center.mb-4 #[b Muestras disturbadas]
+            p.text-center.mb-0 Muestras obtenidas del terreno sin ningún intento de preservar la estructura del suelo; es decir, las partículas del suelo se recogen “sueltas” y se dejan mover unas en relación con otras.
+            br
+            br
+      .col-10.col-md-8.col-lg-4.m-2
+        .row
+          .col-12.px-0.mx-0
+            figure
+              img(src='@/assets/curso/tema1/img30.png', style="width: auto").m-auto
+          .col-12.bg-c10.p-4
+            p.text-center.mb-4 #[b Muestras no disturbadas]
+            p.text-center.mb-0 Muestras obtenidas del terreno usando un método diseñado para preservar la estructura del suelo; es decir, se usa equipo de muestreo especial en tal forma que no se deja que las partículas y los vacíos cambien con respecto a la distribución existente en el terreno antes del muestreo.
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .row.bg-c1
+          .col-12.px-4.px-lg-2.pt-4.pt-lg-2.pb-4.pb-lg-0
+            .row.align-items-end
+              .col-12.col-lg-auto.mb-4.mb-lg-0
+                figure
+                  img(src='@/assets/curso/tema1/img1.svg', style="width: 80px").m-auto
+              .col
+                p Existen tres métodos de muestreo:
+                p.mb-0 #[b Tipo 1], una muestra de material recogido de un solo punto (muestra disturbada o no disturbada).
+                p.mb-0 #[b Tipo 2], una muestra que es un compuesto de pequeñas muestras de puntos incrementales tomadas cercanas entre sí (Muestra disturbada).
+                p #[b Tipo 3], una muestra que es un compuesto de pequeñas muestras de puntos incrementales tomadas en un área (Muestra disturbada).
+    p.mb-5 Existen dos técnicas de muestreo: para toma de muestras de suelo perturbadas y para toma de muestras de suelo no perturbadas.
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido
+          p.mb-0 #[b Tabla 6.] Toma de muestras de suelo perturbadas
+        .tabla-b.color-acento-contenido
+          table
+            tr.bg-c2
+              th.text-center(colspan="2") Muestras de suelo perturbadas
+            tr
+              td
+                p #[b Para capas superiores]
+              td
+                ul.lista-ul--color.lista-ul.mb-0
+                  li 
+                    i.fas.fa-check
+                    | Barreno manual
+                  li 
+                    i.fas.fa-check
+                    | Azadón o similar
+                  li.mb-0
+                    i.fas.fa-check
+                    | Marco de corte (para muestreo de materia orgánica como, por ejemplo: mull, moder, turba)
+            tr
+              td
+                p #[b Para capas profundas]
+              td
+                ul.lista-ul--color.lista-ul.mb-0
+                  li 
+                    i.fas.fa-check
+                    | Herramientas de perforación
+                  li 
+                    i.fas.fa-check
+                    | Sondas estáticas y dinámicas
+                  li.mb-0
+                    i.fas.fa-check
+                    | Herramientas para la toma de muestra en forma de anillos de suelos (para aplicación en calicatas)
+    p.mb-5 Así mismo, las técnicas de muestreo para toma de muestras de suelo no perturbadas, se detallan así:
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido
+          p.mb-0 #[b Tabla 7.] Toma de muestras de suelo no perturbadas
+        .tabla-b.color-acento-contenido
+          table
+            tr.bg-c2
+              th.text-center(colspan="2") Muestras de suelo no perturbadas
+            tr
+              td
+                p #[b Para capas superiores]
+              td
+                ul.lista-ul--color.lista-ul.mb-0
+                  li 
+                    i.fas.fa-check
+                    | Cilindros de corte de diferente tamaño, marco de corte
+                  li 
+                    i.fas.fa-check
+                    | Barrenos manuales especiales (barreno tubo para muestreo)
+                  li.mb-0
+                    i.fas.fa-check
+                    | Tapa protectora, anillo de soporte hidráulico o manual
+            tr
+              td
+                p #[b Para capas profundas]
+              td
+                ul.lista-ul--color.lista-ul.mb-0
+                  li 
+                    i.fas.fa-check
+                    | Máquinas de perforación con tubos de muestra
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .row.bg-c1
+          .col-12.px-4.px-lg-2.pt-4.pt-lg-2.pb-4.pb-lg-0
+            .row.align-items-end
+              .col-12.col-lg-auto.mb-4.mb-lg-0
+                figure
+                  img(src='@/assets/curso/tema1/img1.svg', style="width: 80px").m-auto
+              .col
+                p.mb-0.mt-0.mt-lg-2 #[b Cantidad y conservación de la muestra]
+                p.mb-0.mb-lg-4 Para la toma de muestra de suelo, si la muestra es de suelo fino debe tomarse un mínimo de 500g, si es suelo grueso, mayor a 2000gr. La mayoría toma como promedio 1kg. La muestra por lo general se coloca en condiciones de enfriamiento (por debajo de 5°C) en particular durante el transporte al laboratorio.
+    .row.justify-content-center
+      .col-lg-10
+        .tarjeta.color-secundario.p-3
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/curso/tema1/img22.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.mb-1 Amplie sus conocimientos y conceptos sobre Tomas de muestras de suelo, estudiando a profundidad en contenido del Anexo_1_TomaDeMuestrasDeSuelo
+                  p.text-small Anexo_1_TomaDeMuestrasDeSuelo
+                .col-sm-auto
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_1_TomaDeMuestrasDeSuelo.pdf')" target="_blank")
+                    span(style="color: #000 !important") Descargar
+                    i.fas.fa-file-download(style="color: #000 !important")
+    Separador
+    #t_1_7
+    .row.bg-c11
+      .col-12
+        .px-5.pt-5
+          .titulo-segundo.color-secundario
+            h2 1.7 Parámetros in situ para agua y suelo
+          p Las aguas contaminadas presentan compuestos diversos en función de su procedencia: pesticidas, tensoactivos, fenoles, aceites y grasas, metales pesados, etc.
+          p.mb-5 Los parámetros de control se pueden agrupar de la siguiente manera:
+          .row.justify-content-center.mb-5
+            .col-lg-8
+              .titulo-sexto.color-acento-contenido
+                p.mb-0 #[b Tabla 8.] Toma de muestras de suelo no perturbadas
+              .tabla-b.color-acento-contenido
+                table
+                  tr.bg-c2
+                    th.text-center Parámetros físicos
+                    th.text-center Parámetros químicos
+                    th.text-center Parámetros biológicos
+                  tr
+                    td(style="vertical-align: initial !important")
+                      p.mb-0.text-center Características organolépticas:
+                      p.mb-4.text-center color, olor, sabor
+                      p.mb-0.text-center Elementos flotantes
+                      p.mb-0.text-center Temperatura
+                      p.mb-0.text-center Sólidos
+                      p.mb-0.text-center Conductividad
+                      p.mb-0.text-center Radioactividad
+                    td
+                      p.mb-0.text-center pH
+                      p.mb-0.text-center Materia Orgánica (Carbono orgánico total COT)
+                      p.mb-0.text-center Nitrógeno y compuestos derivados (amoniaco, nitratos, nitritos, etc.)
+                      p.mb-0.text-center Fósforo y compuestos derivados (fosfatos)
+                      p.mb-0.text-center Aceites y grasas
+                      p.mb-0.text-center Hidrocarburos
+                      p.mb-0.text-center Detergentes
+                      p.mb-0.text-center Cloro y cloruros
+                      p.mb-0.text-center Fluoruros
+                      p.mb-0.text-center Sulfatos y sulfuros
+                      p.mb-0.text-center Fenoles
+                      p.mb-0.text-center Cianuros
+                      p.mb-0.text-center Haloformos
+                      p.mb-0.text-center Metales
+                      p.mb-0.text-center Pesticidas
+                      p.mb-0.text-center Gases disueltos
+                      p.mb-0.text-center Oxígeno
+                      p.mb-0.text-center Nitrógeno
+                      p.mb-0.text-center Dióxido de carbono
+                      p.mb-0.text-center Metano
+                      p.mb-0.text-center Ácido sulfhídrico
+                    td(style="vertical-align: initial !important")
+                      p.mb-0.text-center Coliformes totales y fecales
+                      p.mb-0.text-center Estreptococos fecales
+                      p.mb-0.text-center Salmonellas
+                      p.mb-0.text-center Enterovirus
+                      p.mb-0.text-center Parámetros f
+          .row.justify-content-center
+            .col-lg-10
+              .tarjeta.color-secundario.p-3
+                .row.justify-content-around.align-items-center
+                  .col-3.col-sm-2.col-lg-1
+                    img(src="@/assets/curso/tema1/img22.svg")
+                  .col
+                    .row.justify-content-between.align-items-center
+                      .col.mb-3.mb-sm-0
+                        h3.mb-1 Profundice en los aspectos generales y claves de los parámetros in situ para agua, estudiando el Anexo_2_ParametrosDeControlAgua
+                        p.text-small Anexo_2_ParametrosDeControlAgua
+                      .col-sm-auto
+                        a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_2_ParámetrosDeControlAgua.pdf')" target="_blank")
+                          span(style="color: #000 !important") Descargar
+                          i.fas.fa-file-download(style="color: #000 !important")
+                    .row.justify-content-between.align-items-center
+                      .col.mb-3.mb-sm-0
+                        h3.mb-1 Profundice en los aspectos generales y claves de los parámetros in situ para suelo, estudiando el Anexo_3_ParametrosDeControlSuelo
+                        p.text-small Anexo_3_ParametrosDeControlSuelo
+                      .col-sm-auto
+                        a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_3_ParametrosDeControlSuelo.pdf')" target="_blank")
+                          span(style="color: #000 !important") Descargar
+                          i.fas.fa-file-download(style="color: #000 !important")
   
 </template>
 
