@@ -57,6 +57,12 @@
     #t_1_1
     .titulo-segundo.color-secundario
       h2 1.1 Conceptos básicos de unidades de medida
+
+    figure.my-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/au50DCVNjDc" title="Sistemas de Unidades" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Sistemas de Unidades.
+
     .row
       .col-lg-6.mb-4.mb-lg-0
         p.mb-4 Un sistema de unidades especifica las unidades de las cantidades fundamentales de longitud, masa, tiempo y fuerza. El sistema internacional de unidades es la referencia estándar para unidades de medida a nivel mundial; este cuenta con siete unidades bases para las magnitudes fundamentales como se muestra en la siguiente tabla:
@@ -97,7 +103,7 @@
               td.text-center Mol
               td.text-center Mol
       .col-lg-6
-        p Los prefijos del sistema internacional de unidades, son representados por símbolos que se anteponen a la unidad, y representan un factor por el que debe ser multiplicada la cantidad.  
+        p Los prefijos del sistema internacional de unidades, son representados por símbolos que se anteponen a la unidad, y representan un factor por el que debe ser multiplicada la cantidad.
         p.mb-4 En la siguiente tabla se presentan algunos de los prefijos más usados:
         .titulo-sexto.color-acento-contenido
           p.mb-0 #[b Tabla 2.] Prefijos más usados en campo de estudio de muestras
@@ -156,19 +162,19 @@
             .row.justify-content-center
               .col-lg-8
                 ul.lista-ul--color.lista-ul.mb-0
-                  li 
+                  li
                     i.fas.fa-check
                     | #[b El minuto (m): 1m = 60s]
-                  li 
+                  li
                     i.fas.fa-check
                     | #[b La hora (h): 1h = 3600s ]
-                  li 
+                  li
                     i.fas.fa-check
                     | #[b El día (d): 1d = 24h = 86400s]
-                  li 
+                  li
                     i.fas.fa-check
                     | #[b El litro (L,l): 1L = 1dm3 = 10-3m3]
-                  li 
+                  li
                     i.fas.fa-check
                     | #[b La tonelada (t): 1t = 103kg]
       .col-lg-4
@@ -181,23 +187,23 @@
     .row.mb-5
       .col-lg-12.bg-c4.p-4.p-lg-5
         ol.lista-ol--cuadro.lista-ol.mb-0
-          li 
+          li
             .lista-ol--cuadro__vineta
               span.txt-c2 1.
             | #[b Despejar de la ecuación el término que se desea]
-          li 
+          li
             .lista-ol--cuadro__vineta
               span.txt-c2 2.
             | #[b Definir las unidades que se requieren para el resultado]
-          li 
+          li
             .lista-ol--cuadro__vineta
               span.txt-c2 3.
             | #[b Sustituir en la ecuación los valores con sus respectivas unidades]
-          li 
+          li
             .lista-ol--cuadro__vineta
               span.txt-c2 4.
             | #[b Cancelar las unidades de los términos que parezcan en el numerador y el denominador]
-          li 
+          li
             .lista-ol--cuadro__vineta
               span.txt-c2 5.
             | #[b Utilizar los factores de conversión para eliminar las unidades no deseadas, y obtener las que se definieron previamente en el paso dos]
@@ -224,7 +230,7 @@
           img(src='@/assets/curso/tema1/img8.svg', style="width: 180px").m-auto
       .col-10.col-lg.bg-c5.p-4.m-2
         .h4.text-center Unidades de resultado
-        p.mb-0 Se proponen las unidades del resultado; para este caso pueden ser minutos, ya que el ejercicio no especifica las unidades finales. 
+        p.mb-0 Se proponen las unidades del resultado; para este caso pueden ser minutos, ya que el ejercicio no especifica las unidades finales.
         p.mb-4 Se sustituye t en la ecuación.
         figure
           img(src='@/assets/curso/tema1/img9.svg', style="width: 280px").m-auto
@@ -255,33 +261,33 @@
       h2 1.2 Características básicas de rotulado y envasado
     .row.align-items-center.mb-5
       .col-lg-8.mb-4.mb-lg-0
-        p La información sobre las operaciones de muestreo es una parte fundamental para asegurar la calidad del programa de muestreo y base fundamental en la cadena de custodia de las muestras, ya que esto genera confianza en los resultados de los análisis aplicados a las muestras. Por tal razón la información consignada en los rótulos de los recipientes y en los registros de toma de muestras debe ser legible, veraz y trazable. 
+        p La información sobre las operaciones de muestreo es una parte fundamental para asegurar la calidad del programa de muestreo y base fundamental en la cadena de custodia de las muestras, ya que esto genera confianza en los resultados de los análisis aplicados a las muestras. Por tal razón la información consignada en los rótulos de los recipientes y en los registros de toma de muestras debe ser legible, veraz y trazable.
         p Los rótulos de las muestras pueden:
         .row
           .col-12.bg-c6.p-4
             ul.lista-ul--color.lista-ul.mb-0
-              li 
+              li
                 i.fas.fa-check
                 | #[b Ser adhesivos:] Tener forma de etiquetas adhesivas, de marca (rótulo) o ambas.
-              li 
+              li
                 i.fas.fa-check
                 | #[b Ser removibles:] Ser removibles para hacer parte del proceso de registros posteriores.
-              li 
+              li
                 i.fas.fa-check
                 | #[b Ser desvirtuados:] Enfrentarse a la posibilidad de remoción inapropiada o pérdida.
-              li 
+              li
                 i.fas.fa-check
                 | #[b Ser económicos y prácticos:] Estar hechos, normalmente, en papel a prueba de agua con tinta indeleble y son pegados al frasco o recipiente de muestra.
-              li 
+              li
                 i.fas.fa-check
                 | #[b Usarse funcionalmente:] Estar escritos directamente en el recipiente con tinta indeleble, sin embargo, no es lo más aconsejado.
-              li 
+              li
                 i.fas.fa-check
                 | #[b Usarse con oportunidad:] Deben ser diligenciados justo antes o inmediatamente después de la toma de muestras.
-              li 
+              li
                 i.fas.fa-check
                 | #[b Ajustarse al recipiente:] Deben fijarse en el recipiente de tal forma que se asegure que no se borrará o perderá la información.
-              li 
+              li
                 i.fas.fa-check
                 | #[b Ofrecer claridad:] Deben ser totalmente legibles (no realizar tachones).
       .col-lg-4
@@ -330,10 +336,10 @@
             tr
               td
                 p #[b 2.] En ambos casos debe asegurarse que el envase se encuentre LIMPIO, pero debe prestarse especial atención a no lavarlo con detergentes, hipoclorito de sodio (lavandina) u otros reactivos: el envase sólo puede ser enjuagado con agua.
-                p.mb-0 De todas maneras, se trate de un envase nuevo o reutilizado, previo a la toma de la muestra, deberá enjuagarse por lo menos tres veces con el agua a muestrear. 
+                p.mb-0 De todas maneras, se trate de un envase nuevo o reutilizado, previo a la toma de la muestra, deberá enjuagarse por lo menos tres veces con el agua a muestrear.
               td #[b B.] También pueden utilizarse bolsas especiales de polietileno estériles (fabricadas a tal fin), considerando que este tipo de envase es muy cómodo para la recolección y cerrado.
             tr
-              td #[b 3.] La cantidad de muestra necesaria para un análisis físico-químico es de aproximadamente 1000ml. Si fuera necesario muestrear para algún análisis que requiriera del agregado de un reactivo específico para la conservación de la muestra, deberá preverse la toma en envases adicionales de menor capacidad. 
+              td #[b 3.] La cantidad de muestra necesaria para un análisis físico-químico es de aproximadamente 1000ml. Si fuera necesario muestrear para algún análisis que requiriera del agregado de un reactivo específico para la conservación de la muestra, deberá preverse la toma en envases adicionales de menor capacidad.
               td #[b C.] Es muy importante tener presente al seleccionar los envases, que este tipo de muestras debe mantenerse refrigerada hasta su llegada al laboratorio y procesamiento.
     .row.mb-4
       .col-auto.txt-c1.px-4.py-3
@@ -379,6 +385,7 @@
           p.mb-0 #[b Tabla 4.] Parámetros, recipientes y tiempo de conservación de muestras de suelo
         .tabla-b.color-acento-contenido
           table
+            caption Tomado de: Guía para muestreo de análisis de suelos (2000).
             tr.bg-c2
               th.text-center Parámetro
               th.text-center Recipiente
@@ -395,6 +402,252 @@
               td.text-center Relación de adsorción de sodio
               td.text-center P, G
               td.text-center 14 días
+
+            tr
+              td.text-center  Antimonio
+              td.text-center  P,G
+              td.text-center  6 meses
+
+            tr
+              td.text-center Arsénico
+              td.text-center P, G
+              td.text-center 6 meses
+            tr
+              td.text-center Bario
+              td.text-center P, G
+              td.text-center 6 meses
+            tr
+              td.text-center Berilio
+              td.text-center P, G
+              td.text-center 6 meses
+            tr
+              td.text-center Boro (soluble en agua caliente)
+              td.text-center P,G
+              td.text-center 6 meses
+            tr
+              td.text-center Cadmio
+              td.text-center P, G
+              td.text-center 6 meses
+            tr
+              td.text-center Cromo (+6)
+              td.text-center P,G
+              td.text-center 48 horas
+            tr
+              td.text-center Cromo (total)
+              td.text-center P,G
+              td.text-center 48 horas
+            tr
+              td.text-center Cobalto
+              td.text-center P, G
+              td.text-center 6 meses
+            tr
+              td.text-center Cobre
+              td.text-center P, G
+              td.text-center 6 meses
+            tr
+              td.text-center Cianuro (libre)
+              td.text-center P, G
+              td.text-center 6 meses
+            tr
+              td.text-center Cianuro (total)
+              td.text-center  P, G
+              td.text-center 6 meses
+            tr
+              td.text-center Fluoruro (total)
+              td.text-center P, G
+              td.text-center 6 meses
+            tr
+              td.text-center Plomo
+              td.text-center P, G
+              td.text-center 6 meses
+            tr
+              td.text-center Mercurio
+              td.text-center P,G
+              td.text-center 28 días
+            tr
+              td.text-center Molibdeno
+              td.text-center P, G
+              td.text-center 6 meses
+            tr
+              td.text-center Níquel
+              td.text-center P, G
+              td.text-center 6 meses
+            tr
+              td.text-center Selenio
+              td.text-center P, G
+              td.text-center 6 meses
+            tr
+              td.text-center Plata
+              td.text-center P, G
+              td.text-center 6 meses
+            tr
+              td.text-center Azufre (elemental)
+              td.text-center P, G
+              td.text-center 6 meses
+            tr
+              td.text-center Talio
+              td.text-center P, G
+              td.text-center 6 meses
+            tr
+              td.text-center Estaño
+              td.text-center P, G
+              td.text-center 6 meses
+            tr
+              td.text-center Vanadio
+              td.text-center P, G
+              td.text-center 6 meses
+            tr
+              td.text-center Zinc
+              td.text-center P, G
+              td.text-center 6 meses
+            tr
+              td.text-center Benceno
+              td.text-center G, T
+              td.text-center 7 días
+            tr
+              td.text-center Clorobenceno
+              td.text-center G, T
+              td.text-center 7 días
+            tr
+              td.text-center 1,2-diclorobenceno
+              td.text-center G, T
+              td.text-center 7 días
+
+            tr
+              td.text-center 1,3-diclorobenceno
+              td.text-center G, T
+              td.text-center 7 días
+
+            tr
+              td.text-center 1,4-diclorobenceno
+              td.text-center G, T
+              td.text-center 7 días
+
+            tr
+              td.text-center Benceno Etilado
+              td.text-center G, T
+              td.text-center 7 días
+
+            tr
+              td.text-center Estireno
+              td.text-center G, T
+              td.text-center 7 días
+
+            tr
+              td.text-center Tolueno
+              td.text-center G, T
+              td.text-center 7 días
+
+            tr
+              td.text-center Xileno
+              td.text-center G, T
+              td.text-center 7 días
+
+            tr
+              td.text-center Fenoles no Clorinados
+              td.text-center G, T
+              td.text-center 7 días
+
+            tr
+              td.text-center Clorofenoles
+              td.text-center G, T
+              td.text-center 7 días
+
+            tr
+              td.text-center Benzo(a)antraceno
+              td.text-center G, T
+              td.text-center 7 días
+
+            tr
+              td.text-center Benzo(a)pireno
+              td.text-center G, T
+              td.text-center 7 días
+
+            tr
+              td.text-center Benzo(b)fluoranteno
+              td.text-center G, T
+              td.text-center 7 días
+
+            tr
+              td.text-center Benzo(k)fluoranteno
+              td.text-center G, T
+              td.text-center 7 días
+
+            tr
+              td.text-center Dibenz(a,b)antraceno
+              td.text-center G, T
+              td.text-center 7 días
+
+            tr
+              td.text-center Indeno(1,2,3-c,d)pireno
+              td.text-center G, T
+              td.text-center 7 días
+
+            tr
+              td.text-center Naftaleno
+              td.text-center G, T
+              td.text-center 7 días
+
+            tr
+              td.text-center Fenantreno
+              td.text-center G, T
+              td.text-center 7 días
+
+            tr
+              td.text-center Pireno
+              td.text-center G, T
+              td.text-center 7 días
+
+            tr
+              td.text-center Alifáticos Clorinados
+              td.text-center G, T
+              td.text-center 7 días
+
+            tr
+              td.text-center Clorobencenos (tri, tetra y penta)
+              td.text-center G, T
+              td.text-center 7 días
+
+            tr
+              td.text-center Hexaclorobenceno
+              td.text-center G, T
+              td.text-center 7 días
+
+            tr
+              td.text-center Hexaclorocicloexano
+              td.text-center G, T
+              td.text-center 7 días
+
+            tr
+              td.text-center PCBs
+              td.text-center G, T
+              td.text-center 7 días
+
+            tr
+              td.text-center PCDDs y PCDFs
+              td.text-center G, T
+              td.text-center 7 días
+
+            tr
+              td.text-center Alifáticos No Clorinados
+              td.text-center G, T
+              td.text-center 7 días
+
+            tr
+              td.text-center Ésteres del Ácido Ftálico
+              td.text-center G, T
+              td.text-center 7 días
+
+            tr
+              td.text-center Quinoleína
+              td.text-center G, T
+              td.text-center 7 días
+
+            tr
+              td.text-center Tiofeno
+              td.text-center G, T
+              td.text-center 7 días
+
     Separador
     #t_1_3
     .titulo-segundo.color-secundario
@@ -418,19 +671,19 @@
               p Para cualquiera de los dos personales de toma de muestra sea en agua o suelo, es importante que toda organización defina un plan de capacitación, en temas como:
             .col-lg-5
               ul.lista-ul--color.lista-ul.mb-0
-                li 
+                li
                   i.fas.fa-check
                   | #[b Elementos personales de protección para la toma y procesamiento de muestras]
-                li 
+                li
                   i.fas.fa-check
                   | #[b Equipos e instrumentos de laboratorio]
-                li 
+                li
                   i.fas.fa-check
                   | #[b Riesgos y amenazas en campo y en laboratorio]
-                li 
+                li
                   i.fas.fa-check
                   | #[b Tipos, técnicas y métodos de muestreo]
-                li 
+                li
                   i.fas.fa-check
                   | #[b Normatividad aplicable, entre otros.]
     .row.justify-content-center.mb-5
@@ -455,10 +708,10 @@
             .row.justify-content-center
               .col-10.col-lg-8
                 ul.lista-ul--color.lista-ul.mb-0
-                  li 
+                  li
                     i.fas.fa-check
                     | #[b Actividades de indiferencia]
-                  li 
+                  li
                     i.fas.fa-check
                     | #[b No utilizar el sentido común]
                   li.mb-0
@@ -473,16 +726,16 @@
         .row.justify-content-center
           .col-10.col-lg-8
             ul.lista-ul--color.lista-ul.mb-0
-              li 
+              li
                 i.fas.fa-check
                 | #[b Seguir las reglas de seguridad]
-              li 
+              li
                 i.fas.fa-check
                 | #[b No jugar bromas mientras realiza actividades de toma de muestras o de laboratorio]
-              li 
+              li
                 i.fas.fa-check
                 | #[b Familiarizarse con los equipos de seguridad]
-              li 
+              li
                 i.fas.fa-check
                 | #[b Siempre indagar antes sobre los peligrosos si va a manejar sustancias químicas]
     p.mb-5 Para realizar la actividad de toma de muestras se debe garantizar que las personas cuenten con unos implementos de seguridad mínimos, como:
@@ -571,25 +824,25 @@
         .row
           .col-12.bg-c7.p-4
             ul.lista-ul--color.lista-ul.mb-0
-              li 
+              li
                 i.fas.fa-check
                 | #[b El objetivo]
-              li 
+              li
                 i.fas.fa-check
                 | #[b El sitio de toma de muestra]
-              li 
+              li
                 i.fas.fa-check
                 | #[b El método y técnica a usar]
-              li 
+              li
                 i.fas.fa-check
                 | #[b Los parámetros a medir]
-              li 
+              li
                 i.fas.fa-check
                 | #[b Los instrumentos y equipos requeridos]
-              li 
+              li
                 i.fas.fa-check
                 | #[b El personal y las competencias que debe manejar]
-              li 
+              li
                 i.fas.fa-check
                 | #[b Los elementos de seguridad y salud en el trabajo]
               li.mb-0
@@ -598,7 +851,7 @@
       .col-lg-5
         figure
           img(src='@/assets/curso/tema1/img16.png', style="width: 500px").m-auto
-    p Antes de iniciar el muestreo, es elemental tener claramente definido la forma como serán tomadas las muestras para poder realizar un trabajo de campo. Dentro de los tipos de muestras se pueden encontrar: muestras sencillas, compuestas, periódicas, continuas y de serie. 
+    p Antes de iniciar el muestreo, es elemental tener claramente definido la forma como serán tomadas las muestras para poder realizar un trabajo de campo. Dentro de los tipos de muestras se pueden encontrar: muestras sencillas, compuestas, periódicas, continuas y de serie.
     p.mb-5 A continuación, profundice en las generalidades y particularidades de los tipos de muestras:
     .row.mb-5
       .col-12.bg-c9.p-4.p-lg-5
@@ -629,7 +882,7 @@
           .row(titulo="Muestras en serie" subtitulo="")
             .col-12
               p.mb-0 Dentro de las muestras en serie se distinguen dos tipos, de perfil profundo y de área: las primeras son muy aplicables en oceanografía cuando el objetivo es conocer la variación vertical de un parámetro, por ejemplo, definir la posición de la capa termohalina, de la picnoclina, etc. Las segundas, son una serie de muestras de agua tomadas a una profundidad en particular, de una masa de agua en diversas locaciones; muy utilizadas para definir distribuciones espaciales por capas.
-    p El proceso de toma, preservación y transporte de muestras, supone el establecimiento previo de las técnicas de muestreo que se deberán aplicar para obtener resultados satisfactorios. 
+    p El proceso de toma, preservación y transporte de muestras, supone el establecimiento previo de las técnicas de muestreo que se deberán aplicar para obtener resultados satisfactorios.
     p.mb-5 Dentro de las principales técnicas de muestreo, se pueden mencionar y explicar las siguientes:
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--verde")
       .row(titulo="Muestreo manual")
@@ -660,7 +913,7 @@
     .row.mb-5
       .col-12.bg-c7.p-4
         ul.lista-ul--color.lista-ul.mb-0
-          li 
+          li
             i.fas.fa-check
             | #[b Identificación unívoca de la muestra]
           li
@@ -690,7 +943,7 @@
     .row.mb-4
       .col-auto.txt-c1.px-4.py-3
         h4.text-white.mb-0 Precauciones para la toma de la muestra en función de su origen
-    p Las muestras de agua pueden provenir de fuentes superficiales (ríos, arroyos, canales, represas, lagos) o subterráneas (pozos) y este aspecto definirá las condiciones de muestreo. 
+    p Las muestras de agua pueden provenir de fuentes superficiales (ríos, arroyos, canales, represas, lagos) o subterráneas (pozos) y este aspecto definirá las condiciones de muestreo.
     p.mb-5 En función de la fuente que se vaya a muestrear, y para asegurar que la muestra sea lo más representativa posible del total, se tendrán en cuenta las siguientes consideraciones:
     .tarjeta.tarjeta--azul.p-4.mb-5
       SlyderA(tipo="b")
@@ -764,7 +1017,7 @@
     #t_1_5
     .titulo-segundo.color-secundario
       h2 1.5 Métodos de aforo para determinación de caudales
-    p El aforo de caudal es la cantidad de un fluido que atraviesa una sección en un determinado tiempo. Es conocido como la tasa de flujo. En particular, flujo volumétrico (Q) es el volumen de un fluido que circula en una sección por unidad de tiempo, y sus unidades son el m3/s. 
+    p El aforo de caudal es la cantidad de un fluido que atraviesa una sección en un determinado tiempo. Es conocido como la tasa de flujo. En particular, flujo volumétrico (Q) es el volumen de un fluido que circula en una sección por unidad de tiempo, y sus unidades son el m3/s.
     p Para la medición del caudal es posible aplicar diferentes métodos que pueden ser seleccionados en función de las características del flujo, tecnología disponible, y exactitud de los datos requerida.
     .row.mb-5
       .col-lg-5.mb-4.mb-lg-0
@@ -773,16 +1026,16 @@
         .row
           .col-12.bg-c7.p-4
             ul.lista-ul--color.lista-ul.mb-0
-              li 
+              li
                 i.fas.fa-check
                 | #[b Método Área-Velocidad]
-              li 
+              li
                 i.fas.fa-check
                 | #[b Método Volumétrico]
-              li 
+              li
                 i.fas.fa-check
                 | #[b Método con Trazadores (dilución)]
-              li 
+              li
                 i.fas.fa-check
                 | #[b Estructuras Aforadas]
     .row.mb-4
@@ -799,13 +1052,13 @@
         .row
           .col-12.bg-c7.p-4
             ul.lista-ul--color.lista-ul.mb-0
-              li 
+              li
                 i.fas.fa-check
                 | #[b Molinete Hidrométrico (vadeo, suspensión, angular, bote cautivo, lancha en movimiento)]
-              li 
+              li
                 i.fas.fa-check
                 | #[b Aforo con Flotadores]
-              li 
+              li
                 i.fas.fa-check
                 | #[b Aforo ADCP (Acoustic Doppler Current Profiler)]
       .col-lg-5
@@ -818,25 +1071,25 @@
           p.mb-0 La medición de caudales a través del método área-velocidad, se determina a través de la selección de número de vértices, determinación del ancho, determinación de la profundidad, cálculo del área, medición de la velocidad, cálculo del área y caudal.
       .row(titulo="Profundidad del flujo")
         .col-12
-          p.mb-0 
+          p.mb-0 La profundidad del flujo en la sección transversal se mide en las verticales mediante una varilla o hilo de sondeo. Al tiempo que se mide la profundidad, se efectúan observaciones de la velocidad mediante un molinete en uno o más puntos de la vertical. Las anchuras, profundidades y velocidades medidas permiten calcular el caudal para cada segmento de la sección transversal. La suma de estos caudales parciales será el caudal total.
       .row(titulo="Molinete hidrométrico")
         .col-12
-          p.mb-0
+          p.mb-0 Teniendo en cuenta las diferentes alternativas de medir el caudal, se determina el tipo de aforo con molinete hidrométrico (vadeo, suspensión, angular, bote cautivo, lancha en movimiento) que mejor se ajuste a las condiciones existentes, en el momento de la campaña de monitoreo, específicamente la magnitud de la profundidad, el ancho, la velocidad, la disposición de estructuras de apoyo como puentes o tarabitas y el tipo de régimen de caudales predominante.
       .row(titulo="Aforo por vadeo")
         .col-12
-          p.mb-0
+          p.mb-0 Se utiliza cuando la profundidad es menor de un metro (< 1 m) y la velocidad de la corriente menor de un metro por segundo (< 1 m/s). Estas condiciones permiten que los operarios y los equipos se metan al cauce con seguridad, garantizando de esta manera que la medición se realice con comodidad y sin riesgo.
       .row(titulo="Aforo por suspensión")
         .col-12
-          p.mb-0
+          p.mb-0 Cuando las condiciones del flujo (profundidad y/o velocidad) presentan amenaza para los operarios y equipos, es necesario realizar las mediciones desde un puente o una tarabita. Aquí los equipos van suspendidos desde un malacate o torno a través de un cable coaxial, que adicionalmente sirve para medir la profundidad en las diferentes abscisas de medición.
       .row(titulo="Aforo en bote cautivo")
         .col-12
-          p.mb-0
+          p.mb-0 Aplicable en ríos o canales medianos, donde es posible tender una manila o cable de orilla a orilla, que sirve de apoyo a la embarcación para contrarrestar el empuje de la corriente.
       .row(titulo="Aforo con flotadores")
         .col-12
-          p.mb-0
+          p.mb-0 Se utiliza cuando se requiere medir en forma rápida el caudal en una corriente que presenta una lámina de pocos centímetros de profundidad, cuando se esté en presencia de grandes cantidades de material en suspensión, o cuando deba efectuarse una medición del caudal en un período muy breve, para lo cual se mide la velocidad superficial a lo ancho del cauce utilizando flotadores especialmente diseñados y suministrados para este efecto.
       .row(titulo="Aforo ADCP (Acoustic Doppler Current Profiler)")
         .col-12
-          p.mb-0
+          p.mb-0 Se utiliza para medir el caudal en ríos grandes o pequeños, sin rocas grandes que permita el desplazamiento horizontal del equipo para medir el caudal.
     .row.mb-4
       .col-auto.txt-c1.px-4.py-3
         h4.text-white.mb-0 Método Volumétrico
@@ -857,19 +1110,19 @@
         .row
           .col-12.bg-c7.p-4
             ul.lista-ul--color.lista-ul.mb-0
-              li 
+              li
                 i.fas.fa-check
                 | #[b Grandes turbulencias y remolinos]
-              li 
+              li
                 i.fas.fa-check
                 | #[b Régimen torrencial]
-              li 
+              li
                 i.fas.fa-check
                 | #[b Altas pendientes]
-              li 
+              li
                 i.fas.fa-check
                 | #[b Poca profundidad]
-              li 
+              li
                 i.fas.fa-check
                 | #[b Lechos inestables]
               li.mb-0
@@ -895,7 +1148,7 @@
     .row.mb-4
       .col-auto.txt-c1.px-4.py-3
         h4.text-white.mb-0 Estructuras Aforadas
-    p Son estructuras que han sido estudiadas y calibradas en diferentes condiciones experimentales. Para cada una de ellas es posible obtener una ecuación de descarga (relación Nivel-Caudal) que permite determinar el caudal instantáneo en función de la altura de la lámina de agua con respecto a un punto de la estructura, que se mide con ayuda de una mira o un instrumento registrador. 
+    p Son estructuras que han sido estudiadas y calibradas en diferentes condiciones experimentales. Para cada una de ellas es posible obtener una ecuación de descarga (relación Nivel-Caudal) que permite determinar el caudal instantáneo en función de la altura de la lámina de agua con respecto a un punto de la estructura, que se mide con ayuda de una mira o un instrumento registrador.
     p.mb-5 A continuación, se presentan las estructuras más utilizadas:
     .row.justify-content-center
       .col-lg-10
@@ -925,19 +1178,19 @@
         .row
           .col-12.bg-c7.p-4
             ul.lista-ul--color.lista-ul.mb-0
-              li 
+              li
                 i.fas.fa-check
                 | #[b El límite superior e inferior del horizonte del cual se tomó la muestra en m o mm]
-              li 
+              li
                 i.fas.fa-check
                 | #[b El límite superior e inferior de la profundidad del muestreo dentro de un horizonte]
-              li 
+              li
                 i.fas.fa-check
                 | #[b Si es por muestra sencilla o muestra compuesta]
-              li 
+              li
                 i.fas.fa-check
                 | #[b Si la muestra se obtuvo en dirección horizontal o vertical en relación con la posición del horizonte]
-              li 
+              li
                 i.fas.fa-check
                 | #[b Las herramientas usadas]
               li.mb-0
@@ -993,10 +1246,10 @@
                 p #[b Para capas superiores]
               td
                 ul.lista-ul--color.lista-ul.mb-0
-                  li 
+                  li
                     i.fas.fa-check
                     | Barreno manual
-                  li 
+                  li
                     i.fas.fa-check
                     | Azadón o similar
                   li.mb-0
@@ -1007,10 +1260,10 @@
                 p #[b Para capas profundas]
               td
                 ul.lista-ul--color.lista-ul.mb-0
-                  li 
+                  li
                     i.fas.fa-check
                     | Herramientas de perforación
-                  li 
+                  li
                     i.fas.fa-check
                     | Sondas estáticas y dinámicas
                   li.mb-0
@@ -1030,10 +1283,10 @@
                 p #[b Para capas superiores]
               td
                 ul.lista-ul--color.lista-ul.mb-0
-                  li 
+                  li
                     i.fas.fa-check
                     | Cilindros de corte de diferente tamaño, marco de corte
-                  li 
+                  li
                     i.fas.fa-check
                     | Barrenos manuales especiales (barreno tubo para muestreo)
                   li.mb-0
@@ -1044,7 +1297,7 @@
                 p #[b Para capas profundas]
               td
                 ul.lista-ul--color.lista-ul.mb-0
-                  li 
+                  li
                     i.fas.fa-check
                     | Máquinas de perforación con tubos de muestra
     .row.justify-content-center.mb-5
@@ -1152,7 +1405,7 @@
                         a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_3_ParametrosDeControlSuelo.pdf')" target="_blank")
                           span(style="color: #000 !important") Descargar
                           i.fas.fa-file-download(style="color: #000 !important")
-  
+
 </template>
 
 <script>
