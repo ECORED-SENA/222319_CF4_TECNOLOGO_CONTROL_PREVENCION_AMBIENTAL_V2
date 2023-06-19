@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    
+
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
@@ -33,7 +33,7 @@
                       figure
                         img(src='@/assets/curso/tema1/img1.svg', style="width: 80px").m-auto
                     .col
-                      p Independientemente de la cantidad de muestras y del medio de transporte que se utilice para llevarlas al laboratorio, deben seguirse las recomendaciones para su remisión al laboratorio que las va a analizar
+                      p Independientemente de la cantidad de muestras y del medio de transporte que se utilice para llevarlas al laboratorio, deben seguirse las recomendaciones para su remisión al laboratorio que las va a analizar.
           p.mb-5 Para la recepción y transporte de muestras no refrigeradas, téngase en cuenta aspectos como:
           .row.justify-content-center.mb-5
             .col-lg-10
@@ -132,26 +132,26 @@
         .row
           .col-lg-12.bg-c3.p-4.p-lg-5
             ol.lista-ol--cuadro.lista-ol.mb-0
-              li 
+              li
                 .lista-ol--cuadro__vineta
                   span.txt-c2 a.
-                | #[b Número de código de la muestra]
-              li 
+                span #[b Número de código de la muestra].
+              li
                 .lista-ol--cuadro__vineta
                   span.txt-c2 b.
-                | #[b Nombre de la Persona Prestadora, para el caso de los laboratorios de vigilancia o los laboratorios particulares que atienden varios clientes]
-              li 
+                span #[b Nombre de la Persona Prestadora, para el caso de los laboratorios de vigilancia o los laboratorios particulares que atienden varios clientes].
+              li
                 .lista-ol--cuadro__vineta
                   span.txt-c2 c.
-                | #[b Nombre del (o los) tomadores de muestras]
-              li 
+                span #[b Nombre del (o los) tomadores de muestras].
+              li
                 .lista-ol--cuadro__vineta
                   span.txt-c2 d.
-                | #[b Número del método de muestreo]
-              li 
+                span #[b Número del método de muestreo].
+              li
                 .lista-ol--cuadro__vineta
                   span.txt-c2 e.
-                | #[b Localización de almacenamiento de la muestra]
+                span #[b Localización de almacenamiento de la muestra].
       .col-lg-4
         figure
           img(src='@/assets/curso/tema2/img3.png', style="width: 450px").m-auto
@@ -167,22 +167,22 @@
             ul.lista-ul--color.lista-ul.mb-0
               li.mb-3
                 i.fas.fa-check
-                | #[b En el fondo de la cava de icopor, introducir gel refrigerante o hielo en bolsas plásticas]
+                span #[b En el fondo de la cava de icopor, introducir gel refrigerante o hielo en bolsas plásticas]
               li.mb-3
                 i.fas.fa-check
-                | #[b Colocar encima de las bolsas de hielo una rejilla metálica o plástica, que las separe de las muestras]
+                span #[b Colocar encima de las bolsas de hielo una rejilla metálica o plástica, que las separe de las muestras]
               li.mb-3
                 i.fas.fa-check
-                | #[b Evitar utilizar materiales como madera o cartón para realizar el aislamiento de la muestra con el gel o el hielo, debido a que se estos materiales se humedecen, ocasionando crecimiento de microorganismos contaminantes]
+                span #[b Evitar utilizar materiales como madera o cartón para realizar el aislamiento de la muestra con el gel o el hielo, debido a que se estos materiales se humedecen, ocasionando crecimiento de microorganismos contaminantes]
               li.mb-3
                 i.fas.fa-check
-                | #[b Introducir las muestras, colocándolas encima de la rejilla, malla metálica o plástica]
+                span #[b Introducir las muestras, colocándolas encima de la rejilla, malla metálica o plástica]
               li.mb-3
                 i.fas.fa-check
-                | #[b Mantener la temperatura de conservación en un rango de 4°C a 8°C]
+                span #[b Mantener la temperatura de conservación en un rango de 4°C a 8°C]
               li
                 i.fas.fa-check
-                | #[b Sellar la nevera de icopor con cinta adhesiva cuando el envió se realiza inmediatamente, de lo contrario refrigerar y rotular]
+                span #[b Sellar la nevera de icopor con cinta adhesiva cuando el envió se realiza inmediatamente, de lo contrario refrigerar y rotular]
       .col-lg-4
         figure
           img(src='@/assets/curso/tema2/img4.png', style="width: 450px").m-auto
@@ -198,7 +198,7 @@
                   h3.mb-1 Profundice en los aspectos clave del proceso de conservación y transporte de muestras de suelos, explorando el contenido del Anexo_4_ConservaciónYTransporteMuestrasSuelos
                   p.text-small Anexo_4_ConservaciónYTransporteMuestrasSuelos
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_4_ConservaciónYTransporteMuestrasSuelos.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_4_ConservacionYTransporteMuestrasSuelos.pdf')" target="_blank")
                     span(style="color: #000 !important") Descargar
                     i.fas.fa-file-download(style="color: #000 !important")
     .row.mb-4
@@ -209,16 +209,16 @@
     .row.mb-5
       .col-12.bg-c7.p-4
         ul.lista-ul--color.lista-ul.mb-0
-          li 
+          li
             i.fas.fa-check
             | #[b Número de código de la muestra]
-          li 
+          li
             i.fas.fa-check
             | #[b Nombre de la Persona Prestadora, para el caso de los laboratorios de vigilancia o los laboratorios particulares que atienden varios clientes]
-          li 
+          li
             i.fas.fa-check
             | #[b Nombre del (o los) tomadores de muestras]
-          li 
+          li
             i.fas.fa-check
             | #[b Número del método de muestreo]
           li.mb-0
@@ -322,7 +322,7 @@
     .row.mb-4
       .col-auto.txt-c1.px-4.py-3
         h4.text-white.mb-0 Fase de toma de muestras
-    p Para la toma y recolección de muestras en campo, se recomienda que se asigne a una sola persona la custodia de la muestra; esto con el fin de que la misma sea manipulada por la menor cantidad de individuos posible. A esta persona se le reconocerá como el muestreador de campo, él o ella se responsabilizará de la toma hasta la transferencia adecuada al lugar de análisis.
+    p Para la toma y recolección de muestras en campo, se recomienda que se asigne a una sola persona la custodia de la muestra; esto con el fin de que la misma sea manipulada por la menor cantidad de individuos posible. A esta persona se le reconocerá como el #[strong muestreador de campo], él o ella se responsabilizará de la toma hasta la transferencia adecuada al lugar de análisis.
     p En lo que respecta a la documentación de custodia en campo, se deben diseñar los formatos que se requieran para la actividad de campo de recolección de muestras, pueden ser diseñados por muestra o para múltiples muestras.
     p.mb-5 Dentro de la documentación necesaria y pertinente, se encuentra:
     .row.justify-content-center.mb-5
@@ -347,7 +347,7 @@
             .p-4
               p.text-center.mb-4 #[b Sellado de la muestra]
               p El sellado de la muestra, si se requiere se pueden emplear sellos de custodia de la muestra de papel adhesivo a prueba de agua, con el fin que para manipular la muestra se requiera romperlos, así se garantizará la no manipulación de la misma antes de su entrega a laboratorios.
-    p Las muestras deben ser entregadas lo más pronto posible al laboratorio. El registro de campo o acta de toma de muestras debe mantenerse intacto durante todo el procedimiento. 
+    p Las muestras deben ser entregadas lo más pronto posible al laboratorio. El registro de campo o acta de toma de muestras debe mantenerse intacto durante todo el procedimiento.
     p La fase de almacenamiento y transporte, es fundamental en un proceso de análisis de muestras, ya que, si no se realiza según las medidas técnicas reglamentarias, la muestra podría sufrir alteraciones y no reflejar resultados verídicos.
     p.mb-5 Para las muestras no refrigeradas, se deben considerar, aspectos como los que se enuncian enseguida:
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--verde")
@@ -365,7 +365,7 @@
           p.mb-0 Para el caso de muestras enviadas por correo, se deberá asegurar la conservación e integridad de éstas, hasta su llegada al laboratorio. Utilizar neveras de icopor que son destinadas exclusivamente para este almacenamiento y transporte. Las muestras no deben transcurrir más de 24 horas entre la recolección y la llegada al laboratorio.
       .row(titulo="Contenedores de enfriamiento")
         .col-12
-          p.mb-0 Empacar los frascos o recipientes con las muestras en neveras de icopor portátiles refrigeradas con bolsas con hielo o ice packs. Durante el transporte se recomienda refrigerar a 4° C y proteger la muestra de la luz (Siempre tapada), contabilizar tiempos de traslado para eliminar la posibilidad de contaminar la muestra con hielo derretido.
+          p.mb-0 Empacar los frascos o recipientes con las muestras en neveras de icopor portátiles refrigeradas con bolsas con hielo o #[em ice packs]. Durante el transporte se recomienda refrigerar a 4° C y proteger la muestra de la luz (Siempre tapada), contabilizar tiempos de traslado para eliminar la posibilidad de contaminar la muestra con hielo derretido.
       .row(titulo="Sostenimiento de la temperatura")
         .col-12
           p.mb-0 En el caso de análisis microbiológico es indispensable que la muestra se mantenga refrigerada hasta su arribo al laboratorio, ya que tanto las temperaturas mayores a 6ºC como la luz provocan la multiplicación de los microorganismos e invalidan la muestra dado que los resultados no reflejarán la realidad.
@@ -412,7 +412,7 @@
             figure
               img(src='@/assets/curso/tema2/img14.svg', style="width: 80px").m-auto
           .col.p-4
-            p.mb-0 #[b • Sólidos:] Hidróxido de sodio NaOH, Dicromato de potasio K2Cr2O7, tiosulfato de sodio (Na2S2O3) entre otros. 
+            p.mb-0 #[b • Sólidos:] Hidróxido de sodio NaOH, Dicromato de potasio K2Cr2O7, tiosulfato de sodio (Na2S2O3) entre otros.
             p.mb-0 #[b • Soluciones:] Solución de acetato de cinc (p =1,7 g/ml) C4H6O4Zn, Ácido clorhídrico (p= 1.16 g/ml) HCL, Ácido sulfúrico (8 mol/l) H2SO4 entre otros. (p.9)
     .row.mb-4
       .col-auto.txt-c1.px-4.py-3
@@ -438,7 +438,7 @@
         .row.m-1
           .col-lg-6.mb-4.mb-lg-0
             h4 Registro de observaciones
-            p Cuando exista no conformidad, el que recolectó la muestra deberá anotar en la parte de atrás del registro las observaciones las inconformidades encontradas (Con fecha y hora).
+            p Cuando exista #[strong no conformidad], el que recolectó la muestra deberá anotar en la parte de atrás del registro las observaciones las inconformidades encontradas (Con fecha y hora).
           .col-lg-6
             figure.mb-0
               img(src='@/assets/curso/tema2/img16.png', style="width: 500px").m-auto

@@ -61,7 +61,7 @@
     figure.my-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/au50DCVNjDc" title="Sistemas de Unidades" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video. Sistemas de Unidades.
+      figcaption Video. Sistemas de Unidades
 
     .row
       .col-lg-6.mb-4.mb-lg-0
@@ -149,8 +149,9 @@
         p Los prefijos se emplean para facilitar la expresión de cantidades.
         .row.justify-content-center
           .col-lg-8.bg-c3.p-4
-            p #[b Ejemplo 1: 11500m = 11,5*103m = 11,5 km]
-            p.mb-0 #[b Ejemplo 2: 0,00528g = 5,28*10-3g = 5,28 mg]
+            p #[b Ejemplo 1: 11500m = 11,5*10<sup>3</sup>m = 11,5 km]
+            p.mb-0 #[b Ejemplo 2: 0,00528g = 5,28*10<sup>-3</sup>g = 5,28 mg]
+
     .row.mb-4
       .col-auto.txt-c1.px-4.py-3
         h4.text-white.mb-0 Uso de otras unidades
@@ -180,37 +181,44 @@
       .col-lg-4
         figure
           img(src='@/assets/curso/tema1/img4.svg', style="width: 450px").m-auto
+
     .row.mb-4
       .col-auto.txt-c1.px-4.py-3
         h4.text-white.mb-0 Unidades consistentes
-    p.mb-5 El desarrollo de los protocolos y procedimientos en este y en diferentes campos de estudio, involucra el uso de ecuaciones, cuyos elementos y resultados deben ser expresados empleando las unidades correctas. Por lo que, si las unidades en la ecuación no son consistentes, las respuestas serán erróneas.
+
+    .row.justify-content-center
+      .col-lg-8
+        figure.mb-4
+          img(src="@/assets/curso/tema1/img-unidades-consistentes.svg", alt="").m-auto
+    p El desarrollo de los protocolos y procedimientos en este y en diferentes campos de estudio, involucra el uso de ecuaciones, cuyos elementos y resultados deben ser expresados empleando las unidades correctas. Por lo que, si las unidades en la ecuación no son consistentes, las respuestas serán erróneas.
+    p.mb-5 Por lo anterior, para realizar procedimientos de cancelación de unidades, se deben seguir los siguientes pasos:
     .row.mb-5
       .col-lg-12.bg-c4.p-4.p-lg-5
         ol.lista-ol--cuadro.lista-ol.mb-0
           li
             .lista-ol--cuadro__vineta
               span.txt-c2 1.
-            | #[b Despejar de la ecuación el término que se desea]
+            span #[b Despejar de la ecuación el término que se desea]
           li
             .lista-ol--cuadro__vineta
               span.txt-c2 2.
-            | #[b Definir las unidades que se requieren para el resultado]
+            span #[b Definir las unidades que se requieren para el resultado]
           li
             .lista-ol--cuadro__vineta
               span.txt-c2 3.
-            | #[b Sustituir en la ecuación los valores con sus respectivas unidades]
+            span #[b Sustituir en la ecuación los valores con sus respectivas unidades]
           li
             .lista-ol--cuadro__vineta
               span.txt-c2 4.
-            | #[b Cancelar las unidades de los términos que parezcan en el numerador y el denominador]
+            span #[b Cancelar las unidades de los términos que parezcan en el numerador y el denominador]
           li
             .lista-ol--cuadro__vineta
               span.txt-c2 5.
-            | #[b Utilizar los factores de conversión para eliminar las unidades no deseadas, y obtener las que se definieron previamente en el paso dos]
+            span #[b Utilizar los factores de conversión para eliminar las unidades no deseadas, y obtener las que se definieron previamente en el paso dos]
           li.mb-0
             .lista-ol--cuadro__vineta
               span.txt-c2 6.
-            | #[b Realizar el cálculo]
+            span #[b Realizar el cálculo]
     p.mb-5 Amplie su conocimiento sobre las unidades de medida, analizando en detalle el siguiente ejemplo:
     .row.justify-content-center
       .col-10.col-lg.bg-c5.p-4.m-2
@@ -268,28 +276,28 @@
             ul.lista-ul--color.lista-ul.mb-0
               li
                 i.fas.fa-check
-                | #[b Ser adhesivos:] Tener forma de etiquetas adhesivas, de marca (rótulo) o ambas.
+                span #[b Ser adhesivos:] Tener forma de etiquetas adhesivas, de marca (rótulo) o ambas.
               li
                 i.fas.fa-check
-                | #[b Ser removibles:] Ser removibles para hacer parte del proceso de registros posteriores.
+                span #[b Ser removibles:] Ser removibles para hacer parte del proceso de registros posteriores.
               li
                 i.fas.fa-check
-                | #[b Ser desvirtuados:] Enfrentarse a la posibilidad de remoción inapropiada o pérdida.
+                span #[b Ser desvirtuados:] Enfrentarse a la posibilidad de remoción inapropiada o pérdida.
               li
                 i.fas.fa-check
-                | #[b Ser económicos y prácticos:] Estar hechos, normalmente, en papel a prueba de agua con tinta indeleble y son pegados al frasco o recipiente de muestra.
+                span #[b Ser económicos y prácticos:] Estar hechos, normalmente, en papel a prueba de agua con tinta indeleble y son pegados al frasco o recipiente de muestra.
               li
                 i.fas.fa-check
-                | #[b Usarse funcionalmente:] Estar escritos directamente en el recipiente con tinta indeleble, sin embargo, no es lo más aconsejado.
+                span #[b Usarse funcionalmente:] Estar escritos directamente en el recipiente con tinta indeleble, sin embargo, no es lo más aconsejado.
               li
                 i.fas.fa-check
-                | #[b Usarse con oportunidad:] Deben ser diligenciados justo antes o inmediatamente después de la toma de muestras.
+                span #[b Usarse con oportunidad:] Deben ser diligenciados justo antes o inmediatamente después de la toma de muestras.
               li
                 i.fas.fa-check
-                | #[b Ajustarse al recipiente:] Deben fijarse en el recipiente de tal forma que se asegure que no se borrará o perderá la información.
+                span #[b Ajustarse al recipiente:] Deben fijarse en el recipiente de tal forma que se asegure que no se borrará o perderá la información.
               li
                 i.fas.fa-check
-                | #[b Ofrecer claridad:] Deben ser totalmente legibles (no realizar tachones).
+                span #[b Ofrecer claridad:] Deben ser totalmente legibles (no realizar tachones).
       .col-lg-4
         figure
           img(src='@/assets/curso/tema1/img3.png', style="width: 340px").m-auto
@@ -302,7 +310,7 @@
                 figure
                   img(src='@/assets/curso/tema1/img1.svg', style="width: 80px").m-auto
               .col
-                p.mb-0 La información mínima que debe contener un rótulo es: código del proyecto, consideraciones de seguridad y código del cronograma, nombre de identificación de la muestra, identificación de la ubicación del muestreo, punto de muestreo, intervalo de tiempo (Fecha y hora), tipo de muestreo, empresa o persona que realiza la toma, parámetros medidos in situ.
+                p.mb-0 La información mínima que debe contener un rótulo es: código del proyecto, consideraciones de seguridad y código del cronograma, nombre de identificación de la muestra, identificación de la ubicación del muestreo, punto de muestreo, intervalo de tiempo (Fecha y hora), tipo de muestreo, empresa o persona que realiza la toma, parámetros medidos #[em in situ].
     .row.justify-content-center.mb-5
       .col-lg-10
         .row.bg-c1
@@ -316,7 +324,13 @@
     .row.mb-4
       .col-auto.txt-c1.px-4.py-3
         h4.text-white.mb-0 Envasado del muestreo
-    p.mb-5 Según los análisis que vayan a realizarse se definirá el tipo de envase a utilizar. El mismo estará en función de la cantidad de muestra a tomar y de la necesidad de dejar (en análisis microbiológicos) o no (en la mayoría de los análisis) una cámara de aire o un espacio para mezclas o para el agregado de algún reactivo que permita la conservación de la muestra. Este aspecto debe ser tenido en cuenta tanto al planificar el muestreo como al realizar la toma de la muestra.
+
+    .row.align-items-center.mb-5
+      .col-auto
+        figure
+          img(src='@/assets/curso/tema1/img-envasado.svg', alt="").m-auto
+      .col
+        p.mb-0 Según los análisis que vayan a realizarse se definirá el tipo de envase a utilizar. El mismo estará en función de la cantidad de muestra a tomar y de la necesidad de dejar (en análisis microbiológicos) o no (en la mayoría de los análisis) una cámara de aire o un espacio para mezclas o para el agregado de algún reactivo que permita la conservación de la muestra. Este aspecto debe ser tenido en cuenta tanto al planificar el muestreo como al realizar la toma de la muestra.
     .row.mb-4
       .col-auto.txt-c1.px-4.py-3
         h4.text-white.mb-0 Envases para muestreo de agua
@@ -673,16 +687,16 @@
               ul.lista-ul--color.lista-ul.mb-0
                 li
                   i.fas.fa-check
-                  | #[b Elementos personales de protección para la toma y procesamiento de muestras]
+                  | #[b Elementos personales de protección para la toma y procesamiento de muestras.]
                 li
                   i.fas.fa-check
-                  | #[b Equipos e instrumentos de laboratorio]
+                  | #[b Equipos e instrumentos de laboratorio.]
                 li
                   i.fas.fa-check
-                  | #[b Riesgos y amenazas en campo y en laboratorio]
+                  | #[b Riesgos y amenazas en campo y en laboratorio.]
                 li
                   i.fas.fa-check
-                  | #[b Tipos, técnicas y métodos de muestreo]
+                  | #[b Tipos, técnicas y métodos de muestreo.]
                 li
                   i.fas.fa-check
                   | #[b Normatividad aplicable, entre otros.]
@@ -710,13 +724,13 @@
                 ul.lista-ul--color.lista-ul.mb-0
                   li
                     i.fas.fa-check
-                    | #[b Actividades de indiferencia]
+                    | #[b Actividades de indiferencia.]
                   li
                     i.fas.fa-check
-                    | #[b No utilizar el sentido común]
+                    | #[b No utilizar el sentido común.]
                   li.mb-0
                     i.fas.fa-check
-                    | #[b No seguir instrucciones y cometer errores]
+                    | #[b No seguir instrucciones y cometer errores.]
       .col-lg-4
         figure
           img(src='@/assets/curso/tema1/img16.svg', style="width: 450px").m-auto
@@ -728,16 +742,16 @@
             ul.lista-ul--color.lista-ul.mb-0
               li
                 i.fas.fa-check
-                | #[b Seguir las reglas de seguridad]
+                | #[b Seguir las reglas de seguridad.]
               li
                 i.fas.fa-check
-                | #[b No jugar bromas mientras realiza actividades de toma de muestras o de laboratorio]
+                | #[b No jugar bromas mientras realiza actividades de toma de muestras o de laboratorio.]
               li
                 i.fas.fa-check
-                | #[b Familiarizarse con los equipos de seguridad]
+                | #[b Familiarizarse con los equipos de seguridad.]
               li
                 i.fas.fa-check
-                | #[b Siempre indagar antes sobre los peligrosos si va a manejar sustancias químicas]
+                | #[b Siempre indagar antes sobre los peligrosos si va a manejar sustancias químicas.]
     p.mb-5 Para realizar la actividad de toma de muestras se debe garantizar que las personas cuenten con unos implementos de seguridad mínimos, como:
     .tarjeta.tarjeta--azul.p-4.mb-5
       SlyderA(tipo="b")
@@ -826,31 +840,32 @@
             ul.lista-ul--color.lista-ul.mb-0
               li
                 i.fas.fa-check
-                | #[b El objetivo]
+                | #[b El objetivo.]
               li
                 i.fas.fa-check
-                | #[b El sitio de toma de muestra]
+                | #[b El sitio de toma de muestra.]
               li
                 i.fas.fa-check
-                | #[b El método y técnica a usar]
+                | #[b El método y técnica a usar.]
               li
                 i.fas.fa-check
-                | #[b Los parámetros a medir]
+                | #[b Los parámetros a medir.]
               li
                 i.fas.fa-check
-                | #[b Los instrumentos y equipos requeridos]
+                | #[b Los instrumentos y equipos requeridos.]
               li
                 i.fas.fa-check
-                | #[b El personal y las competencias que debe manejar]
+                | #[b El personal y las competencias que debe manejar.]
               li
                 i.fas.fa-check
-                | #[b Los elementos de seguridad y salud en el trabajo]
+                | #[b Los elementos de seguridad y salud en el trabajo.]
               li.mb-0
                 i.fas.fa-check
-                | #[b Los formatos requeridos para el registro de información]
+                | #[b Los formatos requeridos para el registro de información.]
       .col-lg-5
         figure
-          img(src='@/assets/curso/tema1/img16.png', style="width: 500px").m-auto
+          img(src='@/assets/curso/tema1/img16.png', style="width: 500px", alt="").m-auto
+
     p Antes de iniciar el muestreo, es elemental tener claramente definido la forma como serán tomadas las muestras para poder realizar un trabajo de campo. Dentro de los tipos de muestras se pueden encontrar: muestras sencillas, compuestas, periódicas, continuas y de serie.
     p.mb-5 A continuación, profundice en las generalidades y particularidades de los tipos de muestras:
     .row.mb-5
@@ -865,7 +880,7 @@
               p.mb-0 Aquellas que son usadas, en su mayoría, para vertimientos domésticos e industriales. Debido a la variación horaria de su caudal son muy utilizadas en el monitoreo de ríos, vertimientos o procesos industriales en línea. Su toma se realiza en un mismo punto en intervalos de tiempo previamente definidos y el volumen de cada muestra parcial puede ser constante o variar en función del caudal.
           .row(titulo="Cuando hay variación del caudal" subtitulo="")
             .col-12
-              p.mb-4 Para los casos en que se requiere variar el volumen en cada toma, se recolectan muestras parciales (alícuotas). Ejemplo: cada 2 o 3 horas, cuyo volumen se obtiene según la siguiente relación:
+              p.mb-4 Para los casos en que se requiere variar el volumen en cada toma, se recolectan muestras parciales (alícuotas). Ejemplo: cada 2 o 3 horas, cuyo #[strong volumen] se obtiene según la siguiente relación:
               .row.justify-content-center
                 .col-lg-5.mb-4.mb-lg-0
                   figure
@@ -915,31 +930,31 @@
         ul.lista-ul--color.lista-ul.mb-0
           li
             i.fas.fa-check
-            | #[b Identificación unívoca de la muestra]
+            span #[b Identificación unívoca de la muestra]
           li
             i.fas.fa-check
-            | #[b Identificación del sitio de muestreo (georreferenciación)]
+            span #[b Identificación del sitio de muestreo (georreferenciación)]
           li
             i.fas.fa-check
-            | #[b Tipo de fuente y características de la misma (cercanía a pozos negros o industrias, profundidad del nivel estático y total, si fuera pozo o perforación, existencia de pozos abandonados, etc.)]
+            span #[b Tipo de fuente y características de la misma (cercanía a pozos negros o industrias, profundidad del nivel estático y total, si fuera pozo o perforación, existencia de pozos abandonados, etc.)]
           li
             i.fas.fa-check
-            | #[b Destino (consumo humano, animal, riego, etc.)]
+            span #[b Destino (consumo humano, animal, riego, etc.)]
           li
             i.fas.fa-check
-            | #[b Información acerca del Establecimiento donde se ha muestreado (ubicación, propietario, vías de contacto, etc.)]
+            span #[b Información acerca del Establecimiento donde se ha muestreado (ubicación, propietario, vías de contacto, etc.)]
           li
             i.fas.fa-check
-            | #[b Condiciones de muestreo (fecha y hora, nombre de quien realizó el muestreo)]
+            span #[b Condiciones de muestreo (fecha y hora, nombre de quien realizó el muestreo)]
           li
             i.fas.fa-check
-            | #[b Tipo de análisis a efectuar]
+            span #[b Tipo de análisis a efectuar]
           li
             i.fas.fa-check
-            | #[b Reactivo empleado para su preservación, en caso de ser utilizado]
+            span #[b Reactivo empleado para su preservación, en caso de ser utilizado]
           li.mb-0
             i.fas.fa-check
-            | #[b Cualquier otra observación que se considere de importancia]
+            span #[b Cualquier otra observación que se considere de importancia]
     .row.mb-4
       .col-auto.txt-c1.px-4.py-3
         h4.text-white.mb-0 Precauciones para la toma de la muestra en función de su origen
@@ -964,14 +979,14 @@
         .row.m-1
           .col-lg-6.mb-4.mb-lg-0
             h4 Agua superficial proveniente de un curso de agua (en movimiento)
-            p Debe ponerse especial atención en buscar puntos estratégicos de muestreo (puentes, alcantarillas, botes, muelles), ya que se debe muestrear de sitios donde el agua se encuentre en circulación. Nunca muestrear desde donde se encuentra estancada. Si se tratara de muestreos periódicos o de control debe tratar de extraerse la muestra siempre en el mismo lugar Cuando no es posible tomar la muestra directamente con la mano, debe atarse al frasco un sobre peso usando el extremo de un cordel limpio o en su caso equipo muestreador comercial.
+            p Debe ponerse especial atención en buscar puntos estratégicos de muestreo (puentes, alcantarillas, botes, muelles), ya que se debe muestrear de sitios donde el agua se encuentre en circulación. Nunca muestrear desde donde se encuentra estancada. Si se tratara de muestreos periódicos o de control debe tratar de extraerse la muestra siempre en el mismo lugar cuando no es posible tomar la muestra directamente con la mano, debe atarse al frasco un sobre peso usando el extremo de un cordel limpio o en su caso equipo muestreador comercial.
           .col-lg-6
             figure.mb-0
               img(src='@/assets/curso/tema1/img20.png', style="width: 500px").m-auto
         .row.m-1
           .col-lg-6.mb-4.mb-lg-0
             h4 Agua superficial proveniente de un espejo de agua, represa o tanque de almacenamiento
-            p Debe ponerse especial atención en buscar puntos estratégicos de muestreo (puentes, alcantarillas, botes, muelles), ya que se debe muestrear de sitios donde el agua se encuentre en circulación. Nunca muestrear desde donde se encuentra estancada. Si se tratara de muestreos periódicos o de control debe tratar de extraerse la muestra siempre en el mismo lugar Cuando no es posible tomar la muestra directamente con la mano, debe atarse al frasco un sobre peso usando el extremo de un cordel limpio o en su caso equipo muestreador comercial.
+            p En estos casos, se puede proyectar una jabalina a unos 2 metros de la orilla, para no muestrear del borde, evitando tomar la muestra de la capa superficial o del fondo. Sumergir el frasco en el agua (incorporando un peso) con el cuello hacia abajo hasta una profundidad de 15 a 30 cm., destapar y girar el frasco ligeramente permitiendo el llenado. Retirar el frasco después que no se observe ascenso de burbujas.
           .col-lg-6
             figure.mb-0
               img(src='@/assets/curso/tema1/img21.png', style="width: 500px").m-auto
@@ -984,7 +999,7 @@
               img(src='@/assets/curso/tema1/img22.png', style="width: 500px").m-auto
     .row.mb-4
       .col-auto.txt-c1.px-4.py-3
-        h4.text-white.mb-0 Acondicionado y preservación de las muestras en el almacenamiento temporal
+        h4.text-white.mb-0 Acondicionado y preservación de las muestras en el almacenamiento temporal.
     .row.align-items-center.mb-5
       .col-lg-7.mb-4.mb-lg-0
         p El acondicionamiento de las muestras dependerá del objetivo del muestreo. En general, para análisis físico-químico puede ser necesario acondicionarlas con conservadores de frío, ya que algunas especies químicas (nitratos, sulfatos) pueden sufrir transformaciones por acción microbiana. También deben mantenerse al resguardo de la luz, procurando enviarlas lo más rápido posible al laboratorio.
@@ -1028,16 +1043,16 @@
             ul.lista-ul--color.lista-ul.mb-0
               li
                 i.fas.fa-check
-                | #[b Método Área-Velocidad]
+                span #[b Método Área-Velocidad].
               li
                 i.fas.fa-check
-                | #[b Método Volumétrico]
+                span #[b Método Volumétrico].
               li
                 i.fas.fa-check
-                | #[b Método con Trazadores (dilución)]
+                span #[b Método con Trazadores (dilución)].
               li
                 i.fas.fa-check
-                | #[b Estructuras Aforadas]
+                span #[b Estructuras Aforadas].
     .row.mb-4
       .col-auto.txt-c1.px-4.py-3
         h4.text-white.mb-0 Métodos área velocidad
@@ -1045,25 +1060,28 @@
       .col-lg-7.mb-4.mb-lg-0
         p Dado que el caudal es función del área de la sección ocupada por el agua y la velocidad media del flujo, este procedimiento se basa en la determinación de estas variables. Este sistema de aforo es el de mayor uso y requiere que el flujo tenga un comportamiento laminar y que las líneas de flujo sean normales a la sección transversal de aforo.
         p.mb-4 El caudal en una corriente de agua es función del área de la sección de aforos y de la velocidad media del flujo y se obtiene mediante el producto de estas dos variables:
-        figure.mb-4
-          img(src='@/assets/curso/tema1/img20.svg', style="width: 240px").m-auto
+
+        p.my-5.text-center.h2
+          span.bg-c3.py-2.px-4 #[strong #[em Q = A#[sub v]]]
+
         p Si la geometría del perfil de la sección de aforos no se modifica, la velocidad mantiene su comportamiento horizontal y en profundidad, por el contrario, si la geometría cambia se altera la relación nivel - área, en consecuencia, la velocidad cambia su comportamiento.
-        p El método de área-velocidad se realiza con diferentes métodos de aforo, así:
+        p El método de área-velocidad se realiza con diferentes #[strong métodos de aforo], así:
         .row
           .col-12.bg-c7.p-4
             ul.lista-ul--color.lista-ul.mb-0
               li
                 i.fas.fa-check
-                | #[b Molinete Hidrométrico (vadeo, suspensión, angular, bote cautivo, lancha en movimiento)]
+                | #[b Molinete Hidrométrico (vadeo, suspensión, angular, bote cautivo, lancha en movimiento)].
               li
                 i.fas.fa-check
-                | #[b Aforo con Flotadores]
+                | #[b Aforo con Flotadores].
               li
                 i.fas.fa-check
-                | #[b Aforo ADCP (Acoustic Doppler Current Profiler)]
+                | #[b Aforo ADCP #[em (Acoustic Doppler Current Profiler)]]
       .col-lg-5
         figure
           img(src='@/assets/curso/tema1/img24.png', style="width: 470px").m-auto
+
     p.mb-5 En relación con Métodos, Área y Velocidad, tenga en cuenta los siguientes aspectos:
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--verde")
       .row(titulo="Medición de caudales")
@@ -1087,7 +1105,7 @@
       .row(titulo="Aforo con flotadores")
         .col-12
           p.mb-0 Se utiliza cuando se requiere medir en forma rápida el caudal en una corriente que presenta una lámina de pocos centímetros de profundidad, cuando se esté en presencia de grandes cantidades de material en suspensión, o cuando deba efectuarse una medición del caudal en un período muy breve, para lo cual se mide la velocidad superficial a lo ancho del cauce utilizando flotadores especialmente diseñados y suministrados para este efecto.
-      .row(titulo="Aforo ADCP (Acoustic Doppler Current Profiler)")
+      .row(titulo="Aforo ADCP <i>(Acoustic Doppler Current Profiler)</i>")
         .col-12
           p.mb-0 Se utiliza para medir el caudal en ríos grandes o pequeños, sin rocas grandes que permita el desplazamiento horizontal del equipo para medir el caudal.
     .row.mb-4
@@ -1141,7 +1159,7 @@
         p.text-center.mb-0 El procedimiento consiste en inyectar un trazador en una sección de la corriente y realizar aguas abajo, a una distancia lo suficientemente lejos para que haya dilución total, mediciones de conductividad eléctrica para detectar el paso de la nube y así calcular el caudal.
       .col-11.col-md-5.col-lg.bg-c10.p-4.m-2
         p.text-center.mb-4 #[b Características necesarias de los trazadores]
-        p.text-center.mb-0 Los trazadores deben cumplir con una serie de características como lo son la solubilidad, posibilidad de medición in situ, costo reducido, no contaminante, entre otros.
+        p.text-center.mb-0 Los trazadores deben cumplir con una serie de características como lo son la solubilidad, posibilidad de medición #[em in situ], costo reducido, no contaminante, entre otros.
       .col-11.col-md-5.col-lg.bg-c10.p-4.m-2
         p.text-center.mb-4 #[b Condiciones de uso de los trazadores]
         p.text-center.mb-0 El trazador empleado para la aplicación del método no debe estar presente en el cuerpo de agua en cantidades apreciables. Algunos de los más empleados en la práctica son el cloruro de sodio y el dicromato de sodio.
@@ -1167,7 +1185,7 @@
               td
                 figure.mb-4
                   img(src='@/assets/curso/tema1/img28.png', style="width: 420px").m-auto
-                p.mb-0 Son estructuras de gran aplicación en terrenos planos ya que funcionan a flujo libre con pérdidas de carga pequeñas. Las canaletas más utilizadas son: tipo Balloffet (tiene paredes paralelas y fondo plano), medidor sin cuello o cutthroat (consiste en una sección de entra, una de salida, una garganta y un fondo aforador y, finalmente, canaleta Parshall (conformada por una sección convergente de contracción que se localiza en su extremo aguas arriba, una garganta y una sección divergente aguas abajo).
+                p.mb-0 Son estructuras de gran aplicación en terrenos planos ya que funcionan a flujo libre con pérdidas de carga pequeñas. Las canaletas más utilizadas son: tipo Balloffet (tiene paredes paralelas y fondo plano), medidor sin cuello o Cutthroat (consiste en una sección de entra, una de salida, una garganta y un fondo aforador y, finalmente, canaleta Parshall (conformada por una sección convergente de contracción que se localiza en su extremo aguas arriba, una garganta y una sección divergente aguas abajo).
     Separador
     #t_1_6
     .titulo-segundo.color-secundario
@@ -1177,25 +1195,27 @@
         p El plan de muestreo para toma de muestras de suelo implica contar, entre otros requisitos, con localización y nombre del sitio de muestreo con coordenadas, detalles del punto de muestreo, incluyendo coordenadas y plano, fecha de recolección, tipo y método de muestreo, tiempo de recolección, nombre de la persona que recolectó las muestras, condiciones climáticas, tipo de contaminación del suelo y origen de la contaminación, uso del suelo y características del suelo y topografía.
         .row
           .col-12.bg-c7.p-4
+
             ul.lista-ul--color.lista-ul.mb-0
               li
                 i.fas.fa-check
-                | #[b El límite superior e inferior del horizonte del cual se tomó la muestra en m o mm]
+                span #[b El límite superior e inferior del horizonte del cual se tomó la muestra en m o mm].
               li
                 i.fas.fa-check
-                | #[b El límite superior e inferior de la profundidad del muestreo dentro de un horizonte]
+                span #[b El límite superior e inferior de la profundidad del muestreo dentro de un horizonte].
               li
                 i.fas.fa-check
-                | #[b Si es por muestra sencilla o muestra compuesta]
+                span #[b Si es por muestra sencilla o muestra compuesta].
               li
                 i.fas.fa-check
-                | #[b Si la muestra se obtuvo en dirección horizontal o vertical en relación con la posición del horizonte]
+                span #[b Si la muestra se obtuvo en dirección horizontal o vertical en relación con la posición del horizonte].
               li
                 i.fas.fa-check
-                | #[b Las herramientas usadas]
+                span #[b Las herramientas usadas].
               li.mb-0
                 i.fas.fa-check
-                | #[b Número de muestras]
+                span #[b Número de muestras].
+
       .col-lg-3
         figure
           img(src='@/assets/curso/tema1/img21.svg', style="width: 280px").m-auto
@@ -1248,13 +1268,13 @@
                 ul.lista-ul--color.lista-ul.mb-0
                   li
                     i.fas.fa-check
-                    | Barreno manual
+                    span Barreno manual
                   li
                     i.fas.fa-check
-                    | Azadón o similar
+                    span Azadón o similar
                   li.mb-0
                     i.fas.fa-check
-                    | Marco de corte (para muestreo de materia orgánica como, por ejemplo: mull, moder, turba)
+                    span Marco de corte (para muestreo de materia orgánica como, por ejemplo: <i>mull</i>, <i>moder</i>, <i>turba</i>).
             tr
               td
                 p #[b Para capas profundas]
@@ -1262,13 +1282,13 @@
                 ul.lista-ul--color.lista-ul.mb-0
                   li
                     i.fas.fa-check
-                    | Herramientas de perforación
+                    span Herramientas de perforación
                   li
                     i.fas.fa-check
-                    | Sondas estáticas y dinámicas
+                    span Sondas estáticas y dinámicas
                   li.mb-0
                     i.fas.fa-check
-                    | Herramientas para la toma de muestra en forma de anillos de suelos (para aplicación en calicatas)
+                    span Herramientas para la toma de muestra en forma de anillos de suelos (para aplicación en calicatas)
     p.mb-5 Así mismo, las técnicas de muestreo para toma de muestras de suelo no perturbadas, se detallan así:
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -1332,7 +1352,7 @@
       .col-12
         .px-5.pt-5
           .titulo-segundo.color-secundario
-            h2 1.7 Parámetros in situ para agua y suelo
+            h2 1.7 Parámetros #[em in situ] para agua y suelo
           p Las aguas contaminadas presentan compuestos diversos en función de su procedencia: pesticidas, tensoactivos, fenoles, aceites y grasas, metales pesados, etc.
           p.mb-5 Los parámetros de control se pueden agrupar de la siguiente manera:
           .row.justify-content-center.mb-5
@@ -1348,7 +1368,7 @@
                   tr
                     td(style="vertical-align: initial !important")
                       p.mb-0.text-center Características organolépticas:
-                      p.mb-4.text-center color, olor, sabor
+                      p.mb-1.text-center color, olor, sabor
                       p.mb-0.text-center Elementos flotantes
                       p.mb-0.text-center Temperatura
                       p.mb-0.text-center Sólidos
@@ -1391,15 +1411,15 @@
                   .col
                     .row.justify-content-between.align-items-center
                       .col.mb-3.mb-sm-0
-                        h3.mb-1 Profundice en los aspectos generales y claves de los parámetros in situ para agua, estudiando el Anexo_2_ParametrosDeControlAgua
+                        h3.mb-1 Profundice en los aspectos generales y claves de los parámetros #[em in situ] para agua, estudiando el Anexo_2_ParametrosDeControlAgua
                         p.text-small Anexo_2_ParametrosDeControlAgua
                       .col-sm-auto
-                        a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_2_ParámetrosDeControlAgua.pdf')" target="_blank")
+                        a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_2_ParametrosDeControlAgua.pdf')" target="_blank")
                           span(style="color: #000 !important") Descargar
                           i.fas.fa-file-download(style="color: #000 !important")
                     .row.justify-content-between.align-items-center
                       .col.mb-3.mb-sm-0
-                        h3.mb-1 Profundice en los aspectos generales y claves de los parámetros in situ para suelo, estudiando el Anexo_3_ParametrosDeControlSuelo
+                        h3.mb-1 Profundice en los aspectos generales y claves de los parámetros #[em in situ] para suelo, estudiando el Anexo_3_ParametrosDeControlSuelo
                         p.text-small Anexo_3_ParametrosDeControlSuelo
                       .col-sm-auto
                         a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_3_ParametrosDeControlSuelo.pdf')" target="_blank")
