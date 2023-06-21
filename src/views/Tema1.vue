@@ -157,7 +157,7 @@
         h4.text-white.mb-0 Uso de otras unidades
     .row.align-items-center.mb-5
       .col-lg-8.mb-4.mb-lg-0
-        p Existen otras unidades que se usan con bastante frecuencia y que, aun sin hacer parte del Sistema Internacional de Unidades, es posible emplearlas en conjunto. entre estas se encuentran:
+        p Existen otras unidades que se usan con bastante frecuencia y que, aun sin hacer parte del Sistema Internacional de Unidades, es posible emplearlas en conjunto. Entre estas se encuentran:
         .row
           .col-12.bg-c3.p-4
             .row.justify-content-center
@@ -174,10 +174,10 @@
                     | #[b El día (d): 1d = 24h = 86400s]
                   li
                     i.fas.fa-check
-                    | #[b El litro (L,l): 1L = 1dm3 = 10-3m3]
+                    | #[b El litro (L,l): 1L = 1dm#[sup 3] = 10#[sup -3]m#[sup 3]]
                   li
                     i.fas.fa-check
-                    | #[b La tonelada (t): 1t = 103kg]
+                    | #[b La tonelada (t): 1t = 10#[sup 3]kg]
       .col-lg-4
         figure
           img(src='@/assets/curso/tema1/img4.svg', style="width: 450px").m-auto
