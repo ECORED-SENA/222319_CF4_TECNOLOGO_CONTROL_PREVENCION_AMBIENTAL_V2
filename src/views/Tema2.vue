@@ -44,16 +44,16 @@
                       ul.lista-ul--color.lista-ul.mb-0
                         li.mb-4
                           i.fas.fa-check
-                          | #[b Entregar lo más pronto posible las muestras con sus actas al laboratorio, recordando que para muestras de agua potable no deben transcurrir más de seis (6) horas entre el momento de la recolección y su llegada al laboratorio.]
+                          span #[b Entregar lo más pronto posible las muestras con sus actas al laboratorio, recordando que para muestras de agua potable no deben transcurrir más de seis (6) horas entre el momento de la recolección y su llegada al laboratorio.]
                         li.mb-4
                           i.fas.fa-check
-                          | #[b El acta de toma de muestra de datos no debe estar con los recipientes sino en la parte exterior del embalaje, para evitar que se deteriore. -Los recipientes que contengan las muestras se deben proteger y sellar de tal forma que no se deterioren, ni su contenido sufra ninguna pérdida durante el transporte]
+                          span #[b El acta de toma de muestra de datos no debe estar con los recipientes sino en la parte exterior del embalaje, para evitar que se deteriore. -Los recipientes que contengan las muestras se deben proteger y sellar de tal forma que no se deterioren, ni su contenido sufra ninguna pérdida durante el transporte.]
                         li.mb-4
                           i.fas.fa-check
-                          | #[b El empaque debe proteger los recipientes de una posible contaminación externa y en sí mismo no debe ser fuente de contaminación]
+                          span #[b El empaque debe proteger los recipientes de una posible contaminación externa y en sí mismo no debe ser fuente de contaminación.]
                         li.mb-0
                           i.fas.fa-check
-                          | #[b Para el caso de muestras enviadas por correo, se deberá asegurar la conservación e integridad de éstas, hasta su llegada al laboratorio]
+                          span #[b Para el caso de muestras enviadas por correo, se deberá asegurar la conservación e integridad de éstas, hasta su llegada al laboratorio.]
           p.mb-5 En el caso de recepción y transporte de muestras refrigeradas, las siguientes son los recaudos que se deben considerar:
           .row.mb-5
             .col-12.bg-c9.p-4.p-lg-5
@@ -135,23 +135,23 @@
               li
                 .lista-ol--cuadro__vineta
                   span.txt-c2 a.
-                span #[b Número de código de la muestra].
+                span #[b Número de código de la muestra.]
               li
                 .lista-ol--cuadro__vineta
                   span.txt-c2 b.
-                span #[b Nombre de la Persona Prestadora, para el caso de los laboratorios de vigilancia o los laboratorios particulares que atienden varios clientes].
+                span #[b Nombre de la Persona Prestadora, para el caso de los laboratorios de vigilancia o los laboratorios particulares que atienden varios clientes.]
               li
                 .lista-ol--cuadro__vineta
                   span.txt-c2 c.
-                span #[b Nombre del (o los) tomadores de muestras].
+                span #[b Nombre del (o los) tomadores de muestras.]
               li
                 .lista-ol--cuadro__vineta
                   span.txt-c2 d.
-                span #[b Número del método de muestreo].
+                span #[b Número del método de muestreo.]
               li
                 .lista-ol--cuadro__vineta
                   span.txt-c2 e.
-                span #[b Localización de almacenamiento de la muestra].
+                span #[b Localización de almacenamiento de la muestra.]
       .col-lg-4
         figure
           img(src='@/assets/curso/tema2/img3.png', style="width: 450px").m-auto
@@ -167,22 +167,22 @@
             ul.lista-ul--color.lista-ul.mb-0
               li.mb-3
                 i.fas.fa-check
-                span #[b En el fondo de la cava de icopor, introducir gel refrigerante o hielo en bolsas plásticas]
+                span #[b En el fondo de la cava de icopor, introducir gel refrigerante o hielo en bolsas plásticas.]
               li.mb-3
                 i.fas.fa-check
-                span #[b Colocar encima de las bolsas de hielo una rejilla metálica o plástica, que las separe de las muestras]
+                span #[b Colocar encima de las bolsas de hielo una rejilla metálica o plástica, que las separe de las muestras.]
               li.mb-3
                 i.fas.fa-check
-                span #[b Evitar utilizar materiales como madera o cartón para realizar el aislamiento de la muestra con el gel o el hielo, debido a que se estos materiales se humedecen, ocasionando crecimiento de microorganismos contaminantes]
+                span #[b Evitar utilizar materiales como madera o cartón para realizar el aislamiento de la muestra con el gel o el hielo, debido a que se estos materiales se humedecen, ocasionando crecimiento de microorganismos contaminantes.]
               li.mb-3
                 i.fas.fa-check
-                span #[b Introducir las muestras, colocándolas encima de la rejilla, malla metálica o plástica]
+                span #[b Introducir las muestras, colocándolas encima de la rejilla, malla metálica o plástica.]
               li.mb-3
                 i.fas.fa-check
-                span #[b Mantener la temperatura de conservación en un rango de 4°C a 8°C]
+                span #[b Mantener la temperatura de conservación en un rango de 4°C a 8°C.]
               li
                 i.fas.fa-check
-                span #[b Sellar la nevera de icopor con cinta adhesiva cuando el envió se realiza inmediatamente, de lo contrario refrigerar y rotular]
+                span #[b Sellar la nevera de icopor con cinta adhesiva cuando el envió se realiza inmediatamente, de lo contrario refrigerar y rotular.]
       .col-lg-4
         figure
           img(src='@/assets/curso/tema2/img4.png', style="width: 450px").m-auto

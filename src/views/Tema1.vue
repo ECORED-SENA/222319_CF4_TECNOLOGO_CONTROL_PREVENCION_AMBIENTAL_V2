@@ -165,19 +165,19 @@
                 ul.lista-ul--color.lista-ul.mb-0
                   li
                     i.fas.fa-check
-                    | #[b El minuto (m): 1m = 60s]
+                    span #[b El minuto (m): 1m = 60s]
                   li
                     i.fas.fa-check
-                    | #[b La hora (h): 1h = 3600s ]
+                    span #[b La hora (h): 1h = 3600s ]
                   li
                     i.fas.fa-check
-                    | #[b El día (d): 1d = 24h = 86400s]
+                    span #[b El día (d): 1d = 24h = 86400s]
                   li
                     i.fas.fa-check
-                    | #[b El litro (L,l): 1L = 1dm#[sup 3] = 10#[sup -3]m#[sup 3]]
+                    span #[b El litro (L,l): 1L = 1dm#[sup 3] = 10#[sup -3]m#[sup 3]]
                   li
                     i.fas.fa-check
-                    | #[b La tonelada (t): 1t = 10#[sup 3]kg]
+                    span #[b La tonelada (t): 1t = 10#[sup 3]kg]
       .col-lg-4
         figure
           img(src='@/assets/curso/tema1/img4.svg', style="width: 450px").m-auto
@@ -1071,13 +1071,13 @@
             ul.lista-ul--color.lista-ul.mb-0
               li
                 i.fas.fa-check
-                | #[b Molinete Hidrométrico (vadeo, suspensión, angular, bote cautivo, lancha en movimiento)].
+                | #[b Molinete Hidrométrico (vadeo, suspensión, angular, bote cautivo, lancha en movimiento).]
               li
                 i.fas.fa-check
-                | #[b Aforo con Flotadores].
+                | #[b Aforo con Flotadores.]
               li
                 i.fas.fa-check
-                | #[b Aforo ADCP #[em (Acoustic Doppler Current Profiler)]]
+                | #[b Aforo ADCP #[em (Acoustic Doppler Current Profiler).]]
       .col-lg-5
         figure
           img(src='@/assets/curso/tema1/img24.png', style="width: 470px").m-auto
@@ -1268,10 +1268,10 @@
                 ul.lista-ul--color.lista-ul.mb-0
                   li
                     i.fas.fa-check
-                    span Barreno manual
+                    span Barreno manual.
                   li
                     i.fas.fa-check
-                    span Azadón o similar
+                    span Azadón o similar.
                   li.mb-0
                     i.fas.fa-check
                     span Marco de corte (para muestreo de materia orgánica como, por ejemplo: <i>mull</i>, <i>moder</i>, <i>turba</i>).
@@ -1282,13 +1282,14 @@
                 ul.lista-ul--color.lista-ul.mb-0
                   li
                     i.fas.fa-check
-                    span Herramientas de perforación
+                    span Herramientas de perforación.
                   li
                     i.fas.fa-check
-                    span Sondas estáticas y dinámicas
+                    span Sondas estáticas y dinámicas.
                   li.mb-0
                     i.fas.fa-check
-                    span Herramientas para la toma de muestra en forma de anillos de suelos (para aplicación en calicatas)
+                    span Herramientas para la toma de muestra en forma de anillos de suelos (para aplicación en calicatas).
+
     p.mb-5 Así mismo, las técnicas de muestreo para toma de muestras de suelo no perturbadas, se detallan así:
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -1305,13 +1306,13 @@
                 ul.lista-ul--color.lista-ul.mb-0
                   li
                     i.fas.fa-check
-                    | Cilindros de corte de diferente tamaño, marco de corte
+                    span Cilindros de corte de diferente tamaño, marco de corte.
                   li
                     i.fas.fa-check
-                    | Barrenos manuales especiales (barreno tubo para muestreo)
+                    span Barrenos manuales especiales (barreno tubo para muestreo).
                   li.mb-0
                     i.fas.fa-check
-                    | Tapa protectora, anillo de soporte hidráulico o manual
+                    span Tapa protectora, anillo de soporte hidráulico o manual.
             tr
               td
                 p #[b Para capas profundas]
@@ -1319,7 +1320,8 @@
                 ul.lista-ul--color.lista-ul.mb-0
                   li
                     i.fas.fa-check
-                    | Máquinas de perforación con tubos de muestra
+                    span Máquinas de perforación con tubos de muestra.
+
     .row.justify-content-center.mb-5
       .col-lg-10
         .row.bg-c1
