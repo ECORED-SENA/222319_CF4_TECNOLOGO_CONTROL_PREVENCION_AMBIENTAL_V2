@@ -22,50 +22,42 @@ export default {
       },
       {
         nombreRuta: 'tema1',
-        icono: 'far fa-file-alt',
         numero: '1',
         titulo: 'Toma de muestras',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '1.1',
             titulo: 'Conceptos básicos de unidades de medida',
             hash: 't_1_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.2',
             titulo: 'Características básicas de rotulado y envasado',
             hash: 't_1_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.3',
             titulo:
               'Capacitación del personal y seguridad y salud en el trabajo',
             hash: 't_1_3',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.4',
             titulo: 'Plan de muestreo y técnicas de muestreo',
             hash: 't_1_4',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.5',
             titulo: 'Métodos de aforo para determinación de caudales',
             hash: 't_1_5',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.6',
             titulo: 'Toma de muestras de suelo',
             hash: 't_1_6',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.7',
             titulo: 'Parámetros in situ para agua y suelo',
             hash: 't_1_7',
@@ -74,26 +66,22 @@ export default {
       },
       {
         nombreRuta: 'tema2',
-        icono: 'far fa-file-alt',
         numero: '2',
         titulo: 'Transporte y recepción de muestras',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '2.1',
             titulo:
               'Acondicionamiento, transporte y recepción de muestras de agua',
             hash: 't_2_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '2.2',
             titulo: 'Transporte y recepción de muestras de suelo',
             hash: 't_2_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '2.3',
             titulo: 'Cadena de custodia',
             hash: 't_2_3',
@@ -129,7 +117,7 @@ export default {
         nombreRuta: 'referencias',
       },
       {
-        icono: 'fas fa-download',
+        icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
         download: 'downloads/pdf.pdf',
       },
