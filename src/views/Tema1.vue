@@ -14,7 +14,7 @@
           p.mb-0 En algunos casos, el objetivo del muestreo es demostrar que se cumplen las normas especificadas por la legislación ambiental como actividades de prevención y control ambiental y otros casos como medida de corrección y vigilancia cuando se ha ocasionado un impacto ambiental significativo como la contaminación ambiental en un ecosistema.
       .col-lg-5
         figure
-          img(src='@/assets/curso/tema1/img1.png', style="width: 450px").m-auto
+          img(src='@/assets/curso/tema1/img1.png', style="width: 450px" alt="").m-auto
     .row.justify-content-center.mb-5
       .col-lg-10
         .row.bg-c1
@@ -22,7 +22,7 @@
             .row.align-items-center
               .col-12.col-lg-auto.mb-4.mb-lg-0
                 figure
-                  img(src='@/assets/curso/tema1/img1.svg', style="width: 80px").m-auto
+                  img(src='@/assets/curso/tema1/img1.svg', style="width: 80px"  alt="").m-auto
               .col
                 p.mb-0 La búsqueda principal del proceso de muestreo es lograr información relacionada con la concentración de las sustancias contaminantes o constitutivas de los elementos analizados (agua, suelo o aire). Con ello, establecer probables medidas de protección de la salud humana y de los diversos ecosistemas.
     .row.mb-4
@@ -41,14 +41,14 @@
     .row.justify-content-center
       .col-lg-5.mb-4.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/tema1/img2.svg' alt='AvatarTop')
+          img(src='@/assets/curso/tema1/img2.svg'  alt="")
           .tarjeta.color-primario
             .text-white.p-4
               h4.text-center Importancia
               p La importancia del muestreo y del transporte y recepción de muestras radica en que la información sobre sustancias que alteran la calidad del medio ha de ser significativa y fiable, de manera que la toma de decisiones sobre el sitio, potencialmente alterado o contaminado, sea adecuada a su particular problemática.
       .col-lg-5
         .tarjeta-avatar
-          img(src='@/assets/curso/tema1/img3.svg' alt='AvatarTop')
+          img(src='@/assets/curso/tema1/img3.svg'  alt="")
           .tarjeta.color-primario
             .text-white.p-4
               h4.text-center La normativa
@@ -180,7 +180,7 @@
                     span #[b La tonelada (t): 1t = 10#[sup 3]kg]
       .col-lg-4
         figure
-          img(src='@/assets/curso/tema1/img4.svg', style="width: 450px").m-auto
+          img(src='@/assets/curso/tema1/img4.svg', style="width: 450px"  alt="").m-auto
 
     .row.mb-4
       .col-auto.txt-c1.px-4.py-3
@@ -189,7 +189,7 @@
     .row.justify-content-center
       .col-lg-8
         figure.mb-4
-          img(src="@/assets/curso/tema1/img-unidades-consistentes.svg", alt="").m-auto
+          img(src="@/assets/curso/tema1/img-unidades-consistentes.svg", alt="Imagen que presenta el simbolo y abreviatura de algunas unidades de medida.").m-auto
     p El desarrollo de los protocolos y procedimientos en este y en diferentes campos de estudio, involucra el uso de ecuaciones, cuyos elementos y resultados deben ser expresados empleando las unidades correctas. Por lo que, si las unidades en la ecuación no son consistentes, las respuestas serán erróneas.
     p.mb-5 Por lo anterior, para realizar procedimientos de cancelación de unidades, se deben seguir los siguientes pasos:
     .row.mb-5
@@ -225,44 +225,48 @@
         .h4.text-center Situación
         p.mb-4 Para conocer el tiempo que tardará en llenarse un tanque de 1000 L, al usar una manguera por la que fluye un caudal de 0.4L/s.
         figure
-          img(src='@/assets/curso/tema1/img6.svg', style="width: 80px").m-auto
+          img(src='@/assets/curso/tema1/img6.svg', style="width: 80px"  alt="").m-auto
       .col-10.col-lg.bg-c5.p-4.m-2
         .h4.text-center Ecuación empleada
         p.mb-4 Se usa la ecuación que aquí se muestra, donde Q es caudal, v es volumen y t es tiempo.
-        figure
-          img(src='@/assets/curso/tema1/img7.svg', style="width: 180px").m-auto
+        .bg-c3.my-3
+          .p-3
+            p.text-center.mb-0 #[strong Q = V / t]
+
       .col-10.col-lg.bg-c5.p-4.m-2
         .h4.text-center Despeje de tiempo
         p.mb-4 Enseguida se deberá despejar tiempo en la ecuación que aquí se muestra.
-        figure
-          img(src='@/assets/curso/tema1/img8.svg', style="width: 180px").m-auto
+        .bg-c3.my-3
+          .p-3
+            p.text-center.mb-0 #[strong t = V / Q]
+
       .col-10.col-lg.bg-c5.p-4.m-2
         .h4.text-center Unidades de resultado
         p.mb-0 Se proponen las unidades del resultado; para este caso pueden ser minutos, ya que el ejercicio no especifica las unidades finales.
         p.mb-4 Se sustituye t en la ecuación.
         figure
-          img(src='@/assets/curso/tema1/img9.svg', style="width: 280px").m-auto
+          img(src='@/assets/curso/tema1/img9.svg', style="width: 280px"  alt="Imagen que representa la fórmula t=V/Q= 1000L/0.4L/s").m-auto
     .row.justify-content-center
       .col-10.col-lg.bg-c5.p-4.m-2
         .h4.text-center Simplificación
         p.mb-4 Simplificando la fracción se obtiene...
         figure
-          img(src='@/assets/curso/tema1/img10.svg', style="width: 240px").m-auto
+          img(src='@/assets/curso/tema1/img10.svg', style="width: 240px"  alt="Imagen que representa la fórmula t = (1000L/1) / (0.4l/s) = (1000 L*s) / (0.4s)").m-auto
       .col-10.col-lg.bg-c5.p-4.m-2
         .h4.text-center Cancelación de unidades
         p.mb-4 Se cancelan las unidades y aplicamos los factores de conversión.
         figure
-          img(src='@/assets/curso/tema1/img11.svg', style="width: 180px").m-auto
+          img(src='@/assets/curso/tema1/img11.svg', style="width: 180px"  alt="Imagen que representa la fórmula t=(1000 L*s) / 0.4L").m-auto
       .col-10.col-lg.bg-c5.p-4.m-2
         .h4.text-center Factores de conversión
         p.mb-4 Se aplican los factores de conversión (y cancelación de unidades).
         figure
-          img(src='@/assets/curso/tema1/img12.svg', style="width: 240px").m-auto
+          img(src='@/assets/curso/tema1/img12.svg', style="width: 240px"  alt="Imagen que representa la fórmula t = (1000s/0.4) * (1 min/60s)").m-auto
       .col-10.col-lg.bg-c5.p-4.m-2
         .h4.text-center Resultado
         p.mb-4 Se realiza el cálculo para obtener el resultado.
         figure
-          img(src='@/assets/curso/tema1/img13.svg', style="width: 280px").m-auto
+          img(src='@/assets/curso/tema1/img13.svg', style="width: 280px"  alt="Imagen que representa la fórmula t=(1000s/0.4) * (1min/60s) = 41.67min").m-auto
     Separador
     #t_1_2
     .titulo-segundo.color-secundario
@@ -300,7 +304,7 @@
                 span #[b Ofrecer claridad:] Deben ser totalmente legibles (no realizar tachones).
       .col-lg-4
         figure
-          img(src='@/assets/curso/tema1/img3.png', style="width: 340px").m-auto
+          img(src='@/assets/curso/tema1/img3.png', style="width: 340px"  alt="").m-auto
     .row.justify-content-center.mb-5
       .col-lg-10
         .row.bg-c1
@@ -308,7 +312,7 @@
             .row.align-items-center
               .col-12.col-lg-auto.mb-4.mb-lg-0
                 figure
-                  img(src='@/assets/curso/tema1/img1.svg', style="width: 80px").m-auto
+                  img(src='@/assets/curso/tema1/img1.svg', style="width: 80px"  alt="").m-auto
               .col
                 p.mb-0 La información mínima que debe contener un rótulo es: código del proyecto, consideraciones de seguridad y código del cronograma, nombre de identificación de la muestra, identificación de la ubicación del muestreo, punto de muestreo, intervalo de tiempo (Fecha y hora), tipo de muestreo, empresa o persona que realiza la toma, parámetros medidos #[em in situ].
     .row.justify-content-center.mb-5
@@ -318,7 +322,7 @@
             .row.align-items-center
               .col-12.col-lg-auto.mb-4.mb-lg-0
                 figure
-                  img(src='@/assets/curso/tema1/img1.svg', style="width: 80px").m-auto
+                  img(src='@/assets/curso/tema1/img1.svg', style="width: 80px"  alt="").m-auto
               .col
                 p.mb-0 Para muestras microbiológicas se debe complementar la información con la preservación realizada (se debe consignar en el momento del alistamiento de los recipientes en el laboratorio, ya que la adición del preservante se hace antes del proceso de esterilización de los frascos).
     .row.mb-4
@@ -366,7 +370,7 @@
             p.mb-0 Para toma de muestras de suelo con sospecha que están contaminados es esencial asegurarse de que el material del recipiente de la muestra sea tal que la muestra permanezca siendo representativa. Para este tipo no se recomienda recipientes de plástico en caso de que exista contaminación orgánica como pesticidas, o talegas de polietileno no son adecuadas para suelos contaminados.
       .col-lg-5
         figure
-          img(src='@/assets/curso/tema1/img4.png', style="width: 470px").m-auto
+          img(src='@/assets/curso/tema1/img4.png', style="width: 470px"  alt="").m-auto
     .row.justify-content-center.mb-5
       .col-lg-10
         .row.bg-c1
@@ -374,21 +378,21 @@
             .row.align-items-center
               .col-12.col-lg-auto.mb-4.mb-lg-0
                 figure
-                  img(src='@/assets/curso/tema1/img1.svg', style="width: 80px").m-auto
+                  img(src='@/assets/curso/tema1/img1.svg', style="width: 80px"  alt="").m-auto
               .col
                 p.mb-0 El recipiente se debe sellar en forma tal que no haya perdida de componentes volátiles tales como humedad o solventes. Los recipientes con muestras se deben llenar y sellar de forma que haya un mínimo espacio con aire.
     p.mb-5 Del mismo modo que con las muestras de agua, las muestras de suelo tendrán un análisis fisicoquímico o microbiológico. En cada caso, hay unos criterios de envasado que deben seguirse:
     .row.align-items-center.mb-5
       .col-lg-5.pe-0
         figure
-          img(src='@/assets/curso/tema1/img5.png', style="width: 510px").m-auto
+          img(src='@/assets/curso/tema1/img5.png', style="width: 510px"  alt="").m-auto
       .col-lg-7.bg-c3.p-4
         p #[b Para análisis físico-químico]
-        p.mb-0 Se utilizarán envases de plástico polietileno rígido o flexible (bolsas plásticas) o vidrio, con buen cierre, nuevos de acuerdo al tipo de análisis. debe asegurarse que el envase se encuentre LIMPIO, pero debe prestarse especial atención a no lavarlo con detergentes, hipoclorito de sodio (lavandina) u otros reactivos: el envase sólo puede ser enjuagado con agua.
+        p.mb-0 Se utilizarán envases de plástico de polietileno rígido o flexible (bolsas plásticas) o vidrio, con buen cierre, nuevos de acuerdo al tipo de análisis. debe asegurarse que el envase se encuentre LIMPIO, pero debe prestarse especial atención a no lavarlo con detergentes, hipoclorito de sodio (lavandina) u otros reactivos: el envase sólo puede ser enjuagado con agua.
     .row.align-items-center.mb-5
       .col-lg-5.pe-0
         figure
-          img(src='@/assets/curso/tema1/img6.png', style="width: 510px").m-auto
+          img(src='@/assets/curso/tema1/img6.png', style="width: 510px"  alt="").m-auto
       .col-lg-7.bg-c3.p-4
         p #[b Para análisis microbiológico]
         p.mb-0 Se utilizarán envases de plástico o vidrio, esterilizados, con tapa hermética y en lo posible de boca ancha (frascos). También pueden utilizarse bolsas especiales de polietileno estériles (fabricadas a tal fin), considerando que este tipo de envase es muy cómodo para la recolección y cerrado. Es muy importante tener presente al seleccionar los envases, que este tipo de muestras debe mantenerse refrigerada hasta su llegada al laboratorio y procesamiento.
@@ -673,7 +677,7 @@
     .row.mb-5
       .col-lg-2.mb-4.mb-lg-0
         figure
-          img(src='@/assets/curso/tema1/img15.svg', style="width: 250px").m-auto
+          img(src='@/assets/curso/tema1/img15.svg', style="width: 250px"  alt="").m-auto
       .col-lg-10
         p La capacitación del personal de toma de muestras es tan importante que cuenta con un marco normativo que lo exige, como son: las resoluciones 1073 de 2003 y  1570 de 2004 del MAVDT, en donde se estipula que este personal debe ser formado, evaluado y certificado, como mínimo, en las Normas de Competencia Laboral código 280201034 #[b “Realizar los procedimientos de muestreo del agua de acuerdo con los protocolos de la entidad”]; código 280201001 #[b “Asegurar las condiciones de salud y seguridad en el puesto de trabajo”] y código 280201002 #[b “Generar información para apoyar la toma de decisiones empresariales”].
         p La capacitación del personal de toma de muestras en suelos también requiere capacitación en el tema de muestreo en suelos, aunque no existe, todavía, una norma de competencia laboral que obligue.
@@ -687,19 +691,19 @@
               ul.lista-ul--color.lista-ul.mb-0
                 li
                   i.fas.fa-check
-                  | #[b Elementos personales de protección para la toma y procesamiento de muestras.]
+                  span #[b Elementos personales de protección para la toma y procesamiento de muestras.]
                 li
                   i.fas.fa-check
-                  | #[b Equipos e instrumentos de laboratorio.]
+                  span #[b Equipos e instrumentos de laboratorio.]
                 li
                   i.fas.fa-check
-                  | #[b Riesgos y amenazas en campo y en laboratorio.]
+                  span #[b Riesgos y amenazas en campo y en laboratorio.]
                 li
                   i.fas.fa-check
-                  | #[b Tipos, técnicas y métodos de muestreo.]
+                  span #[b Tipos, técnicas y métodos de muestreo.]
                 li
                   i.fas.fa-check
-                  | #[b Normatividad aplicable, entre otros.]
+                  span #[b Normatividad aplicable, entre otros.]
     .row.justify-content-center.mb-5
       .col-lg-10
         .row.bg-c1
@@ -707,7 +711,7 @@
             .row.align-items-center
               .col-12.col-lg-auto.mb-4.mb-lg-0
                 figure
-                  img(src='@/assets/curso/tema1/img1.svg', style="width: 80px").m-auto
+                  img(src='@/assets/curso/tema1/img1.svg', style="width: 80px"  alt="").m-auto
               .col
                 p.mb-0 Estar capacitados y permanentemente formados, no solamente va a significar una mejora en la calidad y expectativas laborales, sino que se van a minimizar los errores involucrados en el proceso de toma, preservación y transporte de muestras.
     .row.mb-4
@@ -724,13 +728,13 @@
                 ul.lista-ul--color.lista-ul.mb-0
                   li
                     i.fas.fa-check
-                    | #[b Actividades de indiferencia.]
+                    span #[b Actividades de indiferencia.]
                   li
                     i.fas.fa-check
-                    | #[b No utilizar el sentido común.]
+                    span #[b No utilizar el sentido común.]
                   li.mb-0
                     i.fas.fa-check
-                    | #[b No seguir instrucciones y cometer errores.]
+                    span #[b No seguir instrucciones y cometer errores.]
       .col-lg-4
         figure
           img(src='@/assets/curso/tema1/img16.svg', style="width: 450px").m-auto
@@ -760,55 +764,55 @@
             h4 Casco
             p.mb-5 En campo es necesario como prevención.
             figure.mb-0
-              img(src='@/assets/curso/tema1/img7.png', style="width: 500px").m-auto
+              img(src='@/assets/curso/tema1/img7.png', style="width: 500px"  alt="Imagen de un casco amarillo").m-auto
         .row.m-1
           .col-12.p-4.p-lg-5
             h4 Cofia
             p.mb-5 Si tiene el cabello largo, manténgalo recogido durante el desarrollo de la práctica. Use la cofia si el líder del proceso lo considera necesario.
             figure.mb-0
-              img(src='@/assets/curso/tema1/img8.png', style="width: 500px").m-auto
+              img(src='@/assets/curso/tema1/img8.png', style="width: 500px"  alt="Imagen de una cofia azul").m-auto
         .row.m-1
           .col-lg-6.mb-4.mb-lg-0
             h4 Protección de ojos
             p Es obligatorio que todo el personal que permanezca en el laboratorio use permanentemente las gafas de seguridad, aun cuando no estén realizando prácticas. Las personas que utilizan gafas de manera permanente deben disponer de unas gafas de seguridad suplementarias, No utilice lentes de contacto dentro del laboratorio, ya que su uso facilita la acumulación de sustancias tóxicas en los ojos. Los lentes blandos absorben los vapores de sustancias tóxicas, ocasionando la irritación, además de interferir con los procedimientos de lavado de emergencia.
           .col-lg-6
             figure.mb-0
-              img(src='@/assets/curso/tema1/img9.png', style="width: 500px").m-auto
+              img(src='@/assets/curso/tema1/img9.png', style="width: 500px"  alt="Imagen de unas gafas de protección").m-auto
         .row.m-1
           .col-lg-6.mb-4.mb-lg-0
             h4 Mascarilla o Tapabocas
             p Cuando la práctica de laboratorio implique la manipulación de compuestos volátiles, tóxicos, nocivos y/o irritantes, es indispensable emplear equipos de protección respiratoria, adaptados y homologados para la sustancia en cuestión. También deben utilizarse en caso de fugas y derrames de las sustancias anteriores, dada la gran concentración ambiental que resulta de los mismos.
           .col-lg-6
             figure.mb-0
-              img(src='@/assets/curso/tema1/img10.png', style="width: 500px").m-auto
+              img(src='@/assets/curso/tema1/img10.png', style="width: 500px"  alt="Tapabocas").m-auto
         .row.m-1
           .col-lg-6.mb-4.mb-lg-0
             h4 Instrumental de campo o vestimenta (Guardapolvo blanco)
             p Primero se debe aclarar que la ropa utilizada en laboratorio o en campo, debe proteger tanto de salpicaduras como de derrames, preferiblemente un guardapolvo blanco, si es para uno de cuencas de agua contaminadas este debe ser impermeable.
           .col-lg-6
             figure.mb-0
-              img(src='@/assets/curso/tema1/img11.png', style="width: 500px").m-auto
+              img(src='@/assets/curso/tema1/img11.png', style="width: 500px"  alt="").m-auto
         .row.m-1
           .col-lg-6.mb-4.mb-lg-0
             h4 Bata de laboratorio
             p Si se usa la bata las características más aconsejables son: Material: algodón, dril o gabardina, Color: blanco, Manga: larga con puño resortado, Largo (extensión): mínimo hasta el muslo (3/4), Tipo de cierre: de abotonar a presión.
           .col-lg-6
             figure.mb-0
-              img(src='@/assets/curso/tema1/img12.png', style="width: 500px").m-auto
+              img(src='@/assets/curso/tema1/img12.png', style="width: 500px"  alt="").m-auto
         .row.m-1
           .col-lg-6.mb-4.mb-lg-0
             h4 Zapatos
             p En el caso de los laboratorios se debe usar zapatos totalmente cerrados y que no sean de cuero o cuero sintético, no se podrá usar sandalias o cualquier zapato que deje piel al descubierto ni con tacones.
           .col-lg-6
             figure.mb-0
-              img(src='@/assets/curso/tema1/img13.png', style="width: 500px").m-auto
+              img(src='@/assets/curso/tema1/img13.png', style="width: 500px"  alt="").m-auto
         .row.m-1
           .col-lg-6.mb-4.mb-lg-0
             h4 Guantes
             p De nitrilo, de neopreno, gruesos y delgados. Cualquier manipulación de sustancias corrosivas, irritantes, de elevada toxicidad o de elevado poder de penetración a través de la piel, debe ser llevada a cabo empleando guantes adecuados y limpios. Finalizada la práctica, lave los guantes con abundante agua y jabón. Haga lo propio con sus manos.
           .col-lg-6
             figure.mb-0
-              img(src='@/assets/curso/tema1/img14.png', style="width: 500px").m-auto
+              img(src='@/assets/curso/tema1/img14.png', style="width: 500px"  alt="").m-auto
     .row.mb-4
       .col-auto.txt-c1.px-4.py-3
         h4.text-white.mb-0 Peligros químicos
@@ -822,12 +826,12 @@
                 .row.align-items-center
                   .col-12.col-lg-auto.mb-4.mb-lg-0
                     figure
-                      img(src='@/assets/curso/tema1/img1.svg', style="width: 80px").m-auto
+                      img(src='@/assets/curso/tema1/img1.svg', style="width: 80px"  alt="").m-auto
                   .col
                     p.mb-0 Existen sustancias que cuentan con más de un peligro, por lo cual se considera que el grado de peligrosidad de las sustancias químicas puede variar, por ello siempre trabajar de forma segura es la manera correcta de desarrollar actividades con estos implementos.
       .col-lg-5
         figure
-          img(src='@/assets/curso/tema1/img15.png', style="width: 450px").m-auto
+          img(src='@/assets/curso/tema1/img15.png', style="width: 450px"  alt="").m-auto
     Separador
     #t_1_4
     .titulo-segundo.color-secundario
@@ -840,28 +844,28 @@
             ul.lista-ul--color.lista-ul.mb-0
               li
                 i.fas.fa-check
-                | #[b El objetivo.]
+                span #[b El objetivo.]
               li
                 i.fas.fa-check
-                | #[b El sitio de toma de muestra.]
+                span #[b El sitio de toma de muestra.]
               li
                 i.fas.fa-check
-                | #[b El método y técnica a usar.]
+                span #[b El método y técnica a usar.]
               li
                 i.fas.fa-check
-                | #[b Los parámetros a medir.]
+                span #[b Los parámetros a medir.]
               li
                 i.fas.fa-check
-                | #[b Los instrumentos y equipos requeridos.]
+                span #[b Los instrumentos y equipos requeridos.]
               li
                 i.fas.fa-check
-                | #[b El personal y las competencias que debe manejar.]
+                span #[b El personal y las competencias que debe manejar.]
               li
                 i.fas.fa-check
-                | #[b Los elementos de seguridad y salud en el trabajo.]
+                span #[b Los elementos de seguridad y salud en el trabajo.]
               li.mb-0
                 i.fas.fa-check
-                | #[b Los formatos requeridos para el registro de información.]
+                span #[b Los formatos requeridos para el registro de información.]
       .col-lg-5
         figure
           img(src='@/assets/curso/tema1/img16.png', style="width: 500px", alt="").m-auto
@@ -884,10 +888,16 @@
               .row.justify-content-center
                 .col-lg-5.mb-4.mb-lg-0
                   figure
-                    img(src='@/assets/curso/tema1/img18.svg', style="width: 270px").m-auto
+                    img(src='@/assets/curso/tema1/img18.svg', style="width: 270px"  alt="Imagen que representa la fórmula Vp = Qp * (Vc / N * Q)").m-auto
                 .col-lg-6
-                  figure
-                    img(src='@/assets/curso/tema1/img19.svg', style="width: 470px").m-auto
+                  .bg-c13.my-2.my-lg-0
+                    .p-3
+                      p.mb-1.text-small #[strong V#[sub p]]: Volumen de cada muestra parcial.
+                      p.mb-1.text-small #[strong V#[sub c]]: Volumen de muestra compuesta.
+                      p.mb-1.text-small #[strong Q#[sub p]]: Caudal parcial del agua.
+                      p.mb-1.text-small #[strong Q]: Caudal promedio.
+                      p.mb-1.text-small #[strong N]: Número de muestras parciales.
+
           .row(titulo="Estudios de calidad ambiental marina" subtitulo="")
             .col-12
               p.mb-0 En estos casos es necesario el monitoreo de afluentes con el fin de conocer las descargas y el volumen de contaminantes que llegan al mar, por tal motivo es necesario realizar muestreos compuestos para lograr la correcta caracterización de dichos afluentes (que pueden ser ríos o descargas de aguas residuales). Es importante resaltar que este tipo de muestra genera resultados de concentraciones promedio.
@@ -924,7 +934,7 @@
         p.mb-0 En cuanto a la información requerida, en el momento del muestreo es necesario recabar, como mínimo:
       .col-lg-5
         figure
-          img(src='@/assets/curso/tema1/img17.png', style="width: 470px").m-auto
+          img(src='@/assets/curso/tema1/img17.png', style="width: 470px"  alt="").m-auto
     .row.mb-5
       .col-12.bg-c7.p-4
         ul.lista-ul--color.lista-ul.mb-0
@@ -968,35 +978,35 @@
             p Se abrirá el grifo o canilla y se dejará que el agua corra por lo menos durante 5 minutos de manera de tener purgada toda la cañería que llega desde el tanque. El ramal donde se encuentre el grifo debe ser el principal, proveniente de la red, y no debe estar conectado en el trayecto con otras cañerías, filtros, ablandadores u otros artefactos que puedan alterar la calidad del agua del ramal principal. También se debe tomar la precaución de retirar del grifo o boca de salida las mangueras u otros accesorios, y de limpiarlo tratando de eliminar sustancias acumuladas en el orificio interno de salida del agua y en el reborde externo, dejando correr agua libremente por espacio de 1 o 2 minutos, para arrastrar cualquier residuo.
           .col-lg-6
             figure.mb-0
-              img(src='@/assets/curso/tema1/img18.png', style="width: 500px").m-auto
+              img(src='@/assets/curso/tema1/img18.png', style="width: 500px" alt="").m-auto
         .row.m-1
           .col-lg-6.mb-4.mb-lg-0
             h4 Agua de perforaciones
             p La muestra se debe tomar de la cañería inmediata al pozo y es conveniente que, antes de proceder a la toma de la muestra, la impulsión se mantenga en marcha durante unos 10-15 minutos, hasta que el agua emerja clara (sin sedimentos ni restos vegetales) y que sea del acuífero. Se debe prestar especial atención a esto si el pozo estuviera en desuso. Si el pozo fuera nuevo se debe bombear el tiempo suficiente hasta que salga limpia, de manera de muestrear el agua del acuífero y en lo posible bombear con caudal de diseño.
           .col-lg-6
             figure.mb-0
-              img(src='@/assets/curso/tema1/img19.png', style="width: 500px").m-auto
+              img(src='@/assets/curso/tema1/img19.png', style="width: 500px" alt="").m-auto
         .row.m-1
           .col-lg-6.mb-4.mb-lg-0
             h4 Agua superficial proveniente de un curso de agua (en movimiento)
             p Debe ponerse especial atención en buscar puntos estratégicos de muestreo (puentes, alcantarillas, botes, muelles), ya que se debe muestrear de sitios donde el agua se encuentre en circulación. Nunca muestrear desde donde se encuentra estancada. Si se tratara de muestreos periódicos o de control debe tratar de extraerse la muestra siempre en el mismo lugar cuando no es posible tomar la muestra directamente con la mano, debe atarse al frasco un sobre peso usando el extremo de un cordel limpio o en su caso equipo muestreador comercial.
           .col-lg-6
             figure.mb-0
-              img(src='@/assets/curso/tema1/img20.png', style="width: 500px").m-auto
+              img(src='@/assets/curso/tema1/img20.png', style="width: 500px" alt="").m-auto
         .row.m-1
           .col-lg-6.mb-4.mb-lg-0
             h4 Agua superficial proveniente de un espejo de agua, represa o tanque de almacenamiento
             p En estos casos, se puede proyectar una jabalina a unos 2 metros de la orilla, para no muestrear del borde, evitando tomar la muestra de la capa superficial o del fondo. Sumergir el frasco en el agua (incorporando un peso) con el cuello hacia abajo hasta una profundidad de 15 a 30 cm., destapar y girar el frasco ligeramente permitiendo el llenado. Retirar el frasco después que no se observe ascenso de burbujas.
           .col-lg-6
             figure.mb-0
-              img(src='@/assets/curso/tema1/img21.png', style="width: 500px").m-auto
+              img(src='@/assets/curso/tema1/img21.png', style="width: 500px" alt="").m-auto
         .row.m-1
           .col-lg-6.mb-4.mb-lg-0
             h4 Pozo somero o fuente similar (cisterna, aljibe, etc.)
             p Tomar la muestra bajando el frasco dentro del pozo hasta una profundidad de 15 a 30 cm. desde la superficie libre del líquido, evitando en todo momento tocar las paredes del pozo. Cuando no es posible tomar la muestra directamente con la mano, debe atarse al frasco un sobre peso usando el extremo de un cordel limpio o en su caso equipo muestreador comercial.
           .col-lg-6
             figure.mb-0
-              img(src='@/assets/curso/tema1/img22.png', style="width: 500px").m-auto
+              img(src='@/assets/curso/tema1/img22.png', style="width: 500px" alt="").m-auto
     .row.mb-4
       .col-auto.txt-c1.px-4.py-3
         h4.text-white.mb-0 Acondicionado y preservación de las muestras en el almacenamiento temporal.
@@ -1007,7 +1017,7 @@
           p.mb-0 En el caso de análisis microbiológico es indispensable que la muestra se mantenga refrigerada hasta su arribo al laboratorio, ya que tanto las temperaturas mayores a 6ºC como la luz provocan la multiplicación de los microorganismos e invalidan la muestra dado que los resultados no reflejarán la realidad.
       .col-lg-5
         figure
-          img(src='@/assets/curso/tema1/img23.png', style="width: 470px").m-auto
+          img(src='@/assets/curso/tema1/img23.png', style="width: 470px" alt="").m-auto
     .row.justify-content-center.mb-5
       .col-lg-10
         .row.bg-c1
@@ -1015,7 +1025,7 @@
             .row.align-items-center
               .col-12.col-lg-auto.mb-4.mb-lg-0
                 figure
-                  img(src='@/assets/curso/tema1/img1.svg', style="width: 80px").m-auto
+                  img(src='@/assets/curso/tema1/img1.svg', style="width: 80px" alt="").m-auto
               .col
                 p.mb-0 Siempre es conveniente tomar la muestra y transportarla los primeros días de la semana, previendo feriados o días no laborables, ya que, si se requiriera análisis microbiológico, una vez en el Laboratorio son necesarias por lo menos 48 horas, para realizar los cultivos.
     .row.justify-content-center
@@ -1025,7 +1035,7 @@
             .row.align-items-center
               .col-12.col-lg-auto.mb-4.mb-lg-0
                 figure
-                  img(src='@/assets/curso/tema1/img1.svg', style="width: 80px").m-auto
+                  img(src='@/assets/curso/tema1/img1.svg', style="width: 80px" alt="").m-auto
               .col
                 p.mb-0 En cualquier caso, debe evitarse el congelamiento de la muestra (el lugar correcto para conservar las muestras que no se hayan podido entregar al laboratorio es en la parte inferior de una heladera común).
     Separador
@@ -1080,7 +1090,7 @@
                 | #[b Aforo ADCP #[em (Acoustic Doppler Current Profiler).]]
       .col-lg-5
         figure
-          img(src='@/assets/curso/tema1/img24.png', style="width: 470px").m-auto
+          img(src='@/assets/curso/tema1/img24.png', style="width: 470px" alt="").m-auto
 
     p.mb-5 En relación con Métodos, Área y Velocidad, tenga en cuenta los siguientes aspectos:
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--verde")
@@ -1117,7 +1127,7 @@
         p Se recomienda utilizarlo en corrientes pequeñas, en las cuales se pueda colectar en un recipiente calibrado el 100% del flujo a medir. La calibración del recipiente y el tiempo de recolección deben ser muy precisos. Se puede recurrir a recipientes de uso común como un balde o caneca que tenga registros de volumen; en otros casos el aforo se realiza en tanques de mayor tamaño que tengan dimensiones precisas, de tal manera que mediante la medición de un diferencial de nivel se determina un incremento de volumen y tomando el tiempo de incremento de volumen se puede calcular directamente el caudal que lleva la corriente o el canal.
       .col-lg-5
         figure
-          img(src='@/assets/curso/tema1/img25.png', style="width: 470px").m-auto
+          img(src='@/assets/curso/tema1/img25.png', style="width: 470px" alt="").m-auto
     .row.mb-4
       .col-auto.txt-c1.px-4.py-3
         h4.text-white.mb-0 Método con Trazadores (dilución)
@@ -1130,25 +1140,25 @@
             ul.lista-ul--color.lista-ul.mb-0
               li
                 i.fas.fa-check
-                | #[b Grandes turbulencias y remolinos]
+                span #[b Grandes turbulencias y remolinos]
               li
                 i.fas.fa-check
-                | #[b Régimen torrencial]
+                span #[b Régimen torrencial]
               li
                 i.fas.fa-check
-                | #[b Altas pendientes]
+                span #[b Altas pendientes]
               li
                 i.fas.fa-check
-                | #[b Poca profundidad]
+                span #[b Poca profundidad]
               li
                 i.fas.fa-check
-                | #[b Lechos inestables]
+                span #[b Lechos inestables]
               li.mb-0
                 i.fas.fa-check
-                | #[b Líneas de flujo desordenadas]
+                span #[b Líneas de flujo desordenadas]
       .col-lg-5
         figure
-          img(src='@/assets/curso/tema1/img26.png', style="width: 470px").m-auto
+          img(src='@/assets/curso/tema1/img26.png', style="width: 470px" alt="").m-auto
     p.mb-5 Sobre los aforos con trazadores, también llamados aforos químicos, tenga presente:
     .row.justify-content-center.mb-5
       .col-11.col-md-5.col-lg.bg-c10.p-4.m-2
@@ -1180,12 +1190,12 @@
             tr
               td(style="vertical-align: initial !important")
                 figure.mb-4
-                  img(src='@/assets/curso/tema1/img27.png', style="width: 420px").m-auto
+                  img(src='@/assets/curso/tema1/img27.png', style="width: 420px" alt="").m-auto
                 p.mb-0 Son dispositivos hidráulicos fijos o removibles que consisten en una escotadura a través de la cual se hace circular el flujo que se quiere medir en el canal o corriente natural. La precisión del aforo depende de la velocidad de llegada a la estructura, por lo tanto, es importante remansar el agua ampliando la sección del canal arriba del sitio para obtener velocidades mínimas (< 0,15 m/s).
               td
                 figure.mb-4
-                  img(src='@/assets/curso/tema1/img28.png', style="width: 420px").m-auto
-                p.mb-0 Son estructuras de gran aplicación en terrenos planos ya que funcionan a flujo libre con pérdidas de carga pequeñas. Las canaletas más utilizadas son: tipo Balloffet (tiene paredes paralelas y fondo plano), medidor sin cuello o Cutthroat (consiste en una sección de entra, una de salida, una garganta y un fondo aforador y, finalmente, canaleta Parshall (conformada por una sección convergente de contracción que se localiza en su extremo aguas arriba, una garganta y una sección divergente aguas abajo).
+                  img(src='@/assets/curso/tema1/img28.png', style="width: 420px" alt="").m-auto
+                p.mb-0 Son estructuras de gran aplicación en terrenos planos ya que funcionan a flujo libre con pérdidas de carga pequeñas. Las canaletas más utilizadas son: tipo Balloffet (tiene paredes paralelas y fondo plano), medidor sin cuello o Cutthroat (consiste en una sección de entra, una de salida, una garganta y un fondo aforador) y, finalmente, canaleta Parshall (conformada por una sección convergente de contracción que se localiza en su extremo aguas arriba, una garganta y una sección divergente aguas abajo).
     Separador
     #t_1_6
     .titulo-segundo.color-secundario
@@ -1218,14 +1228,14 @@
 
       .col-lg-3
         figure
-          img(src='@/assets/curso/tema1/img21.svg', style="width: 280px").m-auto
+          img(src='@/assets/curso/tema1/img21.svg', style="width: 280px" alt="").m-auto
     p.mb-5 Y los tipos de muestras de suelo son:
     .row.justify-content-center.mb-5
       .col-10.col-md-8.col-lg-4.m-2
         .row.h-100
           .col-12.px-0.mx-0
             figure
-              img(src='@/assets/curso/tema1/img29.png', style="width: auto").m-auto
+              img(src='@/assets/curso/tema1/img29.png', style="width: auto" alt="").m-auto
           .col-12.bg-c10.p-4
             p.text-center.mb-4 #[b Muestras disturbadas]
             p.text-center.mb-0 Muestras obtenidas del terreno sin ningún intento de preservar la estructura del suelo; es decir, las partículas del suelo se recogen “sueltas” y se dejan mover unas en relación con otras.
@@ -1235,7 +1245,7 @@
         .row
           .col-12.px-0.mx-0
             figure
-              img(src='@/assets/curso/tema1/img30.png', style="width: auto").m-auto
+              img(src='@/assets/curso/tema1/img30.png', style="width: auto" alt="").m-auto
           .col-12.bg-c10.p-4
             p.text-center.mb-4 #[b Muestras no disturbadas]
             p.text-center.mb-0 Muestras obtenidas del terreno usando un método diseñado para preservar la estructura del suelo; es decir, se usa equipo de muestreo especial en tal forma que no se deja que las partículas y los vacíos cambien con respecto a la distribución existente en el terreno antes del muestreo.
@@ -1246,7 +1256,7 @@
             .row.align-items-end
               .col-12.col-lg-auto.mb-4.mb-lg-0
                 figure
-                  img(src='@/assets/curso/tema1/img1.svg', style="width: 80px").m-auto
+                  img(src='@/assets/curso/tema1/img1.svg', style="width: 80px" alt="").m-auto
               .col
                 p Existen tres métodos de muestreo:
                 p.mb-0 #[b Tipo 1], una muestra de material recogido de un solo punto (muestra disturbada o no disturbada).
@@ -1329,7 +1339,7 @@
             .row.align-items-end
               .col-12.col-lg-auto.mb-4.mb-lg-0
                 figure
-                  img(src='@/assets/curso/tema1/img1.svg', style="width: 80px").m-auto
+                  img(src='@/assets/curso/tema1/img1.svg', style="width: 80px" alt="").m-auto
               .col
                 p.mb-0.mt-0.mt-lg-2 #[b Cantidad y conservación de la muestra]
                 p.mb-0.mb-lg-4 Para la toma de muestra de suelo, si la muestra es de suelo fino debe tomarse un mínimo de 500g, si es suelo grueso, mayor a 2000gr. La mayoría toma como promedio 1kg. La muestra por lo general se coloca en condiciones de enfriamiento (por debajo de 5°C) en particular durante el transporte al laboratorio.
@@ -1338,7 +1348,7 @@
         .tarjeta.color-secundario.p-3
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/tema1/img22.svg")
+              img(src="@/assets/curso/tema1/img22.svg" alt="")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
@@ -1409,7 +1419,7 @@
               .tarjeta.color-secundario.p-3
                 .row.justify-content-around.align-items-center
                   .col-3.col-sm-2.col-lg-1
-                    img(src="@/assets/curso/tema1/img22.svg")
+                    img(src="@/assets/curso/tema1/img22.svg" alt="")
                   .col
                     .row.justify-content-between.align-items-center
                       .col.mb-3.mb-sm-0

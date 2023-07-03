@@ -14,7 +14,7 @@
           p.mb-0 Siempre es conveniente transportarlas en los tiempos establecidos, previendo los posibles contratiempos y vicisitudes, es decir, mitigando al máximo las posibilidades de afectar o desvirtuar la calidad e integridad de las mismas.
       .col-lg-5
         figure
-          img(src='@/assets/curso/tema2/img1.svg', style="width: 450px").m-auto
+          img(src='@/assets/curso/tema2/img1.svg', style="width: 450px" alt="").m-auto
     Separador
     #t_2_1
     .row.bg-c11
@@ -31,7 +31,7 @@
                   .row.align-items-end
                     .col-12.col-lg-auto.mb-4.mb-lg-0
                       figure
-                        img(src='@/assets/curso/tema1/img1.svg', style="width: 80px").m-auto
+                        img(src='@/assets/curso/tema1/img1.svg', style="width: 80px" alt="").m-auto
                     .col
                       p Independientemente de la cantidad de muestras y del medio de transporte que se utilice para llevarlas al laboratorio, deben seguirse las recomendaciones para su remisión al laboratorio que las va a analizar.
           p.mb-5 Para la recepción y transporte de muestras no refrigeradas, téngase en cuenta aspectos como:
@@ -64,7 +64,7 @@
                     .row.align-items-center
                       .col-lg-auto.mb-4.mb-lg-0
                         figure
-                          img(src='@/assets/curso/tema2/img3.svg', style="width: 120px").m-auto
+                          img(src='@/assets/curso/tema2/img3.svg', style="width: 120px" alt="").m-auto
                       .col
                         p.mb-0 Durante el transporte se recomienda refrigeración a 4° C y protección de la luz, especialmente si se sospecha que el agua está contaminada con organismos patógenos. Es necesario que al refrigerarse las muestras se tomen las precauciones y medidas necesarias para prevenir cualquier contaminación proveniente del hielo derretido.
                 .row(titulo="2. Tiempos" subtitulo="")
@@ -72,7 +72,7 @@
                     .row.align-items-center
                       .col-lg-auto.mb-4.mb-lg-0
                         figure
-                          img(src='@/assets/curso/tema2/img4.svg', style="width: 120px").m-auto
+                          img(src='@/assets/curso/tema2/img4.svg', style="width: 120px" alt="").m-auto
                       .col
                         p.mb-0 Si se supera el tiempo de preservación recomendado antes del análisis, las muestras se deben analizar y se debe reportar el tiempo entre el muestreo y el análisis, después de consultar con el profesional encargado de la interpretación de los resultados analíticos.
                 .row(titulo="3. Almacenamiento" subtitulo="")
@@ -80,7 +80,7 @@
                     .row.align-items-center
                       .col-lg-auto.mb-4.mb-lg-0
                         figure
-                          img(src='@/assets/curso/tema2/img5.svg', style="width: 120px").m-auto
+                          img(src='@/assets/curso/tema2/img5.svg', style="width: 120px" alt="").m-auto
                       .col
                         p.mb-0 Todas las muestras de un mismo sitio de muestreo deberán ser almacenadas en una misma nevera portátil, para evitar posibles confusiones con muestras de otros sitios; sin embargo, si fueron tomados blancos estos deben ir empacados de igual manera que las otras muestras para que el laboratorio no los pueda identificar.
                 .row(titulo="4. Recipientes" subtitulo="")
@@ -88,7 +88,7 @@
                     .row.align-items-center
                       .col-lg-auto.mb-4.mb-lg-0
                         figure
-                          img(src='@/assets/curso/tema2/img6.svg', style="width: 120px").m-auto
+                          img(src='@/assets/curso/tema2/img6.svg', style="width: 120px" alt="").m-auto
                       .col
                         p.mb-0 Los recipientes deberán ser colocados en posición vertical, con suficientes bolsas de hielo intercaladas de tal manera que se alcance una temperatura cercana a los 4° C. Se debe verificar que las botellas no se caigan, ni se abran, ni se les desprenda el rótulo. Después de embaladas se tapa y se sella la nevera.
                 .row(titulo="5. Rotulado" subtitulo="")
@@ -96,7 +96,7 @@
                     .row.align-items-center
                       .col-lg-auto.mb-4.mb-lg-0
                         figure
-                          img(src='@/assets/curso/tema2/img7.svg', style="width: 120px").m-auto
+                          img(src='@/assets/curso/tema2/img7.svg', style="width: 120px" alt="").m-auto
                       .col
                         p.mb-0 Es aconsejable colocarle un rótulo con la firma de quien hizo el muestreo, la fecha y la hora, adherido de tal manera que se rompa una vez la nevera sea abierta (sello de seguridad).
                 .row(titulo="6. Responsables e implicados" subtitulo="")
@@ -104,7 +104,7 @@
                     .row.align-items-center
                       .col-lg-auto.mb-4.mb-lg-0
                         figure
-                          img(src='@/assets/curso/tema2/img8.svg', style="width: 120px").m-auto
+                          img(src='@/assets/curso/tema2/img8.svg', style="width: 120px" alt="").m-auto
                       .col
                         p.mb-0 Las neveras deberán ser entregadas por alguna de las personas que hicieron parte de la comisión de muestreo al laboratorio, entregando igualmente los formatos de campo. Las muestras deberán ser radicadas y colocadas, tan pronto como sea posible, dentro del cuarto frío donde las muestras se conservarán para su posterior análisis.
     .row.mb-4
@@ -117,11 +117,11 @@
           p.mb-0 Los laboratorios donde se practican los análisis fisicoquímicos y microbiológicos de las muestras para el control, cuentan con instalaciones, equipos y personal propios de la Persona Prestadora o son laboratorios particulares autorizados por el Ministerio de la Protección Social, según Resolución expedida por el Ministerio de la Protección Social, porque cumplen con los requisitos mínimos previstos en el artículo 27 del Decreto 1575 de 2007.
       .col-lg-5.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/tema2/img1.png', style="width: 450px").m-auto
+          img(src='@/assets/curso/tema2/img1.png', style="width: 450px" alt="").m-auto
     .row.align-items-end.bg-c12.mb-4
       .col-lg-4.mb-4.mb-lg-0
         figure
-          img(src='@/assets/curso/tema2/img2.png', style="width: 450px").m-auto
+          img(src='@/assets/curso/tema2/img2.png', style="width: 450px" alt="").m-auto
       .col-lg-8
         p #[b Personal de laboratorio]
         p.mb-4 El personal de estos laboratorios encargados de la recepción de las muestras, así como los encargados de la recolección y transporte de las muestras deben seguir todas las recomendaciones estipuladas, especialmente en aquellos laboratorios donde, por la complejidad y tamaño de los sistemas de distribución, se procesan muestras recogidas por varios equipos de recolección, o procedentes de varios clientes, como es el caso de los laboratorios particulares.
@@ -154,7 +154,7 @@
                 span #[b Localización de almacenamiento de la muestra.]
       .col-lg-4
         figure
-          img(src='@/assets/curso/tema2/img3.png', style="width: 450px").m-auto
+          img(src='@/assets/curso/tema2/img3.png', style="width: 450px" alt="").m-auto
     Separador
     #t_2_2
     .titulo-segundo.color-secundario
@@ -185,13 +185,13 @@
                 span #[b Sellar la nevera de icopor con cinta adhesiva cuando el envió se realiza inmediatamente, de lo contrario refrigerar y rotular.]
       .col-lg-4
         figure
-          img(src='@/assets/curso/tema2/img4.png', style="width: 450px").m-auto
+          img(src='@/assets/curso/tema2/img4.png', style="width: 450px" alt="").m-auto
     .row.justify-content-center.mb-5
       .col-lg-10
         .tarjeta.color-secundario.p-3
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/tema1/img22.svg")
+              img(src="@/assets/curso/tema1/img22.svg" alt="")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
@@ -211,19 +211,19 @@
         ul.lista-ul--color.lista-ul.mb-0
           li
             i.fas.fa-check
-            | #[b Número de código de la muestra]
+            span #[b Número de código de la muestra]
           li
             i.fas.fa-check
-            | #[b Nombre de la Persona Prestadora, para el caso de los laboratorios de vigilancia o los laboratorios particulares que atienden varios clientes]
+            span #[b Nombre de la Persona Prestadora, para el caso de los laboratorios de vigilancia o los laboratorios particulares que atienden varios clientes]
           li
             i.fas.fa-check
-            | #[b Nombre del (o los) tomadores de muestras]
+            span #[b Nombre del (o los) tomadores de muestras]
           li
             i.fas.fa-check
-            | #[b Número del método de muestreo]
+            span #[b Número del método de muestreo]
           li.mb-0
             i.fas.fa-check
-            | #[b Localización de almacenamiento de la muestra]
+            span #[b Localización de almacenamiento de la muestra]
     p.mb-5 Preste atención a otros aspectos clave que, sobre transporte y recepción de muestras de suelo, se mencionan a continuación:
     .tarjeta.tarjeta--azul.p-4
       SlyderA(tipo="b")
@@ -233,49 +233,49 @@
             p El recepcionista del laboratorio debe inspeccionar el etiquetado de las muestras y compararlo con la información del registro de campo o acta de toma de muestra de suelo. Si hay conformidad en esta inspección, el recepcionista del laboratorio firma este documento de vigilancia o control incluyendo la fecha y hora de llegada.
           .col-lg-6
             figure.mb-0
-              img(src='@/assets/curso/tema2/img5.png', style="width: 500px").m-auto
+              img(src='@/assets/curso/tema2/img5.png', style="width: 500px" alt="").m-auto
         .row.m-1
           .col-lg-6.mb-4.mb-lg-0
             h4 Cuando no hay conformidad
             p Si no hay conformidad, el recolector anota en la parte del formato, correspondiente a las observaciones, las inconformidades encontradas en la inspección de las muestras y firma el acta incluyendo la fecha y hora de llegada.
           .col-lg-6
             figure.mb-0
-              img(src='@/assets/curso/tema2/img6.png', style="width: 500px").m-auto
+              img(src='@/assets/curso/tema2/img6.png', style="width: 500px" alt="").m-auto
         .row.m-1
           .col-lg-6.mb-4.mb-lg-0
             h4 Asignación de código
             p Para cualquiera que sea el caso anteriormente descrito (hay o no conformidad), le asigna un número o código para su entrada, la registra en el libro del laboratorio y guarda las muestras en el cuarto frío bajo llave hasta que sea asignada a un analista.
           .col-lg-6
             figure.mb-0
-              img(src='@/assets/curso/tema2/img7.png', style="width: 500px").m-auto
+              img(src='@/assets/curso/tema2/img7.png', style="width: 500px" alt="").m-auto
         .row.m-1
           .col-lg-6.mb-4.mb-lg-0
             h4 Cuidado y vigilancia
             p Una vez la muestra está en el laboratorio, el encargado del cuarto frío y los analistas son responsables de su cuidado y vigilancia.
           .col-lg-6
             figure.mb-0
-              img(src='@/assets/curso/tema2/img8.png', style="width: 500px").m-auto
+              img(src='@/assets/curso/tema2/img8.png', style="width: 500px" alt="").m-auto
         .row.m-1
           .col-lg-6.mb-4.mb-lg-0
             h4 Agilidad en el proceso
             p Las muestras se deben entregar en el laboratorio lo más pronto posible. Es importante coordinar el envío de las muestras al laboratorio en horas convenientes, con el propósito de realizar los análisis en el horario normal de trabajo y en el mismo día, si es posible.
           .col-lg-6
             figure.mb-0
-              img(src='@/assets/curso/tema2/img9.png', style="width: 500px").m-auto
+              img(src='@/assets/curso/tema2/img9.png', style="width: 500px" alt="").m-auto
         .row.m-1
           .col-lg-6.mb-4.mb-lg-0
             h4 Preservación de las muestras
             p A su llegada al laboratorio, si es imposible analizar las muestras de inmediato, estás se deben preservar en condiciones tales que eviten cualquier contaminación procedente del exterior del recipiente, su deterioro y que impidan cualquier cambio de su contenido.
           .col-lg-6
             figure.mb-0
-              img(src='@/assets/curso/tema2/img10.png', style="width: 500px").m-auto
+              img(src='@/assets/curso/tema2/img10.png', style="width: 500px" alt="").m-auto
         .row.m-1
           .col-lg-6.mb-4.mb-lg-0
             h4 Recomendación importante
             p Para este propósito se recomienda usar gabinetes refrigerados o fríos y lugares oscuros. Se deben manejar las muestras refrigeradas después de su llegada al laboratorio.
           .col-lg-6
             figure.mb-0
-              img(src='@/assets/curso/tema2/img11.png', style="width: 500px").m-auto
+              img(src='@/assets/curso/tema2/img11.png', style="width: 500px" alt="").m-auto
     Separador
     #t_2_3
     .titulo-segundo.color-secundario
@@ -290,32 +290,32 @@
             ul.lista-ul--color.lista-ul.mb-0
               li
                 i.fas.fa-check
-                | #[b La toma de la muestra]
+                span #[b La toma de la muestra]
               li
                 i.fas.fa-check
-                | #[b El uso del recipiente para la misma]
+                span #[b El uso del recipiente para la misma]
               li
                 i.fas.fa-check
-                | #[b El almacenamiento temporal]
+                span #[b El almacenamiento temporal]
               li
                 i.fas.fa-check
-                | #[b El transporte al laboratorio]
+                span #[b El transporte al laboratorio]
               li
                 i.fas.fa-check
-                | #[b Almacenamiento en el laboratorio]
+                span #[b Almacenamiento en el laboratorio]
               li
                 i.fas.fa-check
-                | #[b El desarrollo de los análisis]
+                span #[b El desarrollo de los análisis]
               li.mb-0
                 i.fas.fa-check
-                | #[b El desecho de la muestra]
+                span #[b El desecho de la muestra]
       .col-lg-6
         figure
-          img(src='@/assets/curso/tema2/img12.png', style="width: 550px").m-auto
+          img(src='@/assets/curso/tema2/img12.png', style="width: 550px" alt="").m-auto
     .row.justify-content-center.mb-5
       .col-lg-10
         .tarjeta-avatar
-          img(src='@/assets/curso/tema2/img10.svg' alt='AvatarTop')
+          img(src='@/assets/curso/tema2/img10.svg'  alt="")
           .tarjeta.color-acento-contenido
             .text-white.p-4
               p.text-center #[b Garantizar el soporte de los datos y conclusiones a los que se llegue con el estudio o ensayo de muestreo, de forma adecuada, en una situación legal o reglamentaria. Busca mantener registros que certifiquen que los procedimientos fueron desarrollados según condiciones técnicas y que los resultados son verídicos y fiables.]
@@ -328,21 +328,21 @@
     .row.justify-content-center.mb-5
       .col-lg-4.mb-4.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/tema2/img11.svg' alt='AvatarTop')
+          img(src='@/assets/curso/tema2/img11.svg'  alt="")
           .tarjeta.color-acento-contenido1
             .p-4
               p.text-center.mb-4 #[b Rotulado]
               p El rotulado de identificación de las muestras que especifique el punto exacto donde se tomó la misma, junto con la fecha y la hora.
       .col-lg-4.mb-4.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/tema2/img12.svg' alt='AvatarTop')
+          img(src='@/assets/curso/tema2/img12.svg'  alt="")
           .tarjeta.color-acento-contenido1
             .p-4
               p.text-center.mb-4 #[b Registro de campo]
               p El registro de campo, que debe contener espacios para la siguiente información: nombre e identificación de la muestra, ubicación del muestreo, fecha e intervalo de tiempo, firmas del personal que realizó la actividad, preservación (cantidad y tipo), número de recipientes, número de réplicas (si aplica), notas de campo, análisis deseado, tipo de muestra.
       .col-lg-4
         .tarjeta-avatar
-          img(src='@/assets/curso/tema2/img13.svg' alt='AvatarTop')
+          img(src='@/assets/curso/tema2/img13.svg'  alt="")
           .tarjeta.color-acento-contenido1
             .p-4
               p.text-center.mb-4 #[b Sellado de la muestra]
@@ -384,7 +384,7 @@
         p Sobre las muestras con preservantes químicos, tenga presente:
       .col-lg-6
         figure
-          img(src='@/assets/curso/tema2/img13.png', style="width: 550px").m-auto
+          img(src='@/assets/curso/tema2/img13.png', style="width: 550px" alt="").m-auto
     .row.mb-5
       .col-12.bg-c7.p-4
         ul.lista-ul--color.lista-ul.mb-0
@@ -410,7 +410,7 @@
         .row
           .col-auto.px-0
             figure
-              img(src='@/assets/curso/tema2/img14.svg', style="width: 80px").m-auto
+              img(src='@/assets/curso/tema2/img14.svg', style="width: 80px" alt="").m-auto
           .col.p-4
             p.mb-0 #[b • Sólidos:] Hidróxido de sodio NaOH, Dicromato de potasio K2Cr2O7, tiosulfato de sodio (Na2S2O3) entre otros.
             p.mb-0 #[b • Soluciones:] Solución de acetato de cinc (p =1,7 g/ml) C4H6O4Zn, Ácido clorhídrico (p= 1.16 g/ml) HCL, Ácido sulfúrico (8 mol/l) H2SO4 entre otros. (p.9)
@@ -427,35 +427,35 @@
             p Las muestras deben registrarse en cuanto lleguen al laboratorio. El procedimiento de entrada y registro de la muestra es importante para los propósitos de la cadena de custodia. La siguiente información debe requerirse: número de código de la muestra, nombre de la persona que recibe, nombre de los tomadores de la muestra, número del método de muestreo, y localización de almacenamiento.
           .col-lg-6
             figure.mb-0
-              img(src='@/assets/curso/tema2/img14.png', style="width: 500px").m-auto
+              img(src='@/assets/curso/tema2/img14.png', style="width: 500px" alt="").m-auto
         .row.m-1
           .col-lg-6.mb-4.mb-lg-0
             h4 Inspección
             p Se debe inspeccionar el etiquetado y rotulado y compararlo con el registro de campo, si es conforme (concuerdan y es acorde a los procedimientos técnicos), el que recibe firmará la recepción incluyendo fecha y hora.
           .col-lg-6
             figure.mb-0
-              img(src='@/assets/curso/tema2/img15.png', style="width: 500px").m-auto
+              img(src='@/assets/curso/tema2/img15.png', style="width: 500px" alt="").m-auto
         .row.m-1
           .col-lg-6.mb-4.mb-lg-0
             h4 Registro de observaciones
             p Cuando exista #[strong no conformidad], el que recolectó la muestra deberá anotar en la parte de atrás del registro las observaciones las inconformidades encontradas (Con fecha y hora).
           .col-lg-6
             figure.mb-0
-              img(src='@/assets/curso/tema2/img16.png', style="width: 500px").m-auto
+              img(src='@/assets/curso/tema2/img16.png', style="width: 500px" alt="").m-auto
         .row.m-1
           .col-lg-6.mb-4.mb-lg-0
             h4 Registro de evento
             p Para los dos casos mencionados se debe registrar la llegada en los registros de laboratorio y se guardan las muestras en el cuarto frío, se define si se procesas o no las no conformes, pero una vez se inicie el análisis de laboratorio la cadena de custodia para el cuidado y vigilancia del analista.
           .col-lg-6
             figure.mb-0
-              img(src='@/assets/curso/tema2/img17.png', style="width: 500px").m-auto
+              img(src='@/assets/curso/tema2/img17.png', style="width: 500px" alt="").m-auto
         .row.m-1
           .col-lg-6.mb-4.mb-lg-0
             h4 Tiempos pertinentes
             p Es importante tener claro que el tiempo aconsejado como máximo para transporte y entrega a laboratorio es de seis (6) horas, si no se puede cumplir se debe proceder a realizar acciones de preservación para asegurar su entrega.
           .col-lg-6
             figure.mb-0
-              img(src='@/assets/curso/tema2/img18.png', style="width: 500px").m-auto
+              img(src='@/assets/curso/tema2/img18.png', style="width: 500px" alt="").m-auto
 
 </template>
 
