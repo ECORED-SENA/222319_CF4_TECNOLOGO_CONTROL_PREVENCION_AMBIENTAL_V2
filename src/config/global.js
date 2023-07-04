@@ -122,11 +122,6 @@ export default {
         download: 'downloads/pdf.pdf',
       },
       {
-        icono: 'fas fa-download',
-        titulo: 'Descargar HTML',
-        download: 'downloads/material.zip',
-      },
-      {
         icono: 'far fa-registered',
         titulo: 'Créditos',
         nombreRuta: 'creditos',
