@@ -63,9 +63,10 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/au50DCVNjDc" title="Sistemas de Unidades" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video. Sistemas de Unidades
 
-    .row
-      .col-lg-6.mb-4.mb-lg-0
-        p.mb-4 Un sistema de unidades especifica las unidades de las cantidades fundamentales de longitud, masa, tiempo y fuerza. El sistema internacional de unidades es la referencia estándar para unidades de medida a nivel mundial; este cuenta con siete unidades bases para las magnitudes fundamentales como se muestra en la siguiente tabla:
+    p.mb-5 Un sistema de unidades especifica las unidades de las cantidades fundamentales de longitud, masa, tiempo y fuerza. El sistema internacional de unidades es la referencia estándar para unidades de medida a nivel mundial; este cuenta con siete unidades bases para las magnitudes fundamentales como se muestra en la siguiente tabla:
+    
+    .row.justify-content-center
+      .col-lg-10.mb-4.mb-lg-0
         .titulo-sexto.color-acento-contenido
           p.mb-0 #[b Tabla 1.] Unidades bases para magnitudes
         .tabla-b.color-acento-contenido.mb-5
@@ -102,9 +103,12 @@
               td.text-center Cantidad de sustancia
               td.text-center Mol
               td.text-center Mol
-      .col-lg-6
-        p Los prefijos del sistema internacional de unidades, son representados por símbolos que se anteponen a la unidad, y representan un factor por el que debe ser multiplicada la cantidad.
-        p.mb-4 En la siguiente tabla se presentan algunos de los prefijos más usados:
+
+
+    p Los prefijos del sistema internacional de unidades, son representados por símbolos que se anteponen a la unidad, y representan un factor por el que debe ser multiplicada la cantidad.
+    p.mb-5 En la siguiente tabla se presentan algunos de los prefijos más usados:
+    .row.justify-content-center          
+      .col-lg-10
         .titulo-sexto.color-acento-contenido
           p.mb-0 #[b Tabla 2.] Prefijos más usados en campo de estudio de muestras
         .tabla-b.color-acento-contenido.mb-5
