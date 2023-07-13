@@ -119,7 +119,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/pdf.pdf',
+        download: 'downloads/222319_CF4_DU.zip',
       },
       {
         icono: 'fas fa-download',
