@@ -9,7 +9,7 @@
       h1 Transporte y recepción de muestras
     .row.align-items-center
       .col-lg-7.mb-4.mb-lg-0
-        p El proceso de muestreo y análisis de muestra tiene, dentro de muchas implicaciones el de conservar, transportar y recibir las muestras. En dicho procedimiento, siempre que sea necesario movilizarla a la zona de laboratorio o de almacenamiento se recomienda actuar bajo los criterios y protocolos establecidos y las normas.
+        p El proceso de muestreo y análisis de muestra tiene, dentro de muchas implicaciones, el de conservar, transportar y recibir las muestras. En dicho procedimiento, siempre que sea necesario movilizarla a la zona de laboratorio o de almacenamiento, se recomienda actuar bajo los criterios y protocolos establecidos y las normas.
         .cajon.color-acento-contenido.p-4
           p.mb-0 Siempre es conveniente transportarlas en los tiempos establecidos, previendo los posibles contratiempos y vicisitudes, es decir, mitigando al máximo las posibilidades de afectar o desvirtuar la calidad e integridad de las mismas.
       .col-lg-5
@@ -22,7 +22,7 @@
         .px-5.pt-5
           .titulo-segundo.color-secundario
             h2 2.1 Acondicionamiento, transporte y recepción de muestras de agua
-          p El acondicionamiento de las muestras dependerá del objetivo del muestreo. En general, para análisis físico-químico puede ser necesario acondicionarlas con conservadores de frío, ya que algunas especies químicas (nitratos, sulfatos) pueden sufrir transformaciones por acción microbiana. También deben mantenerse al resguardo de la luz, procurando enviarlas lo más rápido posible al laboratorio.
+          p El acondicionamiento de las muestras dependerá del objetivo del muestreo. En general, para análisis físico-químico, puede ser necesario acondicionarlas con conservadores de frío, puesto que algunas especies químicas (nitratos, sulfatos) pueden sufrir transformaciones por acción microbiana. También deben mantenerse al resguardo de la luz, procurando enviarlas lo más rápido posible al laboratorio.
           p.mb-5 En el caso de análisis microbiológico es indispensable que la muestra se mantenga refrigerada hasta su arribo al laboratorio, ya que tanto las temperaturas mayores a 6ºC como la luz provocan la multiplicación de los microorganismos e invalidan la muestra dado que los resultados no reflejarán la realidad.
           .row.justify-content-center.mb-5
             .col-lg-10
@@ -47,7 +47,7 @@
                           span #[b Entregar lo más pronto posible las muestras con sus actas al laboratorio, recordando que para muestras de agua potable no deben transcurrir más de seis (6) horas entre el momento de la recolección y su llegada al laboratorio.]
                         li.mb-4
                           i.fas.fa-check
-                          span #[b El acta de toma de muestra de datos no debe estar con los recipientes sino en la parte exterior del embalaje, para evitar que se deteriore. -Los recipientes que contengan las muestras se deben proteger y sellar de tal forma que no se deterioren, ni su contenido sufra ninguna pérdida durante el transporte.]
+                          span #[b El acta de toma de muestra de datos no debe estar con los recipientes sino en la parte exterior del embalaje, para evitar que se deteriore. Los recipientes que contengan las muestras se deben proteger y sellar de tal forma que no se deterioren, ni su contenido sufra ninguna pérdida durante el transporte.]
                         li.mb-4
                           i.fas.fa-check
                           span #[b El empaque debe proteger los recipientes de una posible contaminación externa y en sí mismo no debe ser fuente de contaminación.]
@@ -66,7 +66,7 @@
                         figure
                           img(src='@/assets/curso/tema2/img3.svg', style="width: 120px" alt="").m-auto
                       .col
-                        p.mb-0 Durante el transporte se recomienda refrigeración a 4° C y protección de la luz, especialmente si se sospecha que el agua está contaminada con organismos patógenos. Es necesario que al refrigerarse las muestras se tomen las precauciones y medidas necesarias para prevenir cualquier contaminación proveniente del hielo derretido.
+                        p.mb-0 Durante el transporte se recomienda refrigeración a 4 °C y protección de la luz, especialmente si se sospecha que el agua está contaminada con organismos patógenos. Es necesario que al refrigerarse las muestras se tomen las precauciones y medidas necesarias para prevenir cualquier contaminación proveniente del hielo derretido.
                 .row(titulo="2. Tiempos" subtitulo="")
                   .col-12
                     .row.align-items-center
@@ -82,7 +82,7 @@
                         figure
                           img(src='@/assets/curso/tema2/img5.svg', style="width: 120px" alt="").m-auto
                       .col
-                        p.mb-0 Todas las muestras de un mismo sitio de muestreo deberán ser almacenadas en una misma nevera portátil, para evitar posibles confusiones con muestras de otros sitios; sin embargo, si fueron tomados blancos estos deben ir empacados de igual manera que las otras muestras para que el laboratorio no los pueda identificar.
+                        p.mb-0 Todas las muestras de un mismo sitio de muestreo deberán ser almacenadas en una misma nevera portátil, para evitar posibles confusiones con muestras de otros sitios; sin embargo, si fueron tomados blancos, estos deben ir empacados de igual manera que las otras muestras para que el laboratorio no los pueda identificar.
                 .row(titulo="4. Recipientes" subtitulo="")
                   .col-12
                     .row.align-items-center
@@ -90,7 +90,7 @@
                         figure
                           img(src='@/assets/curso/tema2/img6.svg', style="width: 120px" alt="").m-auto
                       .col
-                        p.mb-0 Los recipientes deberán ser colocados en posición vertical, con suficientes bolsas de hielo intercaladas de tal manera que se alcance una temperatura cercana a los 4° C. Se debe verificar que las botellas no se caigan, ni se abran, ni se les desprenda el rótulo. Después de embaladas se tapa y se sella la nevera.
+                        p.mb-0 Los recipientes deberán ser colocados en posición vertical, con suficientes bolsas de hielo intercaladas de tal manera que se alcance una temperatura cercana a los 4 °C. Se debe verificar que las botellas no se caigan, ni se abran, ni se les desprenda el rótulo. Después de embaladas se tapa y se sella la nevera.
                 .row(titulo="5. Rotulado" subtitulo="")
                   .col-12
                     .row.align-items-center
@@ -124,7 +124,7 @@
           img(src='@/assets/curso/tema2/img2.png', style="width: 450px" alt="").m-auto
       .col-lg-8
         p #[b Personal de laboratorio]
-        p.mb-4 El personal de estos laboratorios encargados de la recepción de las muestras, así como los encargados de la recolección y transporte de las muestras deben seguir todas las recomendaciones estipuladas, especialmente en aquellos laboratorios donde, por la complejidad y tamaño de los sistemas de distribución, se procesan muestras recogidas por varios equipos de recolección, o procedentes de varios clientes, como es el caso de los laboratorios particulares.
+        p.mb-4 El personal de estos laboratorios, encargados de la recepción de las muestras, así como los encargados de la recolección y transporte de las muestras, deben seguir todas las recomendaciones estipuladas, especialmente en aquellos laboratorios donde, por la complejidad y tamaño de los sistemas de distribución, se procesan muestras recogidas por varios equipos de recolección, o procedentes de varios clientes, como es el caso de los laboratorios particulares.
     .row.align-items-center
       .col-lg-8.mb-4.mb-lg-0
         p Las muestras deben registrarse en cuanto lleguen al laboratorio. El procedimiento de entrada y registro de la muestra es importante para los propósitos de la cadena de custodia.
@@ -173,16 +173,16 @@
                 span #[b Colocar encima de las bolsas de hielo una rejilla metálica o plástica, que las separe de las muestras.]
               li.mb-3
                 i.fas.fa-check
-                span #[b Evitar utilizar materiales como madera o cartón para realizar el aislamiento de la muestra con el gel o el hielo, debido a que se estos materiales se humedecen, ocasionando crecimiento de microorganismos contaminantes.]
+                span #[b Evitar utilizar materiales como madera o cartón para realizar el aislamiento de la muestra con el gel o el hielo, debido a que estos materiales se humedecen, ocasionando crecimiento de microorganismos contaminantes.]
               li.mb-3
                 i.fas.fa-check
                 span #[b Introducir las muestras, colocándolas encima de la rejilla, malla metálica o plástica.]
               li.mb-3
                 i.fas.fa-check
-                span #[b Mantener la temperatura de conservación en un rango de 4°C a 8°C.]
+                span #[b Mantener la temperatura de conservación en un rango de 4 °C a 8 °C.]
               li
                 i.fas.fa-check
-                span #[b Sellar la nevera de icopor con cinta adhesiva cuando el envió se realiza inmediatamente, de lo contrario refrigerar y rotular.]
+                span #[b Sellar la nevera de icopor con cinta adhesiva cuando el envío se realiza inmediatamente, de lo contrario refrigerar y rotular.]
       .col-lg-4
         figure
           img(src='@/assets/curso/tema2/img4.png', style="width: 450px" alt="").m-auto
@@ -230,7 +230,7 @@
         .row.m-1
           .col-lg-6.mb-4.mb-lg-0
             h4 Inspección en la recepción
-            p El recepcionista del laboratorio debe inspeccionar el etiquetado de las muestras y compararlo con la información del registro de campo o acta de toma de muestra de suelo. Si hay conformidad en esta inspección, el recepcionista del laboratorio firma este documento de vigilancia o control incluyendo la fecha y hora de llegada.
+            p El recepcionista del laboratorio debe inspeccionar el etiquetado de las muestras y compararlo con la información del registro de campo o acta de toma de muestra de suelo. Si hay conformidad en esta inspección, el recepcionista del laboratorio firma este documento de vigilancia o control, incluyendo la fecha y hora de llegada.
           .col-lg-6
             figure.mb-0
               img(src='@/assets/curso/tema2/img5.png', style="width: 500px" alt="").m-auto
@@ -365,10 +365,10 @@
           p.mb-0 Para el caso de muestras enviadas por correo, se deberá asegurar la conservación e integridad de éstas, hasta su llegada al laboratorio. Utilizar neveras de icopor que son destinadas exclusivamente para este almacenamiento y transporte. Las muestras no deben transcurrir más de 24 horas entre la recolección y la llegada al laboratorio.
       .row(titulo="Contenedores de enfriamiento")
         .col-12
-          p.mb-0 Empacar los frascos o recipientes con las muestras en neveras de icopor portátiles refrigeradas con bolsas con hielo o #[em ice packs]. Durante el transporte se recomienda refrigerar a 4° C y proteger la muestra de la luz (Siempre tapada), contabilizar tiempos de traslado para eliminar la posibilidad de contaminar la muestra con hielo derretido.
+          p.mb-0 Empacar los frascos o recipientes con las muestras en neveras de icopor portátiles refrigeradas con bolsas con hielo o #[em ice packs]. Durante el transporte se recomienda refrigerar a 4 °C y proteger la muestra de la luz (Siempre tapada), contabilizar tiempos de traslado para eliminar la posibilidad de contaminar la muestra con hielo derretido.
       .row(titulo="Sostenimiento de la temperatura")
         .col-12
-          p.mb-0 En el caso de análisis microbiológico es indispensable que la muestra se mantenga refrigerada hasta su arribo al laboratorio, ya que tanto las temperaturas mayores a 6ºC como la luz provocan la multiplicación de los microorganismos e invalidan la muestra dado que los resultados no reflejarán la realidad.
+          p.mb-0 En el caso de análisis microbiológico es indispensable que la muestra se mantenga refrigerada hasta su arribo al laboratorio, ya que tanto las temperaturas mayores a 6 °C como la luz provocan la multiplicación de los microorganismos e invalidan la muestra dado que los resultados no reflejarán la realidad.
       .row(titulo="Mantener los conjuntos")
         .col-12
           p.mb-0 Se recomienda que todas las muestras de un mismo sitio de muestreo se empaquen en un mismo recipiente de almacenamiento (nevera). Transportar y almacenar los recipientes siempre en posición vertical, verificando que no pierdan el rótulo, ni se puedan caer.
@@ -413,7 +413,7 @@
               img(src='@/assets/curso/tema2/img14.svg', style="width: 80px" alt="").m-auto
           .col.p-4
             p.mb-0 #[b • Sólidos:] Hidróxido de sodio NaOH, Dicromato de potasio K2Cr2O7, tiosulfato de sodio (Na2S2O3) entre otros.
-            p.mb-0 #[b • Soluciones:] Solución de acetato de cinc (p =1,7 g/ml) C4H6O4Zn, Ácido clorhídrico (p= 1.16 g/ml) HCL, Ácido sulfúrico (8 mol/l) H2SO4 entre otros. (p.9)
+            p.mb-0 #[b • Soluciones:] Solución de acetato de cinc (p =1,7 g/ml) C4H6O4Zn, Ácido clorhídrico (p= 1.16 g/ml) HCL, Ácido sulfúrico (8 mol/l) H2SO4 entre otros.
     .row.mb-4
       .col-auto.txt-c1.px-4.py-3
         h4.text-white.mb-0 Fase de entrega de muestras al laboratorio
@@ -438,14 +438,14 @@
         .row.m-1
           .col-lg-6.mb-4.mb-lg-0
             h4 Registro de observaciones
-            p Cuando exista #[strong no conformidad], el que recolectó la muestra deberá anotar en la parte de atrás del registro las observaciones las inconformidades encontradas (Con fecha y hora).
+            p Cuando exista #[strong no conformidad], el que recolectó la muestra deberá anotar en la parte de atrás del registro las observaciones, las inconformidades encontradas (Con fecha y hora).
           .col-lg-6
             figure.mb-0
               img(src='@/assets/curso/tema2/img16.png', style="width: 500px" alt="").m-auto
         .row.m-1
           .col-lg-6.mb-4.mb-lg-0
             h4 Registro de evento
-            p Para los dos casos mencionados se debe registrar la llegada en los registros de laboratorio y se guardan las muestras en el cuarto frío, se define si se procesas o no las no conformes, pero una vez se inicie el análisis de laboratorio la cadena de custodia para el cuidado y vigilancia del analista.
+            p Para los dos casos mencionados se debe registrar la llegada en los registros de laboratorio y se guardan las muestras en el cuarto frío. Se define si se procesan, o no, las no conformes, pero una vez se inicie el análisis de laboratorio, la cadena de custodia para el cuidado y vigilancia del analista.
           .col-lg-6
             figure.mb-0
               img(src='@/assets/curso/tema2/img17.png', style="width: 500px" alt="").m-auto

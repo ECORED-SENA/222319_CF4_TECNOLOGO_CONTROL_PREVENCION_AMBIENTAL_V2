@@ -64,7 +64,7 @@
       figcaption Video. Sistemas de Unidades
 
     p.mb-5 Un sistema de unidades especifica las unidades de las cantidades fundamentales de longitud, masa, tiempo y fuerza. El sistema internacional de unidades es la referencia estándar para unidades de medida a nivel mundial; este cuenta con siete unidades bases para las magnitudes fundamentales como se muestra en la siguiente tabla:
-    
+
     .row.justify-content-center
       .col-lg-10.mb-4.mb-lg-0
         .titulo-sexto.color-acento-contenido
@@ -107,7 +107,7 @@
 
     p Los prefijos del sistema internacional de unidades, son representados por símbolos que se anteponen a la unidad, y representan un factor por el que debe ser multiplicada la cantidad.
     p.mb-5 En la siguiente tabla se presentan algunos de los prefijos más usados:
-    .row.justify-content-center          
+    .row.justify-content-center
       .col-lg-10
         .titulo-sexto.color-acento-contenido
           p.mb-0 #[b Tabla 2.] Prefijos más usados en campo de estudio de muestras
@@ -223,7 +223,7 @@
             .lista-ol--cuadro__vineta
               span.txt-c2 6.
             span #[b Realizar el cálculo]
-    p.mb-5 Amplie su conocimiento sobre las unidades de medida, analizando en detalle el siguiente ejemplo:
+    p.mb-5 Amplíe su conocimiento sobre las unidades de medida, analizando en detalle el siguiente ejemplo:
     .row.justify-content-center
       .col-10.col-lg.bg-c5.p-4.m-2
         .h4.text-center Situación
@@ -253,7 +253,7 @@
     .row.justify-content-center
       .col-10.col-lg.bg-c5.p-4.m-2
         .h4.text-center Simplificación
-        p.mb-4 Simplificando la fracción se obtiene...
+        p.mb-4 Simplificando la fracción se obtiene.
         figure
           img(src='@/assets/curso/tema1/img10.svg', style="width: 240px"  alt="Imagen que representa la fórmula t = (1000L/1) / (0.4l/s) = (1000 L*s) / (0.4s)").m-auto
       .col-10.col-lg.bg-c5.p-4.m-2
@@ -277,7 +277,7 @@
       h2 1.2 Características básicas de rotulado y envasado
     .row.align-items-center.mb-5
       .col-lg-8.mb-4.mb-lg-0
-        p La información sobre las operaciones de muestreo es una parte fundamental para asegurar la calidad del programa de muestreo y base fundamental en la cadena de custodia de las muestras, ya que esto genera confianza en los resultados de los análisis aplicados a las muestras. Por tal razón la información consignada en los rótulos de los recipientes y en los registros de toma de muestras debe ser legible, veraz y trazable.
+        p La información sobre las operaciones de muestreo es una parte fundamental para asegurar la calidad del programa de muestreo y base fundamental en la cadena de custodia de las muestras, ya que esto genera confianza en los resultados de los análisis aplicados a las muestras. Por tal razón, la información consignada en los rótulos de los recipientes y en los registros de toma de muestras debe ser legible, veraz y trazable.
         p Los rótulos de las muestras pueden:
         .row
           .col-12.bg-c6.p-4
@@ -357,7 +357,7 @@
               td #[b A.] Se utilizarán envases con capacidad de 250-300ml, de plástico o vidrio, esterilizados, con tapa hermética y en lo posible de boca ancha (frascos).
             tr
               td
-                p #[b 2.] En ambos casos debe asegurarse que el envase se encuentre LIMPIO, pero debe prestarse especial atención a no lavarlo con detergentes, hipoclorito de sodio (lavandina) u otros reactivos: el envase sólo puede ser enjuagado con agua.
+                p #[b 2.] En ambos casos debe asegurarse que el envase se encuentre LIMPIO, pero debe prestarse especial atención a no lavarlo con detergentes, hipoclorito de sodio (lavandina) u otros reactivos: el envase solo puede ser enjuagado con agua.
                 p.mb-0 De todas maneras, se trate de un envase nuevo o reutilizado, previo a la toma de la muestra, deberá enjuagarse por lo menos tres veces con el agua a muestrear.
               td #[b B.] También pueden utilizarse bolsas especiales de polietileno estériles (fabricadas a tal fin), considerando que este tipo de envase es muy cómodo para la recolección y cerrado.
             tr
@@ -368,7 +368,7 @@
         h4.text-white.mb-0 Envases para muestreo de suelo
     .row.align-items-center.mb-5
       .col-lg-7.mb-4.mb-lg-0
-        p Una vez son tomadas las muestras de suelo, éstas son rotuladas y almacenadas en recipientes plásticos y de vidrio. Para toma de muestras de suelo no contaminadas se pueden usar recipientes de polietileno (como cubetas, botellas de boca ancha, talegas fuertes) porque son inertes baratos y cómodos.
+        p Una vez son tomadas las muestras de suelo, estas son rotuladas y almacenadas en recipientes plásticos y de vidrio. Para toma de muestras de suelo no contaminadas se pueden usar recipientes de polietileno (como cubetas, botellas de boca ancha, talegas fuertes) porque son inertes, baratos y cómodos.
         .row
           .col-12.bg-c7.p-4.p-lg-5
             p.mb-0 Para toma de muestras de suelo con sospecha que están contaminados es esencial asegurarse de que el material del recipiente de la muestra sea tal que la muestra permanezca siendo representativa. Para este tipo no se recomienda recipientes de plástico en caso de que exista contaminación orgánica como pesticidas, o talegas de polietileno no son adecuadas para suelos contaminados.
@@ -392,7 +392,7 @@
           img(src='@/assets/curso/tema1/img5.png', style="width: 510px"  alt="").m-auto
       .col-lg-7.bg-c3.p-4
         p #[b Para análisis físico-químico]
-        p.mb-0 Se utilizarán envases de plástico de polietileno rígido o flexible (bolsas plásticas) o vidrio, con buen cierre, nuevos de acuerdo al tipo de análisis. debe asegurarse que el envase se encuentre LIMPIO, pero debe prestarse especial atención a no lavarlo con detergentes, hipoclorito de sodio (lavandina) u otros reactivos: el envase sólo puede ser enjuagado con agua.
+        p.mb-0 Se utilizarán envases de plástico de polietileno rígido o flexible (bolsas plásticas) o vidrio, con buen cierre, nuevos de acuerdo al tipo de análisis. Debe asegurarse que el envase se encuentre LIMPIO, pero debe prestarse especial atención a no lavarlo con detergentes, hipoclorito de sodio (lavandina) u otros reactivos: el envase solo puede ser enjuagado con agua.
     .row.align-items-center.mb-5
       .col-lg-5.pe-0
         figure
@@ -916,7 +916,7 @@
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--verde")
       .row(titulo="Muestreo manual")
         .col-12
-          p.mb-0 El muestreo manual se realiza cuando se tienen sitios de fácil acceso o aquellos que por medio de ciertas adaptaciones puedan facilitar la toma de muestras. La ventaja de este tipo de muestreo es permitir al encargado de tomar la   muestra, observar los cambios en las características del agua en cuanto a sustancias flotantes, color, olor, aumento o disminución de caudales, entre otros; sin embargo este sólo es aceptable para los criterios de control y vigilancia, si la muestra es representativa de la calidad del agua del sitio de muestreo particular, motivo por el cual se requiere establecer que la información obtenida de estas muestras puntuales tomadas en un sitio y tiempo dados es única para ese lugar y tiempo seleccionado.
+          p.mb-0 El muestreo manual se realiza cuando se tienen sitios de fácil acceso o aquellos que por medio de ciertas adaptaciones puedan facilitar la toma de muestras. La ventaja de este tipo de muestreo es permitir al encargado de tomar la   muestra, observar los cambios en las características del agua en cuanto a sustancias flotantes, color, olor, aumento o disminución de caudales, entre otros; sin embargo, este solo es aceptable para los criterios de control y vigilancia, si la muestra es representativa de la calidad del agua del sitio de muestreo particular, motivo por el cual se requiere establecer que la información obtenida de estas muestras puntuales tomadas en un sitio y tiempo dados es única para ese lugar y tiempo seleccionado.
       .row(titulo="Muestreo automático")
         .col-12
           p.mb-0 Para aquellos lugares de difícil acceso se recomiendan los muestreadores automáticos, ya que cuentan con más precisión en la toma de la muestra, aun cuando su mayor desventaja sea el montaje y calibración del equipo, pues su aplicación implica la instalación de equipos (antenas, paneles solares, etc.) y herramientas (licencias de trasmisión, software) que elevan el costo, convirtiéndose en un factor limitante para la implementación de este tipo de muestreo. Entre los equipos automáticos más representativos para determinar la calidad del agua destinada para consumo humano, se destacan los: muestreadores secuenciales automáticos para proveer muestras compuestas en un período extenso de tiempo, Sistemas de monitoreo en línea (sistema SAMOS para detección de pesticidas, y nuevos sensores), Sistemas biológicos de alarma temprana que alerten si hay contaminación en la muestra y muestreadores pasivos, así llamados porque simulan captación biológica.
@@ -925,7 +925,7 @@
           p.mb-0 Se pueden poner en marcha programas de muestreo que involucren la utilización de los dos tipos de muestreo mencionados anteriormente (muestreo mixto), convirtiendo el monitoreo en un sistema integrado que permite la verificación manual de los resultados obtenidos de forma automática. Dicha verificación es realizada aleatoriamente, de tal manera que se pueda realizar la calibración, ajuste y mantenimiento de los equipos automáticos. Las técnicas del muestreo de agua para análisis microbiológicos básicamente incluyen procedimientos para prevenir su contaminación durante el llenado de los recipientes por microorganismos presentes en el exterior de los grifos, accesorios, en el ambiente o en el operario. Las técnicas de llenado de los recipientes se pueden dividir en dos: muestreo en el grifo o muestreo por inmersión.
       .row(titulo="Muestreo por inmersión")
         .col-12
-          p.mb-0 El muestreo por inmersión se realiza cuando se requiere tomar muestras de profundidad por ejemplo en el caso de muestreos de tanques de almacenamiento que no cuenten con dispositivos de muestras o en el agua de manantiales o pozos, piscinas. En estos casos la muestra se debe tomar con un recipiente estéril en su interior y exterior. Tan pronto se va a tomar la muestra se debe retirar la envoltura protectora del recipiente y con la ayuda de una vara de muestreo se lleva a cabo la toma de muestra. En el caso de toma de las piscinas, la muestra se debe tomar de -10 a -20 cm de profundidad y el recipiente se introduce horizontalmente para evitar la pérdida de tiosulfato. Para balnearios se hace de manera similar haciendo la toma a -20 a -30. En el caso de pozos o manantiales sin dispositivos de muestreo, la toma se debe hacer con bombas o dispositivos sumergibles estériles.
+          p.mb-0 El muestreo por inmersión se realiza cuando se requiere tomar muestras de profundidad, por ejemplo en el caso de muestreos de tanques de almacenamiento que no cuenten con dispositivos de muestras o en el agua de manantiales o pozos, piscinas. En estos casos la muestra se debe tomar con un recipiente estéril en su interior y exterior. Tan pronto se va a tomar la muestra, se debe retirar la envoltura protectora del recipiente y con la ayuda de una vara de muestreo se lleva a cabo la toma de muestra. En el caso de toma de las piscinas, la muestra se debe tomar de -10 a -20 cm de profundidad y el recipiente se introduce horizontalmente para evitar la pérdida de tiosulfato. Para balnearios se hace de manera similar haciendo la toma a -20 a -30. En el caso de pozos o manantiales sin dispositivos de muestreo, la toma se debe hacer con bombas o dispositivos sumergibles estériles.
       .row(titulo="Muestreo tomado al azar")
         .col-12
           p.mb-0 Se basa en una muestra que se toma totalmente al azar, por medio de un recipiente abierto, el cual se coloca en un solo punto en la superficie (arroyo, embalse, rio, etc.); estas muestras por lo general se toman antes de hacer otro trabajo en el lugar para no afectar la corriente y la posterior recolección; para este ejercicio se utilizan muestreadores colectores que suelen pararse corriente abajo de la botella durante la operación de llenado.
@@ -1018,7 +1018,7 @@
       .col-lg-7.mb-4.mb-lg-0
         p El acondicionamiento de las muestras dependerá del objetivo del muestreo. En general, para análisis físico-químico puede ser necesario acondicionarlas con conservadores de frío, ya que algunas especies químicas (nitratos, sulfatos) pueden sufrir transformaciones por acción microbiana. También deben mantenerse al resguardo de la luz, procurando enviarlas lo más rápido posible al laboratorio.
         .cajon.color-acento-contenido.p-4
-          p.mb-0 En el caso de análisis microbiológico es indispensable que la muestra se mantenga refrigerada hasta su arribo al laboratorio, ya que tanto las temperaturas mayores a 6ºC como la luz provocan la multiplicación de los microorganismos e invalidan la muestra dado que los resultados no reflejarán la realidad.
+          p.mb-0 En el caso de análisis microbiológico es indispensable que la muestra se mantenga refrigerada hasta su arribo al laboratorio, ya que tanto las temperaturas mayores a 6 °C como la luz provocan la multiplicación de los microorganismos e invalidan la muestra dado que los resultados no reflejarán la realidad.
       .col-lg-5
         figure
           img(src='@/assets/curso/tema1/img23.png', style="width: 470px" alt="").m-auto
@@ -1199,7 +1199,7 @@
               td
                 figure.mb-4
                   img(src='@/assets/curso/tema1/img28.png', style="width: 420px" alt="").m-auto
-                p.mb-0 Son estructuras de gran aplicación en terrenos planos ya que funcionan a flujo libre con pérdidas de carga pequeñas. Las canaletas más utilizadas son: tipo Balloffet (tiene paredes paralelas y fondo plano), medidor sin cuello o Cutthroat (consiste en una sección de entra, una de salida, una garganta y un fondo aforador) y, finalmente, canaleta Parshall (conformada por una sección convergente de contracción que se localiza en su extremo aguas arriba, una garganta y una sección divergente aguas abajo).
+                p.mb-0 Son estructuras de gran aplicación en terrenos planos ya que funcionan a flujo libre con pérdidas de carga pequeñas. Las canaletas más utilizadas son: tipo #[em Balloffet] (tiene paredes paralelas y fondo plano), medidor sin cuello o #[em Cutthroat] (consiste en una sección de entra, una de salida, una garganta y un fondo aforador) y, finalmente, canaleta Parshall (conformada por una sección convergente de contracción que se localiza en su extremo aguas arriba, una garganta y una sección divergente aguas abajo).
     Separador
     #t_1_6
     .titulo-segundo.color-secundario
@@ -1356,7 +1356,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.mb-1 Amplie sus conocimientos y conceptos sobre Tomas de muestras de suelo, estudiando a profundidad en contenido del Anexo_1_TomaDeMuestrasDeSuelo
+                  h3.mb-1 Amplíe sus conocimientos y conceptos sobre Tomas de muestras de suelo, estudiando a profundidad en contenido del Anexo_1_TomaDeMuestrasDeSuelo
                   p.text-small Anexo_1_TomaDeMuestrasDeSuelo
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_1_TomaDeMuestrasDeSuelo.pdf')" target="_blank")
